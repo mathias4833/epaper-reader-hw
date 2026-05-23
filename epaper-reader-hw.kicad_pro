@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW_BOOT1,J_EINK_PANEL3,C1,C8,C13,C24-30,#PWR1-7,#PWR32-34",
     "variants": []
   },
   "sheets": [
