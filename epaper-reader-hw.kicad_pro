@@ -648,7 +648,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "BTN_OK1,BTN_NEXT1,R3-4,BTN_POWER1,BTN_BACK1,SW1-2,SW_BOOT1,#FLG1-2,J_EINK_PANEL3,BTN_PREV1,C1,C8,C13,C24-30,#PWR1-9,#PWR32-34",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
