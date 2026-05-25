@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "epaper-reader-hw") (type "KiCad") (uri "${KIPRJMOD}/epaper-reader-hw.kicad_sym") (options "") (descr ""))
+)
