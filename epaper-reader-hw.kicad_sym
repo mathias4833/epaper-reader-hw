@@ -786,6 +786,574 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TPD4E05U06QDQARQ1"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 10.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4E05U06QDQARQ1"
+			(at 0 -10.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TPD4E05U06QDQARQ1"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211227_Texas-Instruments-TPD4E05U06QDQARQ1_C81353.pdf"
+			(at -1.27 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 0.5pF 10nA 14V 2.5A@8/20us 40W@8/20us 5.5V 8.7V ESD Four channels IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81353"
+			(at 0 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPD4E05U06QDQARQ1"
+			(at 0 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C81353 TPD4E05U06QDQARQ1 Texas Instruments USON-10_L2.5-W1.0-P0.50-BL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPD4E05U06QDQARQ1_0_1"
+			(polyline
+				(pts
+					(xy 7.112 -8.128) (xy 7.2111 -8.1182) (xy 7.3064 -8.0893) (xy 7.3942 -8.0424) (xy 7.4712 -7.9792)
+					(xy 7.5344 -7.9022) (xy 7.5813 -7.8144) (xy 7.6102 -7.7191) (xy 7.62 -7.62) (xy 7.6102 7.7191)
+					(xy 7.5813 7.8144) (xy 7.5344 7.9022) (xy 7.4712 7.9792) (xy 7.3942 8.0424) (xy 7.3064 8.0893)
+					(xy 7.2111 8.1182) (xy 7.112 8.128) (xy -7.2111 8.1182) (xy -7.3064 8.0893) (xy -7.3942 8.0424)
+					(xy -7.4712 7.9792) (xy -7.5344 7.9022) (xy -7.5813 7.8144) (xy -7.6102 7.7191) (xy -7.62 7.62)
+					(xy -7.6102 -7.7191) (xy -7.5813 -7.8144) (xy -7.5344 -7.9022) (xy -7.4712 -7.9792) (xy -7.3942 -8.0424)
+					(xy -7.3064 -8.0893) (xy -7.2111 -8.1182) (xy -7.112 -8.128) (xy 7.112 -8.128)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "D1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "D1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "D2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -5.08 0)
+				(length 2.54)
+				(name "D2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPD4E05U06QDQARQ1_1_1"
+			(pin no_connect line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[3,8]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPD6E004RSER"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 8.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD6E004RSER"
+			(at 0 -8.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TPD6E004RSER"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302221330_Texas-Instruments-TPD6E004RSER_C1973052.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.6pF 1nA 5.5V 6 8V ESD IEC 61000-4-2 UQFN-8(1.5x1.5) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1973052"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPD6E004RSER"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C1973052 TPD6E004RSER Texas Instruments UQFN-8_L1.5-W1.5-P0.50-TL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPD6E004RSER_0_1"
+			(polyline
+				(pts
+					(xy 5.842 -6.35) (xy 5.9411 -6.3402) (xy 6.0364 -6.3113) (xy 6.1242 -6.2644) (xy 6.2012 -6.2012)
+					(xy 6.2644 -6.1242) (xy 6.3113 -6.0364) (xy 6.3402 -5.9411) (xy 6.35 -5.842) (xy 6.3402 5.9411)
+					(xy 6.3113 6.0364) (xy 6.2644 6.1242) (xy 6.2012 6.2012) (xy 6.1242 6.2644) (xy 6.0364 6.3113)
+					(xy 5.9411 6.3402) (xy 5.842 6.35) (xy -5.9411 6.3402) (xy -6.0364 6.3113) (xy -6.1242 6.2644)
+					(xy -6.2012 6.2012) (xy -6.2644 6.1242) (xy -6.3113 6.0364) (xy -6.3402 5.9411) (xy -6.35 5.842)
+					(xy -6.3402 -5.9411) (xy -6.3113 -6.0364) (xy -6.2644 -6.1242) (xy -6.2012 -6.2012) (xy -6.1242 -6.2644)
+					(xy -6.0364 -6.3113) (xy -5.9411 -6.3402) (xy -5.842 -6.35) (xy 5.842 -6.35)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "IO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "IO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "IO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "XC6194AA10ER-G"
 		(pin_names
 			(offset 1.016)
@@ -796,7 +1364,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 9.62 0)
+			(at 0 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -806,7 +1374,7 @@
 			)
 		)
 		(property "Value" "XC6194AA10ER-G"
-			(at 0 -9.62 0)
+			(at 0 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -816,7 +1384,7 @@
 			)
 		)
 		(property "Footprint" "epaper-reader-hw:XC6194AA10ER-G"
-			(at 0 0 0)
+			(at 0 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -827,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401291617_Torex-Semicon-XC6194AA10ER-G_C3229351.pdf"
-			(at 0 0 0)
+			(at -1.27 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -838,7 +1406,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1 1.8V~6V 110mΩ 1A Active Low Load Switch Short-Circuit  Protection(SCP)、Over Temperature Protection USP-B06-8(2x2) Power Distribution Switches ROHS"
-			(at 0 0 0)
+			(at -2.54 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -849,7 +1417,7 @@
 			)
 		)
 		(property "LCSC" "C3229351"
-			(at 0 0 0)
+			(at 0 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -860,7 +1428,7 @@
 			)
 		)
 		(property "Manufacturer" "Torex Semicon"
-			(at 0 0 0)
+			(at 0 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -871,7 +1439,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XC6194AA10ER-G"
-			(at 0 0 0)
+			(at 0 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -893,17 +1461,6 @@
 			)
 		)
 		(symbol "XC6194AA10ER-G_0_1"
-			(circle
-				(center -6.35 3.81)
-				(radius 0.381)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy 7.112 -7.62) (xy 7.2111 -7.6102) (xy 7.3064 -7.5813) (xy 7.3942 -7.5344) (xy 7.4712 -7.4712)
@@ -922,8 +1479,8 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
-				(at -10.16 2.54 0)
+			(pin power_in line
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -940,26 +1497,8 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -10.16 0 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -976,8 +1515,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -10.16 -5.08 0)
+			(pin open_collector line
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -994,44 +1533,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "TEST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 0 180)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "SHDN"
 					(effects
@@ -1048,8 +1551,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 2.54 180)
+			(pin power_out line
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1066,17 +1569,38 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 5.08 180)
+		)
+		(symbol "XC6194AA10ER-G_1_1"
+			(pin no_connect line
+				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "EP"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[5,6,9]"
 					(effects
 						(font
 							(size 1.27 1.27)
