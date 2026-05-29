@@ -2638,7 +2638,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Espressif_Espressif:ESP32-C6-WROOM-1"
+		(symbol "epaper-reader-hw:ESP32-C6-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2666,7 +2666,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
+			(property "Footprint" "epaper-reader-hw:ESP32-C6-WROOM-1"
 				(at 0 -45.085 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21687,7 +21687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Espressif_Espressif:ESP32-C6-WROOM-1")
+		(lib_id "epaper-reader-hw:ESP32-C6-WROOM-1")
 		(at 71.12 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -21720,7 +21720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-C6-WROOM-1"
+		(property "Footprint" "epaper-reader-hw:ESP32-C6-WROOM-1"
 			(at 71.12 145.415 0)
 			(hide yes)
 			(show_name no)
