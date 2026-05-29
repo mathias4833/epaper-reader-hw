@@ -819,6 +819,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -5438,6 +5561,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "epaper-reader-hw:TS-1086EV-AR03526"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1086EV-AR03526"
+				(at 0 -7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+				(at -1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+				(at -1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+				(at -1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C720474"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XUNPU"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TS-1086EV-AR03526"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS-1086EV-AR03526_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.524 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS-1086EV-AR03526_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "epaper-reader-hw:XC6194AA10ER-G"
 			(pin_names
 				(offset 1.016)
@@ -6103,7 +6489,7 @@
 	)
 	(rectangle
 		(start 127 96.52)
-		(end 314.96 170.18)
+		(end 318.77 172.72)
 		(stroke
 			(width 1)
 			(type solid)
@@ -6136,6 +6522,18 @@
 			(type none)
 		)
 		(uuid "db468c98-b8cf-42d6-9ed7-95af0074cc06")
+	)
+	(rectangle
+		(start 240.03 175.26)
+		(end 320.04 294.64)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dc006784-31d3-4a58-aadf-2310e774c1fa")
 	)
 	(rectangle
 		(start 24.13 21.59)
@@ -6229,6 +6627,18 @@
 			)
 		)
 		(uuid "7909064d-a1fa-42a8-863d-3cb49dd4eee1")
+	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 266.7 181.61 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "87ed703f-a02e-4e67-9dfb-6156d26a06b9")
 	)
 	(text "3V3 BUCK-BOOST REGULATOR"
 		(exclude_from_sim no)
@@ -6402,30 +6812,10 @@
 		)
 		(uuid "1d60f32f-ee78-4a71-8f85-62e58c43d5e3")
 	)
-	(text_box "TODO: test pad for USB_PRESENT_N"
+	(text_box "ADC button ladder:\n\nBTN_LEFT_ADC:\nnone = 3.3V\nleft1 = 1.65V\nleft2 = 0.825V\nleft3 = 0V\n\nBTN_RIGHT_ADC\nnone = 3.3V\nUP = 1.65V\nDOWN = 0V\n\nPower button is part of POWER MANAGEMENT because it controls the XC6194 latch"
 		(exclude_from_sim no)
-		(at 406.4 168.91 0)
-		(size 36.83 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "1f095573-cc38-4303-95f6-89cc1a1566bf")
-	)
-	(text_box "ADC button ladder, using same resistors values as Xteink.\n\nBTN_FRONT_ADC:\nnone = 3.3V\nBACK = 2.84V\nOK = 2.20V\nLEFT = 1.18V\nRIGHT = 0V\n\nBTN_SIDE_ADC\nnone = 3.3V\nUP = 1.80V\nDOWN = 0V\n\nPower button is part of POWER MANAGEMENT because it controls the XC6194 latch"
-		(exclude_from_sim no)
-		(at 276.86 100.33 0)
-		(size 34.29 67.31)
+		(at 259.08 100.33 0)
+		(size 48.26 67.31)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6502,10 +6892,10 @@
 		)
 		(uuid "62f1a8e5-61c5-4200-b58f-5d156fd5f626")
 	)
-	(text_box "TODO: Verify polarity with actual cable before PCB"
+	(text_box "use ceramic X5R/X7R capacitors, voltage rating >= 25V. cf good display"
 		(exclude_from_sim no)
-		(at 335.28 69.85 0)
-		(size 52.07 6.35)
+		(at 96.52 191.77 0)
+		(size 29.21 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6520,7 +6910,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "9598bc25-1ee8-4619-bb2d-23ca779889fe")
+		(uuid "8b6d392d-2d19-4032-b2ab-628b4f6a3041")
 	)
 	(text_box "At reset, GPIO8 and GPIO9 are sampled together.\nNormal boot: GPIO9=1, GPIO8=any.\nDownload/flash mode: GPIO9=0 and GPIO8=1"
 		(exclude_from_sim no)
@@ -6583,12 +6973,6 @@
 		(uuid "ca2ae4e9-92be-4243-92d4-0a217cd1dac0")
 	)
 	(junction
-		(at 401.32 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "036476ff-4e34-4d7d-82c2-5764639f77aa")
-	)
-	(junction
 		(at 76.2 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6649,6 +7033,12 @@
 		(uuid "18af5d86-f299-46eb-9ae0-093c0da886d3")
 	)
 	(junction
+		(at 406.4 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a07b3e3-cf93-4e76-b5df-642094dde262")
+	)
+	(junction
 		(at 365.76 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6665,6 +7055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d83bce-5a95-4b22-9f59-1f68af5489b2")
+	)
+	(junction
+		(at 182.88 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f6b6af-c167-4966-b376-816903b96732")
 	)
 	(junction
 		(at 365.76 347.98)
@@ -6745,7 +7141,7 @@
 		(uuid "66e547fb-1cb0-48d1-a04e-a4f95aa1429b")
 	)
 	(junction
-		(at 255.27 130.81)
+		(at 242.57 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7de470d5-75f1-4b60-9599-8c36650a7161")
@@ -6757,7 +7153,7 @@
 		(uuid "817ec305-9ba6-42c8-9c13-89dd33856414")
 	)
 	(junction
-		(at 242.57 130.81)
+		(at 229.87 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8351bd9c-915b-4c56-b6fa-e4c3daeca170")
@@ -6871,12 +7267,6 @@
 		(uuid "c96d7f8b-2e07-48bf-8c1a-8de20f4a8e75")
 	)
 	(junction
-		(at 195.58 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9cbc377-c0bc-43db-9f3f-f6744e912268")
-	)
-	(junction
 		(at 408.94 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6925,12 +7315,6 @@
 		(uuid "e02d1511-2ccd-4ff7-a614-d97aabf4e8a8")
 	)
 	(junction
-		(at 182.88 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e127a099-a2dc-43eb-bd95-b24107fd12ac")
-	)
-	(junction
 		(at 344.17 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6941,6 +7325,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1a9b36b-d1ee-4323-9793-1460b6b6bf8f")
+	)
+	(junction
+		(at 424.18 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e41d1153-d66c-4c60-ab44-a0cd99615a69")
 	)
 	(junction
 		(at 62.23 332.74)
@@ -6971,6 +7361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec2f3bd3-0554-4349-b61a-763b82ac884d")
+	)
+	(junction
+		(at 433.07 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeac9a16-b937-4c59-84bc-d6b401aaa0cc")
 	)
 	(junction
 		(at 121.92 224.79)
@@ -7005,10 +7401,6 @@
 		(uuid "12ac9f1c-64f3-40cc-8f86-4c95768fa116")
 	)
 	(no_connect
-		(at 99.06 74.93)
-		(uuid "22e4fb6f-ce0d-4cce-b565-51a9adee089f")
-	)
-	(no_connect
 		(at 43.18 95.25)
 		(uuid "37b48b8b-d4bc-4db0-805d-c362f96269c9")
 	)
@@ -7035,10 +7427,6 @@
 	(no_connect
 		(at 148.59 252.73)
 		(uuid "e03f0da0-fff8-4eee-8f13-da6efdb420a3")
-	)
-	(no_connect
-		(at 99.06 72.39)
-		(uuid "e24fb3bd-7fd5-4d36-bbca-a5756ff9e520")
 	)
 	(no_connect
 		(at 148.59 222.25)
@@ -7160,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 345.44) (xy 401.32 345.44)
+			(xy 394.97 345.44) (xy 406.4 345.44)
 		)
 		(stroke
 			(width 0)
@@ -7210,6 +7598,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 52.07) (xy 354.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10796f30-ea4a-48e3-b577-35f3f0c30456")
+	)
+	(wire
+		(pts
 			(xy 149.86 361.95) (xy 149.86 368.3)
 		)
 		(stroke
@@ -7247,6 +7645,16 @@
 			(type default)
 		)
 		(uuid "1406f002-3d06-4fb2-90e5-43b95482d8af")
+	)
+	(wire
+		(pts
+			(xy 433.07 262.89) (xy 438.15 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154e14d8-cbf7-465c-89ad-93177888545e")
 	)
 	(wire
 		(pts
@@ -7310,7 +7718,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 146.05) (xy 255.27 160.02)
+			(xy 242.57 146.05) (xy 242.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 130.81) (xy 242.57 130.81)
+			(xy 223.52 130.81) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7447,16 +7855,6 @@
 			(type default)
 		)
 		(uuid "28c0d342-258a-45b4-8d55-86e8eacc49d4")
-	)
-	(wire
-		(pts
-			(xy 198.12 130.81) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28c2d5ab-70e8-477c-94b2-1068812ec0d1")
 	)
 	(wire
 		(pts
@@ -7540,16 +7938,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 135.89) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff39385-c843-48d4-a482-2ece59235597")
-	)
-	(wire
-		(pts
 			(xy 88.9 247.65) (xy 88.9 251.46)
 		)
 		(stroke
@@ -7587,6 +7975,16 @@
 			(type default)
 		)
 		(uuid "31fb4804-0395-4cfa-ab0e-6228f0498c57")
+	)
+	(wire
+		(pts
+			(xy 417.83 345.44) (xy 424.18 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36334c42-d2ce-4c4b-bbc1-0923652fd56d")
 	)
 	(wire
 		(pts
@@ -7667,6 +8065,16 @@
 			(type default)
 		)
 		(uuid "3f264982-8114-45cd-a2b9-89cc26738d3f")
+	)
+	(wire
+		(pts
+			(xy 100.33 72.39) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f41c69c-ad30-4f61-b6f9-97a7438000f0")
 	)
 	(wire
 		(pts
@@ -7760,6 +8168,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 52.07) (xy 365.76 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4815cd81-e933-4876-865f-d1e15eb7b0e7")
+	)
+	(wire
+		(pts
 			(xy 190.5 377.19) (xy 186.69 377.19)
 		)
 		(stroke
@@ -7800,7 +8218,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 157.48) (xy 242.57 160.02)
+			(xy 229.87 157.48) (xy 229.87 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7870,16 +8288,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 130.81) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505bf9fd-a418-4e78-afd6-2883bd75814f")
-	)
-	(wire
-		(pts
 			(xy 157.48 149.86) (xy 157.48 146.05)
 		)
 		(stroke
@@ -7900,7 +8308,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 205.74 130.81)
+			(xy 196.85 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8010,7 +8418,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 160.02) (xy 208.28 130.81)
+			(xy 196.85 160.02) (xy 196.85 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8047,6 +8455,16 @@
 			(type default)
 		)
 		(uuid "5d3f3fb0-a5e0-44a5-9fd5-3deb660cf952")
+	)
+	(wire
+		(pts
+			(xy 284.48 199.39) (xy 288.29 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc26271-71b1-4e3e-a2bd-5746da7aec21")
 	)
 	(wire
 		(pts
@@ -8090,7 +8508,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 130.81) (xy 242.57 125.73)
+			(xy 229.87 130.81) (xy 229.87 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8127,6 +8545,16 @@
 			(type default)
 		)
 		(uuid "61e829cc-7b4d-4d04-960b-c6c324207f70")
+	)
+	(wire
+		(pts
+			(xy 410.21 345.44) (xy 406.4 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6208451b-7740-4975-b393-4a79d0be379a")
 	)
 	(wire
 		(pts
@@ -8177,16 +8605,6 @@
 			(type default)
 		)
 		(uuid "676af1d0-2045-4de1-933d-9eba78064933")
-	)
-	(wire
-		(pts
-			(xy 401.32 339.09) (xy 401.32 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d1fa09-6c13-45bc-ae11-fd041039d52e")
 	)
 	(wire
 		(pts
@@ -8280,7 +8698,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 130.81) (xy 255.27 130.81)
+			(xy 229.87 130.81) (xy 242.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8590,7 +9008,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 130.81) (xy 265.43 130.81)
+			(xy 255.27 130.81) (xy 252.73 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8810,7 +9228,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 242.57 146.05)
+			(xy 229.87 149.86) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8820,7 +9238,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 135.89) (xy 242.57 130.81)
+			(xy 229.87 135.89) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8880,6 +9298,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 130.81) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef30f89-e3a4-4cad-9d0a-490d945fa2c1")
+	)
+	(wire
+		(pts
 			(xy 71.12 45.72) (xy 71.12 67.31)
 		)
 		(stroke
@@ -8910,16 +9338,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 149.86) (xy 182.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b48398-cbd8-4dcc-a4a5-1fe4dda40089")
-	)
-	(wire
-		(pts
 			(xy 137.16 53.34) (xy 137.16 58.42)
 		)
 		(stroke
@@ -8930,7 +9348,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 157.48) (xy 182.88 160.02)
+			(xy 182.88 146.05) (xy 182.88 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9060,16 +9478,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 160.02) (xy 195.58 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa796460-16c4-4ad3-a33f-c0a6384a2ce4")
-	)
-	(wire
-		(pts
 			(xy 175.26 334.01) (xy 168.91 334.01)
 		)
 		(stroke
@@ -9130,7 +9538,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 130.81) (xy 255.27 130.81)
+			(xy 245.11 130.81) (xy 242.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9270,6 +9678,16 @@
 	)
 	(wire
 		(pts
+			(xy 427.99 262.89) (xy 433.07 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1b24a0-a486-4704-b1a9-01a3a38fae16")
+	)
+	(wire
+		(pts
 			(xy 398.78 194.31) (xy 398.78 199.39)
 		)
 		(stroke
@@ -9397,6 +9815,16 @@
 			(type default)
 		)
 		(uuid "c25552ad-f735-42ee-a0d0-a166730347e3")
+	)
+	(wire
+		(pts
+			(xy 284.48 214.63) (xy 284.48 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29dcd36-854e-44ba-b9e2-8a2d8e861a33")
 	)
 	(wire
 		(pts
@@ -9560,6 +9988,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 342.9) (xy 435.61 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d2281c-b2ce-493d-a62a-461aa73491b5")
+	)
+	(wire
+		(pts
 			(xy 54.61 236.22) (xy 67.31 236.22)
 		)
 		(stroke
@@ -9720,13 +10158,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 118.11) (xy 242.57 115.57)
+			(xy 229.87 118.11) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de8d80d5-3279-43c2-8f70-4d791727d417")
+	)
+	(wire
+		(pts
+			(xy 435.61 345.44) (xy 424.18 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded0c2e1-9def-4c77-baf9-24b3820041ae")
 	)
 	(wire
 		(pts
@@ -9840,16 +10288,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 345.44) (xy 406.4 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e899d154-c93c-496c-a079-edaa6b29f902")
-	)
-	(wire
-		(pts
 			(xy 377.19 115.57) (xy 426.72 115.57)
 		)
 		(stroke
@@ -9867,6 +10305,16 @@
 			(type default)
 		)
 		(uuid "ea85bcf2-0caa-4250-8f46-8eb6aabfc53c")
+	)
+	(wire
+		(pts
+			(xy 284.48 194.31) (xy 284.48 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb47b99c-de77-4bed-bc05-db2363e91187")
 	)
 	(wire
 		(pts
@@ -9960,7 +10408,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 160.02) (xy 267.97 130.81)
+			(xy 255.27 160.02) (xy 255.27 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10060,7 +10508,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 135.89) (xy 255.27 130.81)
+			(xy 242.57 135.89) (xy 242.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10137,6 +10585,16 @@
 			(type default)
 		)
 		(uuid "ff07565a-e27e-4817-ba9c-8433be2d7fe1")
+	)
+	(wire
+		(pts
+			(xy 284.48 209.55) (xy 288.29 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff676459-123b-48ef-aabd-b4a9743bec1a")
 	)
 	(label "CC1"
 		(at 67.31 320.04 180)
@@ -10532,6 +10990,30 @@
 			)
 		)
 	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 100.33 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17925407-2e7e-497f-8849-78a66b3e68ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.1166 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ESP32_EN"
 		(shape output)
 		(at 139.7 58.42 0)
@@ -10558,7 +11040,7 @@
 	)
 	(global_label "VBAT"
 		(shape output)
-		(at 354.33 52.07 0)
+		(at 370.84 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10568,7 +11050,7 @@
 		)
 		(uuid "21662f04-b334-4213-8bfd-2294cdea05f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.73 52.07 0)
+			(at 378.24 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,6 +11278,30 @@
 			)
 		)
 	)
+	(global_label "PWR_BTN_N"
+		(shape input)
+		(at 261.62 276.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48a6ca88-9482-49ab-ae59-f338b4a9fdb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.8096 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ESP32_BOOT"
 		(shape input)
 		(at 99.06 95.25 0)
@@ -10817,6 +11323,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 261.62 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "522fa008-bd47-416b-9838-9a8a458e7317")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.531 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10892,7 +11422,7 @@
 			)
 		)
 	)
-	(global_label "BTN_FRONT_ADC"
+	(global_label "BTN_LEFT_ADC"
 		(shape input)
 		(at 43.18 82.55 180)
 		(fields_autoplaced yes)
@@ -10904,7 +11434,31 @@
 		)
 		(uuid "55b7c5f0-6d1e-459d-a249-2c467f6aa4d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.0757 82.55 0)
+			(at 26.8296 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 261.62 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "575f5db2-127d-49f9-98b3-64e0cac72253")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9586 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,9 +11494,9 @@
 			)
 		)
 	)
-	(global_label "BTN_SIDE_ADC"
-		(shape input)
-		(at 43.18 85.09 180)
+	(global_label "UART_TX"
+		(shape output)
+		(at 261.62 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10950,9 +11504,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5e731b95-9e60-448f-90ff-9595fdda087a")
+		(uuid "5c852d3d-3553-4060-b63e-2d72105f510f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8296 85.09 0)
+			(at 250.8334 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10964,9 +11518,33 @@
 			)
 		)
 	)
-	(global_label "BTN_SIDE_ADC"
+	(global_label "BTN_RIGHT_ADC"
+		(shape input)
+		(at 43.18 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e731b95-9e60-448f-90ff-9595fdda087a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.62 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BTN_RIGHT_ADC"
 		(shape output)
-		(at 236.22 130.81 180)
+		(at 223.52 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10976,7 +11554,7 @@
 		)
 		(uuid "5fd4bfb7-aced-447a-9cb1-f49115ad3a96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8696 130.81 0)
+			(at 205.96 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,6 +11611,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BAT_CHG_N"
+		(shape input)
+		(at 261.62 264.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6eb91d7e-65e5-43f6-a3f5-afda86cae92f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.1724 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11097,6 +11699,30 @@
 		(uuid "7e90bf65-0604-4bd9-abe2-25443076b11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.5467 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LOAD_PG"
+		(shape input)
+		(at 261.62 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f5cb133-635b-48bd-8c84-e22e3163fc25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.41 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11228,6 +11854,30 @@
 			)
 		)
 	)
+	(global_label "ESP32_EN"
+		(shape input)
+		(at 261.62 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85494254-f67d-44a7-9167-01b2e32d6d58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.1402 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_SCLK"
 		(shape input)
 		(at 148.59 237.49 180)
@@ -11276,6 +11926,30 @@
 			)
 		)
 	)
+	(global_label "BAT_ADC"
+		(shape input)
+		(at 261.62 257.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b685a6c-755e-47da-b1c2-b53e8f6ffe9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.7124 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SD_CS"
 		(shape input)
 		(at 165.1 374.65 0)
@@ -11321,6 +11995,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ESP32_GPIO8"
+		(shape input)
+		(at 261.62 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d08c73-9c4d-4d93-b544-5beabeb8a618")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.9349 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11420,7 +12118,7 @@
 			)
 		)
 	)
-	(global_label "BTN_FRONT_ADC"
+	(global_label "BTN_LEFT_ADC"
 		(shape output)
 		(at 151.13 130.81 180)
 		(fields_autoplaced yes)
@@ -11432,7 +12130,7 @@
 		)
 		(uuid "9ffc4c30-dc34-4651-b22e-03d418ed6824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0257 130.81 0)
+			(at 134.7796 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,6 +12358,30 @@
 			)
 		)
 	)
+	(global_label "LOAD_PWR"
+		(shape input)
+		(at 261.62 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c772e8-7d15-4f6c-bf17-b13fe8be43ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9586 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SD_CS"
 		(shape output)
 		(at 100.33 100.33 0)
@@ -11686,7 +12408,7 @@
 	)
 	(global_label "LOAD_PWR"
 		(shape output)
-		(at 420.37 262.89 0)
+		(at 438.15 262.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11696,7 +12418,7 @@
 		)
 		(uuid "bb8b2a73-066f-480e-8a22-aeb2eea50e21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 433.0314 262.89 0)
+			(at 450.8114 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11769,6 +12491,30 @@
 		(uuid "c8aa45ba-263f-4051-8671-bbd64cb510bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 355.82 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ESP32_BOOT"
+		(shape input)
+		(at 261.62 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc9c1c6c-869b-4504-927f-6f1e362a95f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.7211 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11900,6 +12646,30 @@
 			)
 		)
 	)
+	(global_label "USB_PRESENT_N"
+		(shape input)
+		(at 261.62 270.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6c61150-e83c-4927-b205-80d4da7d347f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.2135 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EINK_CS"
 		(shape input)
 		(at 199.39 217.17 0)
@@ -11913,6 +12683,30 @@
 		(uuid "eb1854ae-7751-4dd9-b878-15ef1bc23155")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.1766 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 99.06 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed19f5df-721a-4d90-8c3c-5ff2ef251ecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.149 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11945,6 +12739,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SYS_PWR"
+		(shape input)
+		(at 261.62 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8f5cccd-387a-4444-a0ac-7c16b4610c63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.1682 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11993,6 +12811,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 261.62 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9e9d4e8-e8ef-4b92-9728-cd19626f388f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.22 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12654,7 +13496,86 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Connector:TestPoint")
+		(at 261.62 232.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f56b72-2e90-4915-968c-19cdc7646bb6")
+		(property "Reference" "TP9"
+			(at 266.7 231.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 233.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06c428f9-cf81-4242-9f50-3c9e21622941")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
 		(at 157.48 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -12664,8 +13585,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f693037-46ee-4cfd-93f1-a27af9a86063")
-		(property "Reference" "SW8"
+		(uuid "123eb31b-a622-42df-ba87-b09ff4fc30b7")
+		(property "Reference" "SW4"
 			(at 158.75 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12676,7 +13597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_BACK"
+		(property "Value" "SW_LEFT1"
 			(at 158.75 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12687,8 +13608,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 152.4 140.97 0)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,8 +13619,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 152.4 140.97 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12709,8 +13630,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 140.97 0)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 151.13 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12720,98 +13641,58 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "1b409b0b-a4fc-448b-be1a-f5a6c829381f")
+		(property "LCSC" "C720474"
+			(at 151.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 151.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 151.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ea254b49-982e-48e0-be98-061f0450f713")
 		)
 		(pin "1"
-			(uuid "f3507853-10cb-44d1-815d-1dc06678b2c7")
+			(uuid "58c62843-56b2-4a21-93c8-b8df49804165")
+		)
+		(pin "2"
+			(uuid "129964bc-0b11-47e4-8fe2-e9b7948db3fb")
+		)
+		(pin "4"
+			(uuid "fa250350-c83d-4755-9091-9c386b510149")
+		)
+		(pin "5"
+			(uuid "25a33e12-1c6d-4f98-9884-562036d5bfd2")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 170.18 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13032241-c455-4911-997c-2d545af36e0b")
-		(property "Reference" "SW9"
-			(at 171.45 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_OK"
-			(at 171.45 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 165.1 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 170.18 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "72b29cd7-ca1c-42c0-bf26-f57cfc9e278d")
-		)
-		(pin "1"
-			(uuid "49f56e65-877a-4fb3-aa43-5357755af242")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW9")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -13080,6 +13961,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 424.18 262.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a347220-e8ea-4300-8eae-95cb1900b51a")
+		(property "Reference" "R36"
+			(at 424.18 257.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 424.18 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 424.18 264.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 424.18 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e9a425e-ded8-4e74-8cea-7c480aa462de")
+		)
+		(pin "1"
+			(uuid "784b06b3-772f-403d-9340-31bfcfc6da9a")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -13792,7 +14752,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 121.92 0)
+		(at 229.87 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13803,7 +14763,7 @@
 		(fields_autoplaced yes)
 		(uuid "24ad6dba-18d3-414b-978e-d656b6abd108")
 		(property "Reference" "R26"
-			(at 245.11 120.6499 0)
+			(at 232.41 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13814,7 +14774,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 245.11 123.1899 0)
+			(at 232.41 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13825,7 +14785,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.792 121.92 90)
+			(at 228.092 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13836,7 +14796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 121.92 0)
+			(at 229.87 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13847,7 +14807,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 121.92 0)
+			(at 229.87 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14033,6 +14993,164 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 264.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280e04ff-58a6-4528-adb9-467b485c8072")
+		(property "Reference" "TP14"
+			(at 266.7 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 265.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d5ebde3-44ca-4b5c-92be-bfc5ca190afc")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 257.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28dca371-bba6-488e-9260-2b6267433bb9")
+		(property "Reference" "TP13"
+			(at 266.7 256.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 259.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4f92907-c44f-4f72-8def-0d88661cd580")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -14699,7 +15817,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 261.62 130.81 90)
+		(at 248.92 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14710,7 +15828,7 @@
 		(fields_autoplaced yes)
 		(uuid "3117624a-25db-498e-b103-8e7c8211ae9c")
 		(property "Reference" "C27"
-			(at 261.62 123.19 90)
+			(at 248.92 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14720,7 +15838,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 261.62 125.73 90)
+			(at 248.92 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14730,7 +15848,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 265.43 129.8448 0)
+			(at 252.73 129.8448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,7 +15859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 130.81 0)
+			(at 248.92 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14752,7 +15870,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 261.62 130.81 0)
+			(at 248.92 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,6 +15968,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 238.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3273afd2-18cd-410d-b0c8-4d9f711f9b04")
+		(property "Reference" "TP10"
+			(at 266.7 237.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 240.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31730fa4-266a-4d81-9c94-a23954136186")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15248,6 +16445,163 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 194.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3810be93-e16f-4c75-87d4-ee8462087196")
+		(property "Reference" "TP1"
+			(at 266.7 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 195.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2125e152-848e-4b0b-8228-23ae3caea744")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39930836-0974-435c-82a2-9e960eedfa53")
+		(property "Reference" "#PWR010"
+			(at 284.48 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "579d3aa9-ac05-4e4c-a255-cdde556a847c")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15819,7 +17173,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 153.67 0)
+		(at 229.87 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15830,7 +17184,7 @@
 		(fields_autoplaced yes)
 		(uuid "4212a5a5-d1e8-4e6a-916d-fecdda3697a2")
 		(property "Reference" "R27"
-			(at 245.11 152.3999 0)
+			(at 232.41 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15840,8 +17194,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12k"
-			(at 245.11 154.9399 0)
+		(property "Value" "10k"
+			(at 232.41 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15852,7 +17206,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.792 153.67 90)
+			(at 228.092 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15863,7 +17217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 153.67 0)
+			(at 229.87 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15874,7 +17228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 153.67 0)
+			(at 229.87 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15894,84 +17248,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4543b9a3-2c6d-4a95-89a1-155975b127a2")
-		(property "Reference" "#PWR057"
-			(at 195.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da94dee3-e99f-4d15-b7a1-894626c48800")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -16297,6 +17573,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 226.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7ce91e-5398-4cb5-a583-1c1ceffc9c66")
+		(property "Reference" "TP8"
+			(at 266.7 224.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d13b6fa-d3dd-47c1-a5a0-f986716190f9")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 152.4 312.42 270)
 		(unit 1)
@@ -16448,6 +17803,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 414.02 345.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "530296a3-81db-4d93-9706-13e206f18d1b")
+		(property "Reference" "R35"
+			(at 414.02 340.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 414.02 342.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 414.02 347.218 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 414.02 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "414ff4bc-53da-43a3-a963-f1a783fb60bb")
+		)
+		(pin "1"
+			(uuid "d41aeb43-0f29-4d46-9721-bc55430cf607")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16692,6 +18126,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 200.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b0a3ca-2c4d-47fd-b436-9bc9d5c1c31a")
+		(property "Reference" "TP2"
+			(at 266.7 199.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 201.9299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22441c5b-bed6-4ada-882b-112757a2be08")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 424.18 345.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a77f14f-42bc-4d86-9aa3-19cafd84c248")
+		(property "Reference" "#FLG02"
+			(at 424.18 343.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 424.18 340.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 424.18 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 424.18 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae1b63f3-7d70-4cc2-98bc-365910b59046")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 120.65 250.19 90)
 		(unit 1)
@@ -16895,7 +18486,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "62k"
+		(property "Value" "10k"
 			(at 160.02 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17378,88 +18969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 242.57 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b52f77-3796-408f-8386-8b9248b27e88")
-		(property "Reference" "SW12"
-			(at 243.84 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_UP"
-			(at 243.84 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 237.49 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 242.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "28a20542-72d3-456f-aa9b-50e5d7f1b645")
-		)
-		(pin "1"
-			(uuid "d493fd55-c053-4120-be66-5b393c24a7b1")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 222.25 345.44 0)
 		(unit 1)
@@ -17532,88 +19041,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 195.58 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6688bc45-f561-498d-abf4-a39ab0262c32")
-		(property "Reference" "SW11"
-			(at 196.85 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_RIGHT"
-			(at 196.85 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 190.5 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 195.58 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31915df7-54fb-45e8-b967-862adfbff59e")
-		)
-		(pin "1"
-			(uuid "17c1a62f-64e4-4362-8891-16563a04d385")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -17848,6 +19275,86 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 209.55 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f8ff9de-1996-4b79-b52a-70cff4a3505c")
+		(property "Reference" "TP16"
+			(at 293.37 210.8201 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 293.37 208.2801 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 288.29 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba8b3df4-b4a3-49b4-b5ca-9c7d0bfa7a0e")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -18204,6 +19711,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 276.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76eb4e83-e4e8-4296-822e-a807154ae7ed")
+		(property "Reference" "TP17"
+			(at 266.7 275.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 278.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05b7fe6a-9aba-462c-bc57-99b2dd2ab602")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 381 90)
 		(unit 1)
@@ -18356,6 +19942,130 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
+		(at 170.18 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b37627d-7964-4db6-ac7c-1cf4348d2b30")
+		(property "Reference" "SW5"
+			(at 171.45 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_LEFT2"
+			(at 171.45 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720474"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 163.83 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a02d4aee-98d5-48a3-a796-a6bdc1bfa072")
+		)
+		(pin "1"
+			(uuid "3fe64d23-8942-445c-ac27-125cc0af85fd")
+		)
+		(pin "2"
+			(uuid "d2001fbe-7623-42ab-b4d5-f83df89109f8")
+		)
+		(pin "4"
+			(uuid "5291c0c7-c1d5-4c5c-b81d-e2e0771428a9")
+		)
+		(pin "5"
+			(uuid "51fcdc2f-1743-48c1-bd8f-7e0f73fd6b5f")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -19287,7 +20997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 160.02 0)
+		(at 229.87 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19298,7 +21008,7 @@
 		(fields_autoplaced yes)
 		(uuid "8da379af-136a-420a-a45b-cca5b6c1cf6b")
 		(property "Reference" "#PWR058"
-			(at 242.57 166.37 0)
+			(at 229.87 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19309,7 +21019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 165.1 0)
+			(at 229.87 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19319,7 +21029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 160.02 0)
+			(at 229.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19330,7 +21040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 160.02 0)
+			(at 229.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19341,7 +21051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 160.02 0)
+			(at 229.87 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19446,8 +21156,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 255.27 140.97 90)
+		(lib_id "Connector:TestPoint")
+		(at 261.62 245.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19456,31 +21166,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91ed5c96-0757-4882-93c0-d059aabff210")
-		(property "Reference" "SW13"
-			(at 256.54 139.6999 90)
+		(uuid "90535069-9184-4436-ad85-afe6b4a5ac87")
+		(property "Reference" "TP11"
+			(at 266.7 243.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_DOWN"
-			(at 256.54 142.2399 90)
+		(property "Value" "TestPoint"
+			(at 266.7 246.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 250.19 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19491,7 +21201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 140.97 0)
+			(at 261.62 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19501,8 +21211,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 255.27 140.97 0)
+		(property "Description" "test point"
+			(at 261.62 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19511,17 +21221,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "b3fbcef8-2621-4c10-ad36-889eeff4e2fc")
 		)
 		(pin "1"
-			(uuid "f76a86aa-a05b-4cfb-b60a-3cb0e2381a73")
+			(uuid "6a2d7c75-a877-42a7-ac77-d15cecdd3c66")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW13")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -19600,6 +21307,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 199.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d1f88f-a7a7-43ca-98ba-e4a96a86b3cf")
+		(property "Reference" "TP4"
+			(at 293.37 198.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 293.37 200.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 288.29 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0babf500-e227-40df-99f7-494fdd5665dc")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20060,7 +21846,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 160.02 0)
+		(at 196.85 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20071,7 +21857,7 @@
 		(fields_autoplaced yes)
 		(uuid "97df4d5e-42b6-47e1-b607-bc8ab181af2c")
 		(property "Reference" "#PWR061"
-			(at 208.28 166.37 0)
+			(at 196.85 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,7 +21868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 165.1 0)
+			(at 196.85 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20092,7 +21878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 160.02 0)
+			(at 196.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20103,7 +21889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 160.02 0)
+			(at 196.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20114,7 +21900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 160.02 0)
+			(at 196.85 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20131,6 +21917,209 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
+		(at 242.57 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97eee927-285d-4042-82ab-2b82777ec1ec")
+		(property "Reference" "SW9"
+			(at 243.84 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_RIGHT2"
+			(at 243.84 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720474"
+			(at 236.22 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 236.22 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 236.22 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1f37afaf-7172-4176-916b-ab3bbfda543e")
+		)
+		(pin "1"
+			(uuid "e7f78f44-7193-4d50-a012-290afec624b7")
+		)
+		(pin "2"
+			(uuid "82129e74-e8d6-47af-b395-99ee7f457504")
+		)
+		(pin "4"
+			(uuid "672f0ce8-029d-4d1a-a1d3-11c397ecaae3")
+		)
+		(pin "5"
+			(uuid "2a264f87-b6c1-4fc8-9563-522d284cb776")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 270.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9897f74d-aaf3-48fd-ae76-03710ba5c9f3")
+		(property "Reference" "TP15"
+			(at 266.7 269.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 271.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb3544be-5a29-45b9-bc47-33cd622b6561")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -20376,8 +22365,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 182.88 140.97 90)
+		(lib_id "Connector:TestPoint")
+		(at 261.62 219.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20386,31 +22375,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9da35225-cf0c-4744-8a30-2047ad76f2c6")
-		(property "Reference" "SW10"
-			(at 184.15 139.6999 90)
+		(uuid "9d26e547-d356-4533-8e65-66f3e2bb3fec")
+		(property "Reference" "TP7"
+			(at 266.7 218.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_LEFT"
-			(at 184.15 142.2399 90)
+		(property "Value" "TestPoint"
+			(at 266.7 220.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 177.8 140.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20421,7 +22410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 140.97 0)
+			(at 261.62 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,8 +22420,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 182.88 140.97 0)
+		(property "Description" "test point"
+			(at 261.62 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20441,17 +22430,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "e90116f0-1876-45c9-b6e0-bddb523ecd69")
 		)
 		(pin "1"
-			(uuid "6fcfd993-20a2-4f9c-9169-c79e9c17e130")
+			(uuid "92eb709a-006f-4ca0-a089-e3930c9108da")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW10")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -20539,7 +22525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 160.02 0)
+		(at 242.57 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20550,7 +22536,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1abd40a-f4eb-49ac-a646-25f522dfccd1")
 		(property "Reference" "#PWR059"
-			(at 255.27 166.37 0)
+			(at 242.57 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20561,7 +22547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 165.1 0)
+			(at 242.57 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20571,7 +22557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 160.02 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20582,7 +22568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 160.02 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20593,7 +22579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 160.02 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20610,6 +22596,84 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 433.07 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d5263e-0274-480f-95f1-f217d15cb9e0")
+		(property "Reference" "#FLG01"
+			(at 433.07 260.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 433.07 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 433.07 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 433.07 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9cabad9-6c8d-4e33-b9af-bdb1d71444b9")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -20856,88 +22920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 370.84 228.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adaa78da-5f17-4bb6-ab00-63d26d09950a")
-		(property "Reference" "SW7"
-			(at 372.11 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_POWER"
-			(at 372.11 229.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 365.76 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 370.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6192ec8b-3ec2-43a3-b3ef-a06ba6009aa5")
-		)
-		(pin "1"
-			(uuid "a4250a9b-111e-4e52-a63e-588dd0dc2d5c")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 398.78 194.31 0)
 		(unit 1)
@@ -21038,7 +23020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "3.3k"
 			(at 172.72 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21177,7 +23159,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 130.81 90)
+		(at 190.5 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21188,7 +23170,7 @@
 		(fields_autoplaced yes)
 		(uuid "b60251d4-4e13-4f6c-b0bd-bd54a4765387")
 		(property "Reference" "C26"
-			(at 201.93 123.19 90)
+			(at 190.5 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21198,7 +23180,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 201.93 125.73 90)
+			(at 190.5 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21208,7 +23190,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.74 129.8448 0)
+			(at 194.31 129.8448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21219,7 +23201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 130.81 0)
+			(at 190.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21230,7 +23212,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 130.81 0)
+			(at 190.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21331,6 +23313,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b68f3797-d66b-457e-912e-862f510d2819")
+		(property "Reference" "TP6"
+			(at 266.7 212.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 214.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3a63cd2-8cfb-468a-82a1-241928ab9d7c")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -21487,6 +23548,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 361.95 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bba6cf56-82f2-47af-85ff-ebd9e0f290bd")
+		(property "Reference" "R37"
+			(at 361.95 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 361.95 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 361.95 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a945b7ec-36c9-4715-a1c7-02ed884f66b9")
+		)
+		(pin "1"
+			(uuid "f4515765-52a0-447f-bfe7-a25e022674dc")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -22206,8 +24346,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 182.88 153.67 0)
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
+		(at 182.88 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22216,31 +24356,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5f63130-7fa6-42ac-93ad-aa9cec6bb001")
-		(property "Reference" "R25"
-			(at 185.42 152.3999 0)
+		(uuid "c7040d68-0bac-4664-a715-2c2b3593fa48")
+		(property "Reference" "SW6"
+			(at 184.15 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "5.6k"
-			(at 185.42 154.9399 0)
+		(property "Value" "SW_LEFT3"
+			(at 184.15 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.102 153.67 90)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22250,8 +24390,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 153.67 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22261,8 +24401,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 182.88 153.67 0)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 176.53 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22272,16 +24412,58 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d92b1283-07ae-489d-8055-01ff438cee43")
+		(property "LCSC" "C720474"
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 176.53 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "73eed157-4357-4735-9efb-23f84c423d7d")
 		)
 		(pin "1"
-			(uuid "68ca2b46-6475-44c5-84c3-8201cc9d64d0")
+			(uuid "ba48308c-4196-4eac-b566-2d3bc3732c9b")
+		)
+		(pin "2"
+			(uuid "a867be14-f70c-4c0b-ba5b-de8c01fff60c")
+		)
+		(pin "4"
+			(uuid "960d70a4-5607-4446-bc07-e062e62c9077")
+		)
+		(pin "5"
+			(uuid "91520412-9e78-49ba-93d4-03c49205e942")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R25")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -22518,6 +24700,130 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
+		(at 370.84 228.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd3f906-3de6-46f2-bb6e-2d5ab0596e69")
+		(property "Reference" "SW3"
+			(at 372.11 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_POWER"
+			(at 372.11 229.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 364.49 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 364.49 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 364.49 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720474"
+			(at 364.49 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 364.49 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 364.49 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ef2715c-c820-415a-a742-50282dd4379c")
+		)
+		(pin "5"
+			(uuid "eef3f911-3274-4442-8939-6995a878afb8")
+		)
+		(pin "4"
+			(uuid "226e4b96-e6fa-4765-9ca8-573aebfda65c")
+		)
+		(pin "3"
+			(uuid "d506d700-faa8-44d7-bd6a-0263e47692db")
+		)
+		(pin "2"
+			(uuid "a09da24b-b637-4c7c-8d71-d97094919de2")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -23083,7 +25389,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 242.57 115.57 0)
+		(at 229.87 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23094,7 +25400,7 @@
 		(fields_autoplaced yes)
 		(uuid "d94428cf-e53c-4bb4-9a6e-ece364b683b9")
 		(property "Reference" "#PWR055"
-			(at 242.57 119.38 0)
+			(at 229.87 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23105,7 +25411,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 242.57 110.49 0)
+			(at 229.87 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23115,7 +25421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 115.57 0)
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23126,7 +25432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 115.57 0)
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23137,7 +25443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 242.57 115.57 0)
+			(at 229.87 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23154,6 +25460,84 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 284.48 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da47e761-498f-46e0-b592-7322cb598f04")
+		(property "Reference" "#PWR012"
+			(at 284.48 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 284.48 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 284.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0c27189-5121-443e-9c86-10c367e50c9a")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -23311,6 +25695,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 251.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd8bfdc-f00d-4aa4-9462-d1e2b31fe1bf")
+		(property "Reference" "TP12"
+			(at 266.7 250.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 252.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5c0b36-d467-42d4-97e4-45232321e055")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -23546,6 +26009,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 261.62 207.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed7e5b2-6f6a-4941-9030-647c12dd1c08")
+		(property "Reference" "TP5"
+			(at 266.7 205.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 208.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a13869e9-fdae-4a72-93b9-72ae5e18d79f")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -23951,6 +26493,130 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
+		(at 229.87 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f493aac9-08c3-4f3f-a0a7-64e41aa48399")
+		(property "Reference" "SW8"
+			(at 231.14 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_RIGHT1"
+			(at 231.14 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
+			(at 223.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+			(at 223.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+			(at 223.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720474"
+			(at 223.52 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 223.52 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS-1086EV-AR03526"
+			(at 223.52 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5774d5b1-34b4-4fea-8f4a-2dc4b5ef8b44")
+		)
+		(pin "1"
+			(uuid "e9bb17ce-c3b8-4a7f-b761-e1eb8294a90a")
+		)
+		(pin "2"
+			(uuid "b3d0d9c6-0361-4069-94f8-b1622e62aa41")
+		)
+		(pin "4"
+			(uuid "24fc2e36-93cb-420e-a4f0-115c8dbf5261")
+		)
+		(pin "5"
+			(uuid "938d8041-cbb1-40ac-b296-372f3197826a")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 60.96 0)
 		(unit 1)
@@ -24191,7 +26857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 160.02 0)
+		(at 255.27 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24202,7 +26868,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7b4a98b-6664-4c71-b4fa-12c001e5f9e5")
 		(property "Reference" "#PWR062"
-			(at 267.97 166.37 0)
+			(at 255.27 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24213,7 +26879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 165.1 0)
+			(at 255.27 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24223,7 +26889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 160.02 0)
+			(at 255.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24234,7 +26900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 160.02 0)
+			(at 255.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24245,7 +26911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 160.02 0)
+			(at 255.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24269,7 +26935,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 401.32 339.09 0)
+		(at 435.61 342.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24280,7 +26946,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbee53d4-cae6-4039-8a6f-b8f93a474f56")
 		(property "Reference" "#PWR022"
-			(at 401.32 342.9 0)
+			(at 435.61 346.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24291,7 +26957,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 401.32 334.01 0)
+			(at 435.61 337.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24301,7 +26967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 339.09 0)
+			(at 435.61 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24312,7 +26978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 339.09 0)
+			(at 435.61 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24323,7 +26989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 401.32 339.09 0)
+			(at 435.61 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
