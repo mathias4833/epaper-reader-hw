@@ -2,5 +2,4 @@
 	(version 7)
 	(lib (name "epaper-reader-hw") (type "KiCad") (uri "${KIPRJMOD}/epaper-reader-hw.pretty") (options "") (descr ""))
 	(lib (name "epaper-reader-virtual") (type "KiCad") (uri "${KIPRJMOD}/epaper-reader-virtual.pretty") (options "") (descr "Virtual mechanical/non-assembled parts"))
-  (lib (name "JLCImport")(type "KiCad")(uri "${KIPRJMOD}/JLCImport.pretty")(options "")(descr ""))
 )

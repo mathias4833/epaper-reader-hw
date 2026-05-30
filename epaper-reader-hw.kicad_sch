@@ -5138,269 +5138,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "epaper-reader-hw:TS-1086EV-AR03526"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS-1086EV-AR03526"
-				(at 0 -7.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-				(at -1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-				(at -1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-				(at -1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C720474"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "XUNPU"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "TS-1086EV-AR03526"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS-1086EV-AR03526_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.524 0)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.524 0)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TS-1086EV-AR03526_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(hide yes)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "epaper-reader-hw:TS-1187A-B-A-B"
 			(pin_names
 				(offset 1.016)
@@ -5597,6 +5334,215 @@
 						)
 					)
 					(number "[3,4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "epaper-reader-hw:TSB001A3526B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TSB001A3526B"
+				(at 0 -4.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2846768"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "BZCN"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TSB001A3526B"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TSB001A3526B_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TSB001A3526B_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(hide yes)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6995,7 +6941,7 @@
 	)
 	(text_box "ADC button ladder:\n\nBTN_LEFT_ADC:\nnone = 3.3V\nleft1 = 1.65V\nleft2 = 0.825V\nleft3 = 0V\n\nBTN_RIGHT_ADC\nnone = 3.3V\nUP = 1.65V\nDOWN = 0V\n\nPower button is part of POWER MANAGEMENT because it controls the XC6194 latch"
 		(exclude_from_sim no)
-		(at 259.08 100.33 0)
+		(at 265.43 100.33 0)
 		(size 48.26 67.31)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7160,6 +7106,12 @@
 		(uuid "03c58c3f-28e5-4c8c-8838-90075010a60d")
 	)
 	(junction
+		(at 182.88 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04917a55-751f-43c5-86f3-a7adad4c56b1")
+	)
+	(junction
 		(at 46.99 372.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7238,12 +7190,6 @@
 		(uuid "20d83bce-5a95-4b22-9f59-1f68af5489b2")
 	)
 	(junction
-		(at 182.88 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27f6b6af-c167-4966-b376-816903b96732")
-	)
-	(junction
 		(at 365.76 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7316,6 +7262,12 @@
 		(uuid "5794b69a-2dac-4024-9c70-19cd4f40d947")
 	)
 	(junction
+		(at 243.84 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59668136-5b53-4a08-8fdc-4b91e8da56b3")
+	)
+	(junction
 		(at 62.23 330.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7334,10 +7286,10 @@
 		(uuid "66e547fb-1cb0-48d1-a04e-a4f95aa1429b")
 	)
 	(junction
-		(at 242.57 130.81)
+		(at 370.84 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7de470d5-75f1-4b60-9599-8c36650a7161")
+		(uuid "6a627c0e-00b2-4e48-b132-a7f51629358b")
 	)
 	(junction
 		(at 394.97 345.44)
@@ -7356,12 +7308,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85d2cc72-3e77-442b-96c5-c30b4ddb908c")
-	)
-	(junction
-		(at 170.18 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "867c926c-0894-4b00-ad40-e05774fdc038")
 	)
 	(junction
 		(at 39.37 360.68)
@@ -7422,6 +7368,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b770b871-ccc4-45de-9089-84ee89c5916e")
+	)
+	(junction
+		(at 170.18 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcbb04c1-3058-40c8-9d51-ec338ee16cea")
 	)
 	(junction
 		(at 370.84 212.09)
@@ -7524,12 +7476,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7bd06ba-1c68-48f4-9807-cd227e2b82de")
-	)
-	(junction
-		(at 370.84 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9856210-0172-4634-a3a7-c03fe7088d6a")
 	)
 	(junction
 		(at 114.3 265.43)
@@ -7649,16 +7595,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 130.81) (xy 182.88 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0398f391-df55-47af-b5e0-1d968e72f1b8")
-	)
-	(wire
-		(pts
 			(xy 71.12 45.72) (xy 71.12 40.64)
 		)
 		(stroke
@@ -7676,6 +7612,16 @@
 			(type default)
 		)
 		(uuid "07a06399-6b26-46eb-a1b9-81735a1d31ef")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a65867-c201-416d-818a-928319e67f7e")
 	)
 	(wire
 		(pts
@@ -7839,6 +7785,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 134.62) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15adfa1b-ce78-4029-93ec-3afadd55ad84")
+	)
+	(wire
+		(pts
 			(xy 388.62 353.06) (xy 388.62 345.44)
 		)
 		(stroke
@@ -7899,13 +7855,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 146.05) (xy 242.57 160.02)
+			(xy 182.88 130.81) (xy 186.69 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c59cbb6-e8c8-42b7-97f5-4909b86fca39")
+		(uuid "1d6ebbc1-19ec-427a-ace1-85de182f9c78")
 	)
 	(wire
 		(pts
@@ -8119,16 +8075,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 233.68) (xy 370.84 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd50919-c044-4e4b-86bc-ec69a022a221")
-	)
-	(wire
-		(pts
 			(xy 88.9 247.65) (xy 88.9 251.46)
 		)
 		(stroke
@@ -8266,16 +8212,6 @@
 			(type default)
 		)
 		(uuid "3f41c69c-ad30-4f61-b6f9-97a7438000f0")
-	)
-	(wire
-		(pts
-			(xy 170.18 135.89) (xy 170.18 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4120f661-7a31-4e52-80c1-9f76025fafcc")
 	)
 	(wire
 		(pts
@@ -8469,16 +8405,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 149.86) (xy 157.48 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c179ec-3faf-4441-b814-56757dbfffe0")
-	)
-	(wire
-		(pts
 			(xy 394.97 212.09) (xy 398.78 212.09)
 		)
 		(stroke
@@ -8546,6 +8472,16 @@
 			(type default)
 		)
 		(uuid "542124c6-b974-4e3b-a0b8-f08194ba0980")
+	)
+	(wire
+		(pts
+			(xy 243.84 130.81) (xy 246.38 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ba639c-6203-4fae-993e-4ef9c6b93460")
 	)
 	(wire
 		(pts
@@ -8809,6 +8745,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 160.02) (xy 243.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68549c2e-857d-48ce-bf2c-906061dd03cb")
+	)
+	(wire
+		(pts
 			(xy 67.31 215.9) (xy 76.2 215.9)
 		)
 		(stroke
@@ -8836,16 +8782,6 @@
 			(type default)
 		)
 		(uuid "6c43e313-008f-48c1-b1fe-87ad462a8109")
-	)
-	(wire
-		(pts
-			(xy 157.48 135.89) (xy 157.48 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d235279-dcb6-4ccd-95a0-99276b957302")
 	)
 	(wire
 		(pts
@@ -8886,16 +8822,6 @@
 			(type default)
 		)
 		(uuid "71514fee-bc7c-4c67-a6f4-ab837ec40064")
-	)
-	(wire
-		(pts
-			(xy 229.87 130.81) (xy 242.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730f09fb-d0f1-4616-8468-e40083ef5a2a")
 	)
 	(wire
 		(pts
@@ -9209,16 +9135,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 130.81) (xy 252.73 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a839736-d356-4132-925e-a55a714e0c6b")
-	)
-	(wire
-		(pts
 			(xy 370.84 328.93) (xy 375.92 328.93)
 		)
 		(stroke
@@ -9226,6 +9142,16 @@
 			(type default)
 		)
 		(uuid "8b97232d-7522-4a36-ad12-d1572f1aaadc")
+	)
+	(wire
+		(pts
+			(xy 182.88 160.02) (xy 182.88 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd82699-659d-4746-808c-c8881df7ae37")
 	)
 	(wire
 		(pts
@@ -9339,16 +9265,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 218.44) (xy 370.84 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923a003e-284c-454c-a0fd-5f4c50b94205")
-	)
-	(wire
-		(pts
 			(xy 148.59 212.09) (xy 140.97 212.09)
 		)
 		(stroke
@@ -9429,26 +9345,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 149.86) (xy 229.87 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a1fed6b-b634-4b95-acbb-d23d75737dd8")
-	)
-	(wire
-		(pts
-			(xy 229.87 135.89) (xy 229.87 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a297d46-97f7-4867-adb1-5515e35860ce")
-	)
-	(wire
-		(pts
 			(xy 350.52 143.51) (xy 350.52 135.89)
 		)
 		(stroke
@@ -9499,7 +9395,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 130.81) (xy 182.88 130.81)
+			(xy 170.18 130.81) (xy 182.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9546,16 +9442,6 @@
 			(type default)
 		)
 		(uuid "a3b00c26-ec57-41d5-8d29-66c5451dbaea")
-	)
-	(wire
-		(pts
-			(xy 182.88 146.05) (xy 182.88 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a43937fb-26ad-42f3-b269-bcd4de0ea27d")
 	)
 	(wire
 		(pts
@@ -9679,6 +9565,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 130.81) (xy 257.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ca2702-f2e2-4d22-8d95-0af6892d52a2")
+	)
+	(wire
+		(pts
 			(xy 175.26 334.01) (xy 168.91 334.01)
 		)
 		(stroke
@@ -9736,16 +9632,6 @@
 			(type default)
 		)
 		(uuid "adec1d7e-06bf-4a54-a489-b6cd92b073c7")
-	)
-	(wire
-		(pts
-			(xy 245.11 130.81) (xy 242.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf4ba42-7f39-4b44-9c7a-706a4b465c83")
 	)
 	(wire
 		(pts
@@ -10039,6 +9925,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 134.62) (xy 170.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c360ee88-ef65-47ef-8372-ec451da30a89")
+	)
+	(wire
+		(pts
 			(xy 375.92 218.44) (xy 370.84 218.44)
 		)
 		(stroke
@@ -10089,6 +9985,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 130.81) (xy 243.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78545d4-28b9-462a-be73-c854acf53af6")
+	)
+	(wire
+		(pts
 			(xy 361.95 270.51) (xy 368.3 270.51)
 		)
 		(stroke
@@ -10096,6 +10002,16 @@
 			(type default)
 		)
 		(uuid "c7c87bc1-d088-413d-abbf-989bb89175b4")
+	)
+	(wire
+		(pts
+			(xy 243.84 134.62) (xy 243.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8910433-c1b1-4e8e-b8a9-b0f81c5e54f6")
 	)
 	(wire
 		(pts
@@ -10249,6 +10165,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 237.49) (xy 370.84 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38f84d8-d313-47a5-a898-7f6731ed0d54")
+	)
+	(wire
+		(pts
 			(xy 394.97 363.22) (xy 400.05 363.22)
 		)
 		(stroke
@@ -10286,6 +10212,16 @@
 			(type default)
 		)
 		(uuid "d61eaa07-6dc0-494c-9e16-729ae0958081")
+	)
+	(wire
+		(pts
+			(xy 229.87 134.62) (xy 229.87 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b4c160-3c86-482d-946e-263fadbad11e")
 	)
 	(wire
 		(pts
@@ -10406,16 +10342,6 @@
 			(type default)
 		)
 		(uuid "e3908cb2-f94d-4197-8998-23d13b8b7ece")
-	)
-	(wire
-		(pts
-			(xy 170.18 149.86) (xy 170.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cb576a-8144-41ab-b745-5482b2de50d1")
 	)
 	(wire
 		(pts
@@ -10589,7 +10515,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 160.02) (xy 255.27 130.81)
+			(xy 257.81 160.02) (xy 257.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10649,16 +10575,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 182.88 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f685b3bc-c5a0-470c-bd66-4e848ab48f70")
-	)
-	(wire
-		(pts
 			(xy 52.07 45.72) (xy 71.12 45.72)
 		)
 		(stroke
@@ -10686,16 +10602,6 @@
 			(type default)
 		)
 		(uuid "fa5e96fd-76b5-4d80-b2ed-be0a17752bd7")
-	)
-	(wire
-		(pts
-			(xy 242.57 135.89) (xy 242.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6559f5-fe2c-4d1d-b837-d9539ee6f24c")
 	)
 	(wire
 		(pts
@@ -13790,6 +13696,127 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 182.88 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b78ccce-9f9e-42e0-8a0d-98a9fcd72460")
+		(property "Reference" "SW6"
+			(at 185.42 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT3"
+			(at 185.42 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "024f2734-6111-4635-b82c-0e47c17e0c0b")
+		)
+		(pin "2"
+			(uuid "2208f587-0a08-4efa-ba1a-115a129f3051")
+		)
+		(pin "4"
+			(uuid "0492c4a3-c8f0-4aca-bc37-12e1e4300322")
+		)
+		(pin "3"
+			(uuid "31389b3f-c440-4a52-8c26-0b363affd4c2")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 261.62 232.41 270)
 		(unit 1)
@@ -13863,130 +13890,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 157.48 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "123eb31b-a622-42df-ba87-b09ff4fc30b7")
-		(property "Reference" "SW4"
-			(at 158.75 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_LEFT1"
-			(at 158.75 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 151.13 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 151.13 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 151.13 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 151.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ea254b49-982e-48e0-be98-061f0450f713")
-		)
-		(pin "1"
-			(uuid "58c62843-56b2-4a21-93c8-b8df49804165")
-		)
-		(pin "2"
-			(uuid "129964bc-0b11-47e4-8fe2-e9b7948db3fb")
-		)
-		(pin "4"
-			(uuid "fa250350-c83d-4755-9091-9c386b510149")
-		)
-		(pin "5"
-			(uuid "25a33e12-1c6d-4f98-9884-562036d5bfd2")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -14291,6 +14194,127 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 370.84 226.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "187a34d4-b53e-4db9-aec4-a3795d7d4e86")
+		(property "Reference" "SW3"
+			(at 373.38 224.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_POWER"
+			(at 373.38 227.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 377.19 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f6826df-0790-4ef3-a5e9-b35a0dfe1188")
+		)
+		(pin "2"
+			(uuid "0bac1e6c-ba8b-4d9a-92ba-8307375d3726")
+		)
+		(pin "4"
+			(uuid "b47c1f39-57d0-4dac-875d-dabd79a8f4b5")
+		)
+		(pin "3"
+			(uuid "c300163a-9998-4b76-8bff-b80627eefdba")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 368.3 276.86 0)
 		(unit 1)
@@ -14580,6 +14604,127 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 243.84 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f19ddfc-65d5-46b6-b69a-100d0b170466")
+		(property "Reference" "SW9"
+			(at 246.38 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_RIGHT2"
+			(at 246.38 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 250.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "064bf5ba-3ef3-45fd-a660-0ae6fc3d2123")
+		)
+		(pin "2"
+			(uuid "3f82ab65-b254-4022-bbaa-6aaa30223ac7")
+		)
+		(pin "4"
+			(uuid "4a6aef81-8717-4832-ab2b-727ae7e9e33d")
+		)
+		(pin "3"
+			(uuid "c81030c1-02e2-4804-be10-40f6f662e7fe")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -16274,7 +16419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 130.81 90)
+		(at 250.19 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16285,7 +16430,7 @@
 		(fields_autoplaced yes)
 		(uuid "3117624a-25db-498e-b103-8e7c8211ae9c")
 		(property "Reference" "C27"
-			(at 248.92 123.19 90)
+			(at 250.19 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16295,7 +16440,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 248.92 125.73 90)
+			(at 250.19 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16305,7 +16450,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 252.73 129.8448 0)
+			(at 254 129.8448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16316,7 +16461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 130.81 0)
+			(at 250.19 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16327,7 +16472,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 248.92 130.81 0)
+			(at 250.19 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17623,6 +17768,127 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 157.48 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4119f3b4-24cb-4733-b4cc-31c72d4c65f0")
+		(property "Reference" "SW4"
+			(at 160.02 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT1"
+			(at 160.02 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a00e2359-9a20-474e-ab32-00257bb179a5")
+		)
+		(pin "2"
+			(uuid "94c4a12e-08f8-4600-8b66-2a71f479961e")
+		)
+		(pin "4"
+			(uuid "56098e9e-db89-48cb-a4bf-c4a011f514ad")
+		)
+		(pin "3"
+			(uuid "dc5b4d09-e33d-4363-b28a-c80657974133")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -20437,130 +20703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 170.18 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b37627d-7964-4db6-ac7c-1cf4348d2b30")
-		(property "Reference" "SW5"
-			(at 171.45 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_LEFT2"
-			(at 171.45 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 163.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 163.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 163.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 163.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 163.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 163.83 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a02d4aee-98d5-48a3-a796-a6bdc1bfa072")
-		)
-		(pin "1"
-			(uuid "3fe64d23-8942-445c-ac27-125cc0af85fd")
-		)
-		(pin "2"
-			(uuid "d2001fbe-7623-42ab-b4d5-f83df89109f8")
-		)
-		(pin "4"
-			(uuid "5291c0c7-c1d5-4c5c-b81d-e2e0771428a9")
-		)
-		(pin "5"
-			(uuid "51fcdc2f-1743-48c1-bd8f-7e0f73fd6b5f")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 72.39 335.28 90)
 		(unit 1)
@@ -22438,130 +22580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 242.57 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97eee927-285d-4042-82ab-2b82777ec1ec")
-		(property "Reference" "SW9"
-			(at 243.84 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_RIGHT2"
-			(at 243.84 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 236.22 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 236.22 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 236.22 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 236.22 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 236.22 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 236.22 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "1f37afaf-7172-4176-916b-ab3bbfda543e")
-		)
-		(pin "1"
-			(uuid "e7f78f44-7193-4d50-a012-290afec624b7")
-		)
-		(pin "2"
-			(uuid "82129e74-e8d6-47af-b395-99ee7f457504")
-		)
-		(pin "4"
-			(uuid "672f0ce8-029d-4d1a-a1d3-11c397ecaae3")
-		)
-		(pin "5"
-			(uuid "2a264f87-b6c1-4fc8-9563-522d284cb776")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 261.62 270.51 270)
 		(unit 1)
@@ -22958,7 +22976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 160.02 0)
+		(at 243.84 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22969,7 +22987,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1abd40a-f4eb-49ac-a646-25f522dfccd1")
 		(property "Reference" "#PWR059"
-			(at 242.57 166.37 0)
+			(at 243.84 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22980,7 +22998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 165.1 0)
+			(at 243.84 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22990,7 +23008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 160.02 0)
+			(at 243.84 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23001,7 +23019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 160.02 0)
+			(at 243.84 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23012,7 +23030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 160.02 0)
+			(at 243.84 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24226,6 +24244,127 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 229.87 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bff3dc81-0c7f-4398-a211-cdf4604c1784")
+		(property "Reference" "SW8"
+			(at 232.41 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_RIGHT1"
+			(at 232.41 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 236.22 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae2d7e86-4462-4946-97b1-ef0e5746cc17")
+		)
+		(pin "2"
+			(uuid "252569c5-026d-44ee-96c8-a7efa4317f1f")
+		)
+		(pin "4"
+			(uuid "b82d478e-6bf4-4ca0-9836-470939569d16")
+		)
+		(pin "3"
+			(uuid "b9d398fa-f0ef-4c2b-9366-a35e0e7712ad")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 68.58 368.3 90)
 		(unit 1)
@@ -24623,6 +24762,127 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:TSB001A3526B")
+		(at 170.18 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21da741-ad66-4572-89f9-0716769b06f3")
+		(property "Reference" "SW5"
+			(at 172.72 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT2"
+			(at 172.72 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5396562-61b1-4311-a8d5-51561ae26f05")
+		)
+		(pin "2"
+			(uuid "4dae8ac4-3e4c-417c-aef9-1c199eee9ff8")
+		)
+		(pin "4"
+			(uuid "1c3d55f7-4e0f-4b76-b89f-dc61d1a45783")
+		)
+		(pin "3"
+			(uuid "9842e006-3e1c-4b09-ae28-5b5900d5f68a")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 160.02 0)
 		(unit 1)
@@ -24779,130 +25039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 182.88 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7040d68-0bac-4664-a715-2c2b3593fa48")
-		(property "Reference" "SW6"
-			(at 184.15 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_LEFT3"
-			(at 184.15 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 176.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 176.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 176.53 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 176.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 176.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 176.53 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "73eed157-4357-4735-9efb-23f84c423d7d")
-		)
-		(pin "1"
-			(uuid "ba48308c-4196-4eac-b566-2d3bc3732c9b")
-		)
-		(pin "2"
-			(uuid "a867be14-f70c-4c0b-ba5b-de8c01fff60c")
-		)
-		(pin "4"
-			(uuid "960d70a4-5607-4446-bc07-e062e62c9077")
-		)
-		(pin "5"
-			(uuid "91520412-9e78-49ba-93d4-03c49205e942")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 33.02 236.22 0)
 		(unit 1)
@@ -25053,130 +25189,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 370.84 228.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccd3f906-3de6-46f2-bb6e-2d5ab0596e69")
-		(property "Reference" "SW3"
-			(at 372.11 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_POWER"
-			(at 372.11 229.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 364.49 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 364.49 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 364.49 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 364.49 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 364.49 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 364.49 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ef2715c-c820-415a-a742-50282dd4379c")
-		)
-		(pin "5"
-			(uuid "eef3f911-3274-4442-8939-6995a878afb8")
-		)
-		(pin "4"
-			(uuid "226e4b96-e6fa-4765-9ca8-573aebfda65c")
-		)
-		(pin "3"
-			(uuid "d506d700-faa8-44d7-bd6a-0263e47692db")
-		)
-		(pin "2"
-			(uuid "a09da24b-b637-4c7c-8d71-d97094919de2")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -26996,130 +27008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TS-1086EV-AR03526")
-		(at 229.87 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f493aac9-08c3-4f3f-a0a7-64e41aa48399")
-		(property "Reference" "SW8"
-			(at 231.14 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_RIGHT1"
-			(at 231.14 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TS-1086EV-AR03526"
-			(at 223.52 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 223.52 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 223.52 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 223.52 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 223.52 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 223.52 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5774d5b1-34b4-4fea-8f4a-2dc4b5ef8b44")
-		)
-		(pin "1"
-			(uuid "e9bb17ce-c3b8-4a7f-b761-e1eb8294a90a")
-		)
-		(pin "2"
-			(uuid "b3d0d9c6-0361-4069-94f8-b1622e62aa41")
-		)
-		(pin "4"
-			(uuid "24fc2e36-93cb-420e-a4f0-115c8dbf5261")
-		)
-		(pin "5"
-			(uuid "938d8041-cbb1-40ac-b296-372f3197826a")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 52.07 60.96 0)
 		(unit 1)
@@ -27360,7 +27248,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 160.02 0)
+		(at 257.81 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27371,7 +27259,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7b4a98b-6664-4c71-b4fa-12c001e5f9e5")
 		(property "Reference" "#PWR062"
-			(at 255.27 166.37 0)
+			(at 257.81 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27382,7 +27270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 165.1 0)
+			(at 257.81 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27392,7 +27280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 160.02 0)
+			(at 257.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27403,7 +27291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 160.02 0)
+			(at 257.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27414,7 +27302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 160.02 0)
+			(at 257.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

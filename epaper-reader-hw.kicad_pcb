@@ -1677,286 +1677,6 @@
 			)
 		)
 	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
-		(layer "B.Cu")
-		(uuid "1c55e50a-8179-4e3d-ad56-f7ea8a3e8d2f")
-		(at 96.5 70 -90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW3"
-			(at 0 2.775 90)
-			(layer "B.SilkS")
-			(uuid "0e580604-e976-4e9b-b324-911fe3ed8dd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SW_POWER"
-			(at 0 -3.275 90)
-			(layer "B.Fab")
-			(uuid "c86c1ead-2049-4b62-9ab5-1d7819f1378f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "53a551d1-1bd2-46dc-b6eb-6d33edeb3d62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "82ae5d3f-be0e-44d2-88d0-e54eaaff26df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b56dd54b-4c39-449f-852c-aaf63b736955")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "629066bb-d84a-4ef1-831b-0176b84ceffc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5327a260-35a5-4f18-a0eb-135da5b937ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/ccd3f906-3de6-46f2-bb6e-2d5ab0596e69")
-		(sheetname "/")
-		(sheetfile "epaper-reader-hw.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2fb7b78f-0c07-490c-a9ca-e3fe63545427")
-		)
-		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "22989aa2-2e4e-480a-9d6b-90a86b43f811")
-		)
-		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3e056716-d1b4-44d1-b4f1-6596bedb74d8")
-		)
-		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "81a11e7b-3cd9-4e60-b0e5-ae6f0d6ad4e0")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "42f9788d-6fa3-47f6-adc1-2f3937d87dad")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5eda82d6-8bda-456d-b4e3-266dc7521f29")
-		)
-		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "7c016f44-6b53-4f76-9dae-b2051c87da66")
-		)
-		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "322f87b2-bc0f-4d0b-9d79-3382efd2bb23")
-		)
-		(fp_poly
-			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "606641c9-c61e-415d-aa6b-14216b4e364f")
-		)
-		(pad "1" smd rect
-			(at 1.7 0.974852 270)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
-			(pintype "passive")
-			(uuid "4d75ee52-6c0d-45e4-9325-34eacc3ee0db")
-		)
-		(pad "2" smd rect
-			(at -1.699768 0.974852 270)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "PWR_BTN_N")
-			(pintype "passive")
-			(uuid "7f23b7e7-0e0e-46b9-b52c-fcf50a42e9f7")
-		)
-		(pad "3" smd rect
-			(at 0 1.27508 270)
-			(size 1.5 1)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW3-Pad3)")
-			(pinfunction "3_3")
-			(pintype "no_connect")
-			(uuid "556391da-e5e2-4cac-b595-c709e1ee7498")
-		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW3-Pad4)")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "24fc0490-fe7c-4cb3-a533-81ddb947233f")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW3-Pad4)_1")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "2d6384ac-0edc-4ad7-9d5a-cbec255864a8")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW3-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "0991751f-d02f-4f34-95bd-f2d4780da109")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW3-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "ad7fc6ca-d6f9-4130-af9a-f7c66fe3cbc4")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
-			(offset
-				(xyz 0 -0.037418 1.648)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "1cf48a31-15c3-4fa8-b408-e3bbc5a62486")
@@ -2335,6 +2055,325 @@
 			(uuid "34c441c6-a7af-4483-9b3f-6d00b6380a45")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "epaper-reader-hw:TSB001A3526B"
+		(layer "B.Cu")
+		(uuid "23d38bde-a6f7-460e-9325-050d35e1d537")
+		(at 32.25 60 -90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW5"
+			(at 0 3.555 90)
+			(layer "B.SilkS")
+			(uuid "dacfea67-2faa-41d9-a30d-b995283d474c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SW_LEFT2"
+			(at 0 -2.575 90)
+			(layer "B.Fab")
+			(uuid "96bcc599-b493-4d6e-b683-ae173d1980f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "62b008aa-6c24-4a64-a6f3-a91458e59d81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5a396c29-353c-462a-8406-6f96397166c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0ae86b5-1acd-4a70-aa9f-af639d54513e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb938b31-14c4-4ec6-87f8-990a30fdcc52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "019ee0be-6d9b-4c68-b276-5a83cb339327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/c21da741-ad66-4572-89f9-0716769b06f3")
+		(sheetname "/")
+		(sheetfile "epaper-reader-hw.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.502 2.555)
+			(end 1.48 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "796066e5-835c-4ab7-a5e3-b62496b777d2")
+		)
+		(fp_line
+			(start 1.48 2.555)
+			(end 1.48 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "778087e0-6f31-4870-96c0-e213c5631401")
+		)
+		(fp_line
+			(start -1.502 1.574)
+			(end -1.502 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2857afab-bd87-49db-a2cf-dc52e5332d74")
+		)
+		(fp_line
+			(start 2.54 1.574)
+			(end -2.54 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3b58b1ee-b2e3-4c86-b2d9-74c852f662cf")
+		)
+		(fp_line
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3e080413-2667-4140-9f54-62d1bf46953a")
+		)
+		(fp_line
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "13d41382-d447-486a-800f-7aea2b0da82a")
+		)
+		(fp_line
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0705cd4a-6554-4f1d-9932-8e72a3f8ed72")
+		)
+		(fp_line
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b4fa90b0-5438-4695-84cf-b895ce022304")
+		)
+		(fp_line
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e3eac6ba-a46a-4ed8-9e78-fbdd2ddf0ad1")
+		)
+		(fp_circle
+			(center -1.15 0.475)
+			(end -1 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "062719a4-0bad-4132-9d7b-0321237b14a3")
+		)
+		(fp_circle
+			(center 1.15 0.475)
+			(end 1.3 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "3e8a6947-6d1d-4c9e-adb4-5d301fb5a391")
+		)
+		(fp_poly
+			(pts
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "37d01c11-8e14-4208-bdd0-373f18762984")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4c83a300-8816-442b-aff0-74102e47f2a7")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1bf95f9c-4d94-462f-94ee-3a9954797e3f")
+		)
+		(pad "1" smd rect
+			(at -2.1 -0.975 270)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "BTN_LEFT_ADC")
+			(pintype "passive")
+			(uuid "71c3e6c2-3c44-4ac6-92dd-680f3b4ae6d3")
+		)
+		(pad "2" smd rect
+			(at 2.1 -0.975 270)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(R19-Pad1)")
+			(pintype "passive")
+			(uuid "9d41477e-2cba-4ffd-89ef-91f17b22446e")
+		)
+		(pad "3" smd custom
+			(at -3.45 0.975 270)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW5-Pad3)")
+			(pinfunction "3_3")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f6d3870c-6d41-4277-9cf4-9f6980495f5f")
+		)
+		(pad "4" smd custom
+			(at 3.45 0.975 270)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW5-Pad4)")
+			(pinfunction "4_4")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "1d4274e0-c115-4559-ad9c-29af5e0fd4ea")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
+			(offset
+				(xyz 0 0.29464 0.028673)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -180)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
@@ -3185,286 +3224,6 @@
 		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1187A-B-A-B.wrl"
 			(offset
 				(xyz 0 0 0.05)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
-		(layer "B.Cu")
-		(uuid "385af88f-ccfe-4453-ad8b-227fac7822de")
-		(at 32.5 70 90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW6"
-			(at 0 2.775 90)
-			(layer "B.SilkS")
-			(uuid "c739bdab-cc49-42c9-ade2-669f37556406")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SW_LEFT3"
-			(at 0 -3.275 90)
-			(layer "B.Fab")
-			(uuid "08cadffd-4ff6-4314-807b-48aeb1174b54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7c8c62e7-2b49-4265-938d-a765391d948c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6f586565-54c2-41d1-80ab-4d397412575d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "53824ac3-401b-4722-ba1c-9efd6d744ac7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "245b1194-adc1-4fbd-90cf-535b646816cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "31c4e078-ff0d-4c40-8147-f47d47d652bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/c7040d68-0bac-4664-a715-2c2b3593fa48")
-		(sheetname "/")
-		(sheetfile "epaper-reader-hw.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "588c60d0-013f-4022-bfd1-181bd8e6085c")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "2f5e140f-3e79-4449-bf41-da7075a1b163")
-		)
-		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ff54d566-bdab-412c-b6e9-3c46dd726145")
-		)
-		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "63c8e375-ec83-4c23-acef-5238f3bb4f55")
-		)
-		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "0cf67d55-d17b-4bb9-930e-f8b94ed5cebe")
-		)
-		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a40fa0f7-efd9-472f-850e-77e4cc826b36")
-		)
-		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "2b94fe3e-68f6-40df-b303-44d53f017ffd")
-		)
-		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "e97b7ff4-37f6-43fe-87c0-a362ca65d4d0")
-		)
-		(fp_poly
-			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "ab1e4bb6-a994-4274-b45d-4efe51c55abc")
-		)
-		(pad "1" smd rect
-			(at 1.7 0.974852 90)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
-			(pintype "passive")
-			(uuid "b52d3075-6e4e-43ec-99e1-855ff7bd4727")
-		)
-		(pad "2" smd rect
-			(at -1.699768 0.974852 90)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "BTN_LEFT_ADC")
-			(pintype "passive")
-			(uuid "2e598905-b29b-413f-98b9-43c89f35ba9b")
-		)
-		(pad "3" smd rect
-			(at 0 1.27508 90)
-			(size 1.5 1)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW6-Pad3)")
-			(pinfunction "3_3")
-			(pintype "no_connect")
-			(uuid "011f50e3-8bb8-4f70-90f9-6a98c7412fcd")
-		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW6-Pad4)_1")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "bcc7c632-df4b-4265-8e7a-e4e3b7f904c3")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW6-Pad4)")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "aa280dd3-f4be-4284-9608-ae1722ef4765")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW6-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "c2017f1e-f416-4af7-aa7f-9ccfe03a2769")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW6-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "be7bca72-d191-4d11-9258-56b03e1d578d")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
-			(offset
-				(xyz 0 -0.037418 1.648)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4468,6 +4227,325 @@
 			)
 		)
 	)
+	(footprint "epaper-reader-hw:TSB001A3526B"
+		(layer "B.Cu")
+		(uuid "4c1e6555-d260-4afd-9847-1e94d949691e")
+		(at 97.12 70 90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW3"
+			(at 0 3.555 90)
+			(layer "B.SilkS")
+			(uuid "3246d5ca-0374-44f8-8eb6-ec8a4944f775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SW_POWER"
+			(at 0 -2.575 90)
+			(layer "B.Fab")
+			(uuid "661fadc5-815a-4f4e-8c45-ccbe19487174")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddc7b141-9613-457d-88a8-55546c57c097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bedddef3-e049-4a98-b48b-5420706ab936")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e90fbcb-bae0-4238-b74f-fb7e0f4fed87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6842180c-1be5-4d8f-9cc5-cbce9aa95a96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aec0768b-395a-4b5a-95fe-8ae320248652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/187a34d4-b53e-4db9-aec4-a3795d7d4e86")
+		(sheetname "/")
+		(sheetfile "epaper-reader-hw.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "96e3e268-4f4c-4236-9fe0-fa6a0386e769")
+		)
+		(fp_line
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0fa01e05-cd4a-4239-920b-ae89d004f2c9")
+		)
+		(fp_line
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "77617063-41f0-4234-b5e5-9b0af4d460a9")
+		)
+		(fp_line
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "1c192784-f264-4545-996a-d07d3fbcf8b5")
+		)
+		(fp_line
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f9483dea-fba4-4dff-ba80-a76548408213")
+		)
+		(fp_line
+			(start 2.54 1.574)
+			(end -2.54 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c9ce5ed3-3fd2-4a2c-ae40-4b0d1fab778a")
+		)
+		(fp_line
+			(start -1.502 1.574)
+			(end -1.502 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d22eb8b3-9a07-4e08-a5de-8fb9e72a0fb4")
+		)
+		(fp_line
+			(start 1.48 2.555)
+			(end 1.48 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "554ee82b-b118-475a-b4c6-8499bbd19114")
+		)
+		(fp_line
+			(start -1.502 2.555)
+			(end 1.48 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4611e41e-1a2e-4856-a786-3746cbcb04e4")
+		)
+		(fp_circle
+			(center 1.15 0.475)
+			(end 1.3 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "6801846c-4722-44ac-9f35-95d889f7a91a")
+		)
+		(fp_circle
+			(center -1.15 0.475)
+			(end -1 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "da09a3cf-7c4e-481d-8858-256c0da5d5c5")
+		)
+		(fp_poly
+			(pts
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "22d6e2b5-0a85-49dd-8323-a423acc46806")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d910fac6-5184-4941-b144-14c230775783")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2fa44b29-a9a2-4cef-a217-079d80976ee3")
+		)
+		(pad "1" smd rect
+			(at -2.1 -0.975 90)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "PWR_BTN_N")
+			(pintype "passive")
+			(uuid "f86a2538-322d-4495-86b0-d11559b6cc0e")
+		)
+		(pad "2" smd rect
+			(at 2.1 -0.975 90)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "GND")
+			(pintype "passive")
+			(uuid "4e360559-30dd-4784-9f81-c3c7e19a0636")
+		)
+		(pad "3" smd custom
+			(at -3.45 0.975 90)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW3-Pad3)")
+			(pinfunction "3_3")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "bbbb5b32-fe6a-4d9c-b325-94dd3681e809")
+		)
+		(pad "4" smd custom
+			(at 3.45 0.975 90)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW3-Pad4)")
+			(pinfunction "4_4")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "a4681f15-83da-4b0b-8275-26b03011649e")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
+			(offset
+				(xyz 0 0.29464 0.028673)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -180)
+			)
+		)
+	)
 	(footprint "epaper-reader-hw:SPM3020-1R5MA"
 		(layer "B.Cu")
 		(uuid "4e6f924a-04bb-4136-9f07-2bde68c69a1e")
@@ -5115,6 +5193,644 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "epaper-reader-hw:TSB001A3526B"
+		(layer "B.Cu")
+		(uuid "551c2a34-0d76-4fb5-966e-c29a6e076461")
+		(at 97.12 50 90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW8"
+			(at 0 3.555 90)
+			(layer "B.SilkS")
+			(uuid "217bae46-5893-40a3-9d6c-d939450945ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SW_RIGHT1"
+			(at 0 -2.575 90)
+			(layer "B.Fab")
+			(uuid "738eb66b-c881-48ea-9158-296060cfbee2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99bb3d07-7f58-404b-9fb9-c56b0b6b5f42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2d50370-42f2-43d6-8ea7-a61096afadea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5de516cf-3f36-4035-bbb1-19d07b5b1654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "050e7f69-646c-4aa7-a540-0e54a941faad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30e0adf7-b58e-4782-a507-2f1c88e02182")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/bff3dc81-0c7f-4398-a211-cdf4604c1784")
+		(sheetname "/")
+		(sheetfile "epaper-reader-hw.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e8632e5e-5017-493f-9038-e7ff3f40723a")
+		)
+		(fp_line
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "26aab98f-8015-4f85-b37d-2c513216fae5")
+		)
+		(fp_line
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3fcc624f-933e-45c0-943c-4815f998652e")
+		)
+		(fp_line
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "437c53aa-1cd6-4c71-945d-ea7cd0d55a19")
+		)
+		(fp_line
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "91467aa3-247a-4a23-992d-0298e784f0c2")
+		)
+		(fp_line
+			(start 2.54 1.574)
+			(end -2.54 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "3a0b26a4-fba6-42a8-88f4-1a37ddf14f87")
+		)
+		(fp_line
+			(start -1.502 1.574)
+			(end -1.502 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "51d21a4d-40ef-4496-ba71-ff567e48015c")
+		)
+		(fp_line
+			(start 1.48 2.555)
+			(end 1.48 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4dd9a631-f885-4fab-afcf-d0e409b214c4")
+		)
+		(fp_line
+			(start -1.502 2.555)
+			(end 1.48 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "786baf79-6f47-4c83-9088-6bf36ecc00f0")
+		)
+		(fp_circle
+			(center 1.15 0.475)
+			(end 1.3 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "03b32edf-edb8-4dd8-96a3-cb1b8e98f254")
+		)
+		(fp_circle
+			(center -1.15 0.475)
+			(end -1 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "03d069ce-7ae9-4900-b74e-744ef99d4dca")
+		)
+		(fp_poly
+			(pts
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "69e5a58d-6297-4b33-bc43-f2a1052fa4d2")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2fc76215-9ab3-433e-9746-65c3427b85f2")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eafd1db0-8758-43b8-a3bd-7cc79a385d56")
+		)
+		(pad "1" smd rect
+			(at -2.1 -0.975 90)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "BTN_RIGHT_ADC")
+			(pintype "passive")
+			(uuid "fa9ab115-35e5-4412-a4c8-66707cc2ad49")
+		)
+		(pad "2" smd rect
+			(at 2.1 -0.975 90)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(R27-Pad1)")
+			(pintype "passive")
+			(uuid "efbb1bed-c05a-443f-a334-02a0b64aeb14")
+		)
+		(pad "3" smd custom
+			(at -3.45 0.975 90)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW8-Pad3)")
+			(pinfunction "3_3")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "4dace3bf-4bb4-4b41-8ba0-04ce43a65f23")
+		)
+		(pad "4" smd custom
+			(at 3.45 0.975 90)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW8-Pad4)")
+			(pinfunction "4_4")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "48b171c5-642d-4d2a-86a6-7cf6dfda6733")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
+			(offset
+				(xyz 0 0.29464 0.028673)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -180)
+			)
+		)
+	)
+	(footprint "epaper-reader-hw:TSB001A3526B"
+		(layer "B.Cu")
+		(uuid "56ab6e9d-e7e2-452b-883a-ac4ecee240ef")
+		(at 32.25 50 -90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW4"
+			(at 0 3.555 90)
+			(layer "B.SilkS")
+			(uuid "efa2b578-9fe6-43ae-a37b-a3d8a2d7ba5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "SW_LEFT1"
+			(at 0 -2.575 90)
+			(layer "B.Fab")
+			(uuid "83ec7db8-6f9c-4471-b8ad-0295f177017a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0a4e33dc-4106-47c5-8780-39fa72643b78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf020655-3d28-4c8a-aa09-9af13902e191")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2846768"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d018dd25-b950-4b0b-b711-65935c4ebb1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "BZCN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a94cd2ac-d939-4408-b040-a4ff6f36797e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a655bb1-4121-4671-bb05-2c79ce135c5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/4119f3b4-24cb-4733-b4cc-31c72d4c65f0")
+		(sheetname "/")
+		(sheetfile "epaper-reader-hw.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.502 2.555)
+			(end 1.48 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "44f9aec4-be40-4d0e-89ba-57e59d2b5284")
+		)
+		(fp_line
+			(start 1.48 2.555)
+			(end 1.48 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "80a19417-f636-457f-a53d-54d08941e48e")
+		)
+		(fp_line
+			(start -1.502 1.574)
+			(end -1.502 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "48ccd8ee-b242-40a5-8ef3-18baf1f44059")
+		)
+		(fp_line
+			(start 2.54 1.574)
+			(end -2.54 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "db4d12c3-8d79-4d47-9e18-b4c567994ea2")
+		)
+		(fp_line
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9806a47c-1ef1-4f3b-a67e-3ed277d4cd36")
+		)
+		(fp_line
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "984fbf25-9437-47ef-8544-7d7dd4cadc8d")
+		)
+		(fp_line
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2d66dd1b-90d6-4a43-b7c4-8e0e884b5907")
+		)
+		(fp_line
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f50cf13f-5ce0-47a1-9361-c0ef7038f58f")
+		)
+		(fp_line
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d3e2c6b7-2402-4210-a3e7-0c52ef718468")
+		)
+		(fp_circle
+			(center -1.15 0.475)
+			(end -1 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "80b4135d-63c1-4987-83a6-652d2c3b8ddf")
+		)
+		(fp_circle
+			(center 1.15 0.475)
+			(end 1.3 0.475)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "77ec3338-160b-40e5-b30a-fdbc8c6a69f5")
+		)
+		(fp_poly
+			(pts
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "7e30ce45-0d27-4068-bee1-38208a85914b")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fe79d580-3fb6-49bf-8e77-0c4e06bd59ca")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "548d679f-c7de-4fb2-91de-775ec451e4b7")
+		)
+		(pad "1" smd rect
+			(at -2.1 -0.975 270)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "BTN_LEFT_ADC")
+			(pintype "passive")
+			(uuid "34d848ff-5ab2-4aa0-bced-fb1f29f7f6eb")
+		)
+		(pad "2" smd rect
+			(at 2.1 -0.975 270)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "Net-(R18-Pad1)")
+			(pintype "passive")
+			(uuid "90188dc6-853d-4f88-b691-2d13493c56df")
+		)
+		(pad "3" smd custom
+			(at -3.45 0.975 270)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW4-Pad3)")
+			(pinfunction "3_3")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "506b3fc6-efbc-412d-8317-aadca5060c56")
+		)
+		(pad "4" smd custom
+			(at 3.45 0.975 270)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW4-Pad4)")
+			(pinfunction "4_4")
+			(pintype "no_connect")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ad42d508-fcda-4077-9e75-163a7269be17")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
+			(offset
+				(xyz 0 0.29464 0.028673)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -9116,286 +9832,6 @@
 			)
 		)
 	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
-		(layer "B.Cu")
-		(uuid "8b29336a-68bc-4866-a858-91830957e34e")
-		(at 96.5 50 -90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW8"
-			(at 0 2.775 90)
-			(layer "B.SilkS")
-			(uuid "7a2d2b05-431d-466e-8422-806b7c33a678")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SW_RIGHT1"
-			(at 0 -3.275 90)
-			(layer "B.Fab")
-			(uuid "54f5c674-ee61-44c0-9d55-72adfcebda31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "293f5bff-99b0-4d74-a052-87a4e87f2b7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "28723ac6-cc31-4bd9-b822-d8d5115b47f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "629c24f0-0d50-4287-9f82-6bccccbd7443")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f235236e-e74b-4add-a444-2d1b3bb82bbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "599551d0-4c32-4a19-add0-833924ff4b3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/f493aac9-08c3-4f3f-a0a7-64e41aa48399")
-		(sheetname "/")
-		(sheetfile "epaper-reader-hw.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c3e83eae-44ed-4c2e-ad98-017f5e0878ec")
-		)
-		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "cce26f77-1733-4e4b-93a3-eb3ff6be350f")
-		)
-		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5979ce71-9936-43f8-8c9f-848712e2dc90")
-		)
-		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a28c4b55-39bf-45d0-8f5b-9efdfa42409f")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f61f43b3-c467-4e03-ab67-2e1d13c2d6ae")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d3277ce7-44ab-410d-a0d6-c29d8ad9c20b")
-		)
-		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "7459bfaa-223a-442d-b7bc-4e7d04a536b2")
-		)
-		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "63119824-186b-43a3-9843-1d5fccdb9d8d")
-		)
-		(fp_poly
-			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "861af8b4-f39b-418e-9781-92be04e71a29")
-		)
-		(pad "1" smd rect
-			(at 1.7 0.974852 270)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(R27-Pad1)")
-			(pintype "passive")
-			(uuid "f49360ab-90fb-4ca1-9eed-9ff009be78d7")
-		)
-		(pad "2" smd rect
-			(at -1.699768 0.974852 270)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "BTN_RIGHT_ADC")
-			(pintype "passive")
-			(uuid "fc1d7693-4bf4-4a32-bf59-3f8f49cf8030")
-		)
-		(pad "3" smd rect
-			(at 0 1.27508 270)
-			(size 1.5 1)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW8-Pad3)")
-			(pinfunction "3_3")
-			(pintype "no_connect")
-			(uuid "64eade0e-4c28-4b3a-8ef3-3f7d7a0f2c5e")
-		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW8-Pad4)")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "8cc2edf7-715c-43f2-a41e-9dd3a82c3821")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW8-Pad4)_1")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "b656b1d6-c89b-4070-8532-1dbfa0f78b45")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW8-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "cf0ea628-69fb-4099-bca2-ab30e0fb2f5d")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW8-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "4500eb63-b59a-4189-80f6-f6794dada070")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
-			(offset
-				(xyz 0 -0.037418 1.648)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "B.Cu")
 		(uuid "8c6c9f19-1fc9-4ca7-b952-72654b2c6805")
@@ -12554,16 +12990,16 @@
 			)
 		)
 	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
+	(footprint "epaper-reader-hw:TSB001A3526B"
 		(layer "B.Cu")
-		(uuid "b2f42ed6-60da-48ad-9ff0-f401b0f787cd")
-		(at 96.5 60 -90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW9"
-			(at 0 2.775 90)
+		(uuid "b3d6d0c0-e8a8-48e9-b7ca-50faeb449c68")
+		(at 32.25 70 -90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW6"
+			(at 0 3.555 90)
 			(layer "B.SilkS")
-			(uuid "82c2d4e0-8210-45b4-8fdd-cff0f9f28ae0")
+			(uuid "b23fbf2f-4266-47e7-9d8a-3c771d1e9f26")
 			(effects
 				(font
 					(size 1 1)
@@ -12572,10 +13008,10 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_RIGHT2"
-			(at 0 -3.275 90)
+		(property "Value" "SW_LEFT3"
+			(at 0 -2.575 90)
 			(layer "B.Fab")
-			(uuid "6009da27-d87e-47c2-95b0-2ae0a2d9bc1f")
+			(uuid "15297d00-ff31-4f48-b7a2-4bda5de6e5fd")
 			(effects
 				(font
 					(size 1 1)
@@ -12584,11 +13020,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f3de5f02-b340-4482-89d0-0d1cacb1cfd4")
+			(uuid "f4b077a8-466a-44ff-936e-b6932c2f131b")
 			(effects
 				(font
 					(size 1 1)
@@ -12597,11 +13033,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c4bcd3fe-aa02-4e0f-b7d0-1ca0a740fcb2")
+			(uuid "d2b3fe96-8303-44a6-a72a-355dce6adeeb")
 			(effects
 				(font
 					(size 1 1)
@@ -12610,11 +13046,11 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C720474"
+		(property "LCSC" "C2846768"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "376c2e2c-c98d-4a8c-8a4e-d8aa0866178c")
+			(uuid "327bd35c-1f6c-4ae4-9632-5db4c6184454")
 			(effects
 				(font
 					(size 1 1)
@@ -12623,26 +13059,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "637de722-96ac-4955-93c0-42a0df3b8e57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
+		(property "Manufacturer" "BZCN"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "997c5d50-9584-4dee-8d1d-8efbf29db24b")
+			(uuid "8d2c52e6-34cb-4661-8775-b788b8ca0bfe")
 			(effects
 				(font
 					(size 1 1)
@@ -12651,102 +13073,146 @@
 				(justify mirror)
 			)
 		)
-		(path "/97eee927-285d-4042-82ab-2b82777ec1ec")
+		(property "Manufacturer Part" "TSB001A3526B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "324fe8c7-b37f-4cf3-a0e8-bd1f86e1e732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/0b78ccce-9f9e-42e0-8a0d-98a9fcd72460")
 		(sheetname "/")
 		(sheetfile "epaper-reader-hw.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "4" "2" "3" "5")
+				(pins "1" "4" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
+			(start -1.502 2.555)
+			(end 1.48 2.555)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9bb0598a-6344-4d14-a6f7-891671882713")
+			(uuid "98cdb230-c65b-4199-bd27-d2b462ed2850")
 		)
 		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
+			(start 1.48 2.555)
+			(end 1.48 1.574)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c57ac281-dd7a-462e-85c3-7edc4d94ddfb")
+			(uuid "c10e3c69-c1e0-491b-b0a3-6e9e9c7f4a96")
 		)
 		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
+			(start -1.502 1.574)
+			(end -1.502 2.555)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f7d893fc-753b-42e1-9ef0-ace34e35178f")
+			(uuid "929718f2-389e-4886-bf53-b5a615f4c6b9")
 		)
 		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
+			(start 2.54 1.574)
+			(end -2.54 1.574)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "43011832-e10b-479b-b930-1df898efe986")
+			(uuid "d5faa97e-07f4-4994-92ca-8b7a5ef3a408")
 		)
 		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b4ea0723-3143-4f76-ae6a-202860fc6eed")
+			(uuid "e23739c1-507e-46e6-9cc7-ba67677b537d")
 		)
 		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b3061bca-766e-4af2-b948-fa007861f4f2")
+			(uuid "ee65c284-7286-46e8-9e00-1dfc96712ac7")
+		)
+		(fp_line
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f6bcfccf-9b98-4050-9367-6e63fae728e1")
+		)
+		(fp_line
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5bc3cd44-5f56-4c23-9641-b6e311f76da6")
+		)
+		(fp_line
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5270f4fc-0aa7-47d8-8d8f-24df9e8edd58")
 		)
 		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
+			(center -1.15 0.475)
+			(end -1 0.475)
 			(stroke
-				(width 0.5)
+				(width 0.3)
 				(type solid)
 			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "28ee39d6-069f-4104-bbe8-bc2cbbd3201e")
+			(fill no)
+			(layer "B.Fab")
+			(uuid "2df04784-96e9-42a4-acf5-cb7afac58af4")
 		)
 		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
+			(center 1.15 0.475)
+			(end 1.3 0.475)
 			(stroke
-				(width 0.5)
+				(width 0.3)
 				(type solid)
 			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "1c1a6799-fa71-4d4b-84ee-3f91f87cb724")
+			(fill no)
+			(layer "B.Fab")
+			(uuid "18e0098e-c37b-4f78-b27d-51a531c9d6bf")
 		)
 		(fp_poly
 			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
 			)
 			(stroke
 				(width 0)
@@ -12754,83 +13220,92 @@
 			)
 			(fill yes)
 			(layer "B.Fab")
-			(uuid "c31e2558-e6b5-4e50-8a36-e3639678da37")
+			(uuid "7c89f087-819b-43eb-b974-320c71c4f99a")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4cab6ba5-1396-4a0c-9c92-335bf4570613")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 270)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2c3da644-f9c7-4438-957a-168bb71c949c")
 		)
 		(pad "1" smd rect
-			(at 1.7 0.974852 270)
-			(size 0.7 1.2)
+			(at -2.1 -0.975 270)
+			(size 1.2 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "BTN_LEFT_ADC")
+			(pintype "passive")
+			(uuid "6078c290-0dc6-4eae-adad-249f7440ee00")
+		)
+		(pad "2" smd rect
+			(at 2.1 -0.975 270)
+			(size 1.2 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pintype "passive")
-			(uuid "93f27b14-24c4-4430-81b3-b72a859505ba")
+			(uuid "d79806f1-5219-47a7-8fb1-f7b58e56c0fa")
 		)
-		(pad "2" smd rect
-			(at -1.699768 0.974852 270)
-			(size 0.7 1.2)
+		(pad "3" smd custom
+			(at -3.45 0.975 270)
+			(size 0.1 0.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "BTN_RIGHT_ADC")
-			(pintype "passive")
-			(uuid "86d417d2-8049-46ab-a73f-cebab95233a0")
-		)
-		(pad "3" smd rect
-			(at 0 1.27508 270)
-			(size 1.5 1)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW9-Pad3)")
+			(net "unconnected-(SW6-Pad3)")
 			(pinfunction "3_3")
 			(pintype "no_connect")
-			(uuid "2c1ac6f5-00da-4801-832c-4b98be5904fb")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "3b15963c-6435-4158-9f14-e71247cf5e74")
 		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW9-Pad4)")
+		(pad "4" smd custom
+			(at 3.45 0.975 270)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW6-Pad4)")
 			(pinfunction "4_4")
 			(pintype "no_connect")
-			(uuid "0c70f2e7-dbfd-4dd4-83e1-2d40b84446a3")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW9-Pad4)_1")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "7d81a143-228a-423f-9399-51f2d45f1535")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 270)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW9-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "670d8ecc-057d-4245-ba44-099a9f8fb274")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 270)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW9-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "a1d3729c-7dee-4b75-8b4f-f0bc56d2d847")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "6b86bfa6-85a1-4588-917b-d1488615ebfc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
 			(offset
-				(xyz 0 -0.037418 1.648)
+				(xyz 0 0.29464 0.028673)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -13641,16 +14116,16 @@
 			)
 		)
 	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
+	(footprint "epaper-reader-hw:TSB001A3526B"
 		(layer "B.Cu")
-		(uuid "c37cf38f-1d70-4b39-b4da-500db454cda6")
-		(at 32.1 50 90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW4"
-			(at 0 2.775 90)
+		(uuid "ca2c77b4-8906-4168-9b1b-78a9f9ccb79c")
+		(at 97.12 60 90)
+		(descr "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS")
+		(tags "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B")
+		(property "Reference" "SW9"
+			(at 0 3.555 90)
 			(layer "B.SilkS")
-			(uuid "e1214e16-fe0d-4189-a708-0c26eb4e67ff")
+			(uuid "52f3c0fa-4fce-4eef-bc5c-236c1f177085")
 			(effects
 				(font
 					(size 1 1)
@@ -13659,10 +14134,10 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SW_LEFT1"
-			(at 0 -3.275 90)
+		(property "Value" "SW_RIGHT2"
+			(at 0 -2.575 90)
 			(layer "B.Fab")
-			(uuid "47c658f2-014d-466d-90da-68153e4db213")
+			(uuid "d0b73d70-9dfe-489e-a9d7-e4c378d28ede")
 			(effects
 				(font
 					(size 1 1)
@@ -13671,11 +14146,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c1af81a4-b776-494c-9cbf-3ed313a4f092")
+			(uuid "cff8f10b-5c88-4291-98fb-e4e18f0c2c3c")
 			(effects
 				(font
 					(size 1 1)
@@ -13684,11 +14159,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
+		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "81f73536-00b5-4e05-8bf4-e7a9102eb8e1")
+			(uuid "37eceda2-79dd-4925-8b00-cbd048b78549")
 			(effects
 				(font
 					(size 1 1)
@@ -13697,11 +14172,11 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C720474"
+		(property "LCSC" "C2846768"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "466307f1-ebe1-4897-8e89-c4e6e851e8c6")
+			(uuid "ded4984e-03a4-4575-ac6a-ae4665d8a821")
 			(effects
 				(font
 					(size 1 1)
@@ -13710,12 +14185,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
+		(property "Manufacturer" "BZCN"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "aedcf9b8-111a-41a4-993c-77384a4a794f")
+			(uuid "28723732-8a0a-47c1-a248-bca57245c62d")
 			(effects
 				(font
 					(size 1 1)
@@ -13724,12 +14199,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
+		(property "Manufacturer Part" "TSB001A3526B"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "086d1fa5-c4f0-4745-be24-6c961a9d5d2d")
+			(uuid "ee1624a8-593e-4834-88aa-6805fa0f4919")
 			(effects
 				(font
 					(size 1 1)
@@ -13738,102 +14213,132 @@
 				(justify mirror)
 			)
 		)
-		(path "/123eb31b-a622-42df-ba87-b09ff4fc30b7")
+		(path "/1f19ddfc-65d5-46b6-b69a-100d0b170466")
 		(sheetname "/")
 		(sheetfile "epaper-reader-hw.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "4" "2" "3" "5")
+				(pins "1" "4" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
+			(start 3.81 -1.093)
+			(end 3.81 -0.006)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "e672a913-7bd2-4ee2-9379-584a61d92829")
+			(uuid "2e726a20-01f9-4acf-b7a6-dcc4f5685b2d")
 		)
 		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
+			(start 2.93116 -1.093)
+			(end 3.81 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "817d859f-d2d8-4480-b215-a530dc7734c4")
+			(uuid "f6f34799-a575-4a2d-a9ce-66962c79796a")
 		)
 		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
+			(start -1.269 -1.093)
+			(end 1.269 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "da5d03ea-2423-487d-9019-b4114b316c7a")
+			(uuid "d120640e-86fc-42a2-a8ea-15dc88790de3")
 		)
 		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
+			(start -3.81 -1.093)
+			(end -2.93116 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "1ecb6a8c-6465-45c3-a183-21b89e2b6b7a")
+			(uuid "a0c29864-6725-40cd-bb61-6d1073a7f1e5")
 		)
 		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
+			(start -3.81 0.05)
+			(end -3.81 -1.093)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "209ccc49-50d4-4c70-8fb0-43580a0c690b")
+			(uuid "dda7dc0c-24fd-4eff-8806-0e8eb013216a")
 		)
 		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
+			(start 2.54 1.574)
+			(end -2.54 1.574)
 			(stroke
 				(width 0.254)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "504344f2-76f1-402f-8aee-2bef74cdc7dd")
+			(uuid "cdb3cdd2-382e-4f1d-80cc-e5899e8b4e06")
+		)
+		(fp_line
+			(start -1.502 1.574)
+			(end -1.502 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6db26e02-8116-4657-8480-c820c4b3bebe")
+		)
+		(fp_line
+			(start 1.48 2.555)
+			(end 1.48 1.574)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7ace99cd-6f3b-40d3-91ba-0006652681b1")
+		)
+		(fp_line
+			(start -1.502 2.555)
+			(end 1.48 2.555)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "726049a9-2cf0-4152-a17d-deb9be91355f")
 		)
 		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
+			(center 1.15 0.475)
+			(end 1.3 0.475)
 			(stroke
-				(width 0.5)
+				(width 0.3)
 				(type solid)
 			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "df45bb76-9f75-4a90-b73c-729a689ae9dd")
+			(fill no)
+			(layer "B.Fab")
+			(uuid "b8c55e30-89cf-4f99-83c6-c9a3a2dcc001")
 		)
 		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
+			(center -1.15 0.475)
+			(end -1 0.475)
 			(stroke
-				(width 0.5)
+				(width 0.3)
 				(type solid)
 			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "9023f670-7eb4-4cc9-95a6-352f5c3714b2")
+			(fill no)
+			(layer "B.Fab")
+			(uuid "c1afa1e3-460a-483f-b211-f1b95931a2a4")
 		)
 		(fp_poly
 			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
+				(xy 1.47 1.615) (xy 1.47 2.515) (xy -1.43 2.515) (xy -1.44 2.525) (xy -1.44 1.615)
 			)
 			(stroke
 				(width 0)
@@ -13841,83 +14346,92 @@
 			)
 			(fill yes)
 			(layer "B.Fab")
-			(uuid "db671b2e-5581-4810-9512-8d942d440247")
+			(uuid "67547889-188b-4d00-85c4-22c438e1c411")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f15b7200-e8f1-4c3e-b6dd-a94153122cde")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.15 0.475 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5f69ac82-8601-4506-b068-1b4c4d3b2120")
 		)
 		(pad "1" smd rect
-			(at 1.7 0.974852 90)
-			(size 0.7 1.2)
+			(at -2.1 -0.975 90)
+			(size 1.2 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(R18-Pad1)")
+			(net "BTN_RIGHT_ADC")
 			(pintype "passive")
-			(uuid "40d917c5-3ae3-4a13-b473-e48ef7a78d6a")
+			(uuid "758a598b-45b7-4a71-a683-8741bd0e029b")
 		)
 		(pad "2" smd rect
-			(at -1.699768 0.974852 90)
-			(size 0.7 1.2)
+			(at 2.1 -0.975 90)
+			(size 1.2 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "BTN_LEFT_ADC")
+			(net "GND")
 			(pintype "passive")
-			(uuid "600fa755-6319-49b5-a027-adf944ba5a2b")
+			(uuid "e9432863-1b77-4622-8a9c-a0b3403e6011")
 		)
-		(pad "3" smd rect
-			(at 0 1.27508 90)
-			(size 1.5 1)
+		(pad "3" smd custom
+			(at -3.45 0.975 90)
+			(size 0.1 0.1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW4-Pad3)")
+			(net "unconnected-(SW9-Pad3)")
 			(pinfunction "3_3")
 			(pintype "no_connect")
-			(uuid "26fd1a1c-4f08-4759-bd33-bc1de2f575a7")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.75 0.75) (xy -0.75 0.75) (xy -0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy 0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "c19bedb3-9678-45f8-8b77-aa6b6dc3d7e6")
 		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW4-Pad4)_1")
+		(pad "4" smd custom
+			(at 3.45 0.975 90)
+			(size 0.1 0.1)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(net "unconnected-(SW9-Pad4)")
 			(pinfunction "4_4")
 			(pintype "no_connect")
-			(uuid "7865fd9c-4859-4fa3-9f7c-38e7e158cbdf")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW4-Pad4)")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "38c443e9-a534-4876-adbf-bfb4ff89e27f")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW4-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "ab112284-82e2-4e6f-8cd6-2634b9a65588")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW4-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "c357b1ba-a9d2-468d-bd40-cf26ad9af1b2")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.75 0.75) (xy 0.75 0.75) (xy 0.75 -0.75) (xy 0 -0.75) (xy 0 0) (xy -0.75 0)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "1909d299-ead1-40ea-a7e3-b634b6cf1418")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
+		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TSB001A3526B.wrl"
 			(offset
-				(xyz 0 -0.037418 1.648)
+				(xyz 0 0.29464 0.028673)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -19314,286 +19828,6 @@
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "epaper-reader-hw:TS-1086EV-AR03526"
-		(layer "B.Cu")
-		(uuid "f8918adb-3573-4934-ab27-6d01afc8cf81")
-		(at 32.5 60 90)
-		(descr "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS")
-		(tags "C720474 SW-SMD_TS-1086EV-AR03526 TS-1086EV-AR03526 XUNPU")
-		(property "Reference" "SW5"
-			(at 0 2.775 90)
-			(layer "B.SilkS")
-			(uuid "d35974f4-3b2d-4c1e-9a11-8acee0e7d1df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SW_LEFT2"
-			(at 0 -3.275 90)
-			(layer "B.Fab")
-			(uuid "3e6808d0-2f1b-4f26-bb2f-40cb5bad0a1c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2008122008_XUNPU-TS-1086EV-AR03526_C720474.pdf"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "67de4030-e824-43bf-82e7-7b7a7b2fa74c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1.82mm 12V 2.6N 3.5mm 4.6mm 50,000 cycles 50mA Black Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.6x1.8mm Tactile Switches ROHS"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2f0a9f99-79c7-4930-b9c9-0c46ae7a8be6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C720474"
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bd08fde5-b627-47e9-b264-8cc52bffd0a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6c8eeebb-ffa0-4f31-a5de-f70cfd670d30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer Part" "TS-1086EV-AR03526"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "841ccce6-8228-4018-a4cf-f79523a2bab6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(path "/7b37627d-7964-4db6-ac7c-1cf4348d2b30")
-		(sheetname "/")
-		(sheetfile "epaper-reader-hw.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "2" "3" "5")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.9 -2.275)
-			(end -0.9 -2.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "1a770b9a-666d-471f-878f-eeab2397eb8e")
-		)
-		(fp_line
-			(start 0.9 -2.275)
-			(end 0.9 -1.075)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "080f6617-6440-4678-81aa-ec23f83103d3")
-		)
-		(fp_line
-			(start -0.9 -2.275)
-			(end -0.9 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "d70d8492-9929-4340-9d5c-e2cf56cf8467")
-		)
-		(fp_line
-			(start 1.319 -1.025)
-			(end -1.318844 -1.025)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "4529fc89-0a5f-43ea-917a-7840be3b71c1")
-		)
-		(fp_line
-			(start 1.354861 1.275)
-			(end 0.981151 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5c9279c3-29e6-4186-ba8d-1d383b1582a5")
-		)
-		(fp_line
-			(start -0.981126 1.275)
-			(end -1.282852 1.275)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "3bd8b654-5122-4e40-8730-56c62ca3d9b1")
-		)
-		(fp_circle
-			(center 2.15 -0.32512)
-			(end 2.4 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "34fc9600-bb8d-4d28-bdf3-ed64b958a2d4")
-		)
-		(fp_circle
-			(center -2.15 -0.32512)
-			(end -1.900174 -0.32512)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "e5f483ae-fe12-45f1-8fd7-b834a2886230")
-		)
-		(fp_poly
-			(pts
-				(xy -1.000176 -1.057504) (xy 1.013 -1.057504) (xy 0.82484 -2.271) (xy -0.816737 -2.27584)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "7d87b661-5f3d-4c47-a013-62bd3259bcbd")
-		)
-		(pad "1" smd rect
-			(at 1.7 0.974852 90)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "Net-(R19-Pad1)")
-			(pintype "passive")
-			(uuid "4b38d628-142d-4978-bc18-8df28b13f654")
-		)
-		(pad "2" smd rect
-			(at -1.699768 0.974852 90)
-			(size 0.7 1.2)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "BTN_LEFT_ADC")
-			(pintype "passive")
-			(uuid "33ebd97c-3622-499c-9ba7-9373a0ba1b42")
-		)
-		(pad "3" smd rect
-			(at 0 1.27508 90)
-			(size 1.5 1)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW5-Pad3)")
-			(pinfunction "3_3")
-			(pintype "no_connect")
-			(uuid "05ae1433-2cf0-4d57-b8a9-3458e88c345d")
-		)
-		(pad "4" thru_hole oval
-			(at -2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW5-Pad4)_1")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "7e9a3200-2130-49ad-8ae6-1bd61add3bbf")
-		)
-		(pad "4" smd rect
-			(at -2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW5-Pad4)")
-			(pinfunction "4_4")
-			(pintype "no_connect")
-			(uuid "0a18c1ee-b5d4-42fa-bfe0-cda9c26b4b73")
-		)
-		(pad "5" smd rect
-			(at 2.1 -1.27508 90)
-			(size 1.1 0.7)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW5-Pad5)")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "b6ee4a08-c710-4675-8b74-f05b5ed89712")
-		)
-		(pad "5" thru_hole oval
-			(at 2.15 -0.32512 90)
-			(size 1.2 1.2)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW5-Pad5)_1")
-			(pinfunction "5_5")
-			(pintype "no_connect")
-			(uuid "fc47b3d1-0571-4a46-b93e-bdfd150eabea")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
-			(offset
-				(xyz 0 -0.037418 1.648)
 			)
 			(scale
 				(xyz 1 1 1)
