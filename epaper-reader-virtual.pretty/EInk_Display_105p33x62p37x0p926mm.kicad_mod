@@ -1,0 +1,109 @@
+(footprint "EInk_Display_105p33x62p37x0p926mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Virtual mechanical e-ink display volume, 105.33 x 62.37 x 0.926 mm")
+	(tags "virtual mechanical eink display screen ghost 105.33x62.37x0.926")
+	(property "Reference" "DMECH"
+		(at 0 1.5 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EInk_Display_105p33x62p37x0p926mm"
+		(at 0 -63.87 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Virtual mechanical e-ink display volume, 105.33 x 62.37 x 0.926 mm; excluded from BOM and position files"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start 0 0)
+		(end 105.33 -62.37)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f4ee5ba5-1840-4bf6-b40c-abd2176406a1")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "72cbf001-30a9-4475-9117-2174bf0c46f3")
+		(name "eink_display_no_holes_105p33x62p37mm")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 0) (xy 105.33 0) (xy 105.33 -62.37) (xy 0 -62.37)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/epaper-reader-virtual.3dshapes/EInk_Display_105p33x62p37x0p926mm_FrontTopLeft.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(embedded_fonts no)
+)

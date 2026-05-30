@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 2.0,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -148,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.5,
@@ -847,7 +847,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "CN1,SW3-9",
+    "used_designators": "BMECH1,DMECH1,CN1,SW3-9,USBC1,U5,L2",
     "variants": []
   },
   "sheets": [

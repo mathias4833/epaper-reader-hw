@@ -1,4 +1,6 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "epaper-reader-hw") (type "KiCad") (uri "${KIPRJMOD}/epaper-reader-hw.kicad_sym") (options "") (descr ""))
+	(lib (name "epaper-reader-virtual") (type "KiCad") (uri "${KIPRJMOD}/epaper-reader-virtual.kicad_sym") (options "") (descr "Virtual mechanical/non-assembled parts"))
+  (lib (name "JLCImport")(type "KiCad")(uri "${KIPRJMOD}/JLCImport.kicad_sym")(options "")(descr ""))
 )

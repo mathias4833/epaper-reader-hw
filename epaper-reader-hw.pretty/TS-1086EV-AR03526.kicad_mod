@@ -35,8 +35,8 @@
   (pad "1" smd rect (at 1.7 -0.974852) (size 0.7 1.2) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "9a727248-ae6e-48cd-bc20-afd73189c922"))
   (pad "4" smd rect (at -2.1 1.27508) (size 1.1 0.7) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "ac5cbfb5-0267-410c-b96c-2d031fa626d8"))
   (pad "5" smd rect (at 2.1 1.27508) (size 1.1 0.7) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "bb685e54-73fe-44ed-846b-97bc4e38b2cb"))
-  (pad "5" thru_hole oval (at 2.15 0.32512) (size 1 1) (drill 0.9) (layers "*.Cu" "*.Mask") (uuid "84df60c5-2e19-46d6-9a01-535928d44a89"))
-  (pad "4" thru_hole oval (at -2.15 0.32512) (size 1 1) (drill 0.9) (layers "*.Cu" "*.Mask") (uuid "e41d9b88-7115-4fb3-bfde-e1b09402ed06"))
+  (pad "5" thru_hole oval (at 2.15 0.32512) (size 1.2 1.2) (drill 0.9) (layers "*.Cu" "*.Mask") (uuid "84df60c5-2e19-46d6-9a01-535928d44a89"))
+  (pad "4" thru_hole oval (at -2.15 0.32512) (size 1.2 1.2) (drill 0.9) (layers "*.Cu" "*.Mask") (uuid "e41d9b88-7115-4fb3-bfde-e1b09402ed06"))
   (model "${KIPRJMOD}/epaper-reader-hw.3dshapes/TS-1086EV-AR03526.step"
     (offset (xyz 0 -0.037418 1.648))
     (scale (xyz 1 1 1))
