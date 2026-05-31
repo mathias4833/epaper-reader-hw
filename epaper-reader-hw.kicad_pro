@@ -847,7 +847,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "BMECH1,DMECH1,CN1,SW3-9,USBC1,U5,L2",
+    "used_designators": "R32,R38-42,C30-31,#PWR13,#PWR57,#PWR63-64,#PWR70-71,U6-7",
     "variants": []
   },
   "sheets": [
