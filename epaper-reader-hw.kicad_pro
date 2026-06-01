@@ -26,11 +26,11 @@
           "text_position": 0,
           "units_format": 0
         },
-        "fab_line_width": 0.1,
+        "fab_line_width": 0.5,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_size_h": 0.5,
+        "fab_text_size_v": 0.5,
+        "fab_text_thickness": 0.125,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 2.0,
+          "border_hatch_pitch": 1.0,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -847,7 +847,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "Card1",
+    "used_designators": "U2,U6,TP3,TP11,H1-4",
     "variants": []
   },
   "sheets": [

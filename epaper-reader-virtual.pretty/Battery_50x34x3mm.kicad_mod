@@ -66,7 +66,7 @@
 	(zone
 		(layers "F.Cu" "B.Cu")
 		(uuid "5714d99d-2add-46de-8964-caf89492f751")
-		(name "battery_keepout_52x36mm")
+		(name "battery_keepout_56x40mm")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)
@@ -90,7 +90,7 @@
 		)
 		(polygon
 			(pts
-				(xy -26 -18) (xy 26 -18) (xy 26 18) (xy -26 18)
+				(xy -28 -20) (xy 28 -20) (xy 28 20) (xy -28 20)
 			)
 		)
 	)
