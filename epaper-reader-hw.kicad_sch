@@ -9416,7 +9416,7 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 64.77) (xy 394.97 64.77)
+			(xy 394.97 64.77) (xy 411.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -10083,16 +10083,6 @@
 			(type default)
 		)
 		(uuid "47d9c5a4-b828-4e39-b9c3-0ad6c2946dd5")
-	)
-	(wire
-		(pts
-			(xy 411.48 64.77) (xy 406.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4815cd81-e933-4876-865f-d1e15eb7b0e7")
 	)
 	(wire
 		(pts
@@ -17597,7 +17587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18816,7 +18806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 124.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -22553,7 +22543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 449.58 349.758 90)
 			(hide yes)
 			(show_name no)
@@ -27925,85 +27915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 402.59 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bba6cf56-82f2-47af-85ff-ebd9e0f290bd")
-		(property "Reference" "R37"
-			(at 402.59 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 402.59 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 402.59 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 402.59 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 402.59 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a945b7ec-36c9-4715-a1c7-02ed884f66b9")
-		)
-		(pin "1"
-			(uuid "f4515765-52a0-447f-bfe7-a25e022674dc")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 274.32 0)
 		(unit 1)
@@ -29226,7 +29137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 52.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -30202,7 +30113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -31856,7 +31767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 133.35 100.33 0)
 			(hide yes)
 			(show_name no)
