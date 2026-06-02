@@ -3644,7 +3644,7 @@
 	(footprint "epaper-reader-hw:TS-1187A-B-A-B"
 		(layer "B.Cu")
 		(uuid "33e5aef5-108c-40a3-aeed-f1559a4b07f4")
-		(at 49 44 180)
+		(at 38.5 35.4 180)
 		(descr "-30℃~+85℃ 1.5mm 1.6N 100,000 cycles 12V 5.1mm 5.1mm 50mA Gold No Round Button SPST Surface Mount,Vertical Without Bracket SMD-4P,5.1x5.1mm Tactile Switches ROHS")
 		(tags "C318884 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5 TS-1187A-B-A-B XKB Connection")
 		(property "Reference" "SW2"
@@ -18969,7 +18969,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "db3cb3e5-23d0-4bf8-bd3d-4c3cd65c2d9e")
-		(at 44.25 43.75 90)
+		(at 44.25 38.75 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
