@@ -5619,7 +5619,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "epaper-reader-hw:FPC-05F-24PH20"
+		(symbol "epaper-reader-hw:FPC-05FB-24PH20"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5638,8 +5638,8 @@
 					)
 				)
 			)
-			(property "Value" "FPC-05F-24PH20"
-				(at 5.08 31.75 0)
+			(property "Value" "FPC-05FB-24PH20"
+				(at 3.81 31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5648,7 +5648,7 @@
 					)
 				)
 			)
-			(property "Footprint" "epaper-reader-hw:FPC-05F-24PH20"
+			(property "Footprint" "epaper-reader-hw:FPC-05FB-24PH20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109221030_XUNPU-FPC-05F-24PH20_C2856805.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109221030_XUNPU-FPC-05FB-24PH20_C2856831.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5670,7 +5670,7 @@
 					)
 				)
 			)
-			(property "Description" "-25℃~+85℃ 0.3mm 0.5mm 24P 2mm 500mA 50V Bottom Contact Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+			(property "Description" "-25℃~+85℃ 0.3mm 0.5mm 24P 2mm 500mA 50V Double-Sided Contacts, Top and Bottom Entry Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5681,7 +5681,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2856805"
+			(property "LCSC" "C2856831"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5692,7 +5692,7 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C2856805"
+			(property "LCSC Part #" "C2856831"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5714,7 +5714,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "FPC-05F-24PH20"
+			(property "Manufacturer Part" "FPC-05FB-24PH20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5725,7 +5725,7 @@
 					)
 				)
 			)
-			(property "MPN" "FPC-05F-24PH20"
+			(property "MPN" "FPC-05FB-24PH20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5736,7 +5736,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C2856805 FPC-05F-24PH20 FPC-SMD_24P-P0.50_FPC-05F-24PH20 XUNPU"
+			(property "ki_keywords" "C2856831 FPC-05FB-24PH20 FPC-SMD_24P-P0.50_FPC-05FB-24PH20 XUNPU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5747,21 +5747,10 @@
 					)
 				)
 			)
-			(symbol "FPC-05F-24PH20_1_1"
-				(rectangle
-					(start -2.54 30.48)
-					(end 11.43 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "FPC-05FB-24PH20_0_1"
 				(pin passive line
-					(at -6.35 29.21 0)
-					(length 3.81)
+					(at -5.08 29.21 0)
+					(length 2.54)
 					(name "NC"
 						(effects
 							(font
@@ -5778,8 +5767,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 26.67 0)
-					(length 3.81)
+					(at -5.08 26.67 0)
+					(length 2.54)
 					(name "GDR"
 						(effects
 							(font
@@ -5796,8 +5785,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 24.13 0)
-					(length 3.81)
+					(at -5.08 24.13 0)
+					(length 2.54)
 					(name "RESE"
 						(effects
 							(font
@@ -5814,8 +5803,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 21.59 0)
-					(length 3.81)
+					(at -5.08 21.59 0)
+					(length 2.54)
 					(name "NC"
 						(effects
 							(font
@@ -5832,8 +5821,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 19.05 0)
-					(length 3.81)
+					(at -5.08 19.05 0)
+					(length 2.54)
 					(name "VSH2"
 						(effects
 							(font
@@ -5850,8 +5839,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 16.51 0)
-					(length 3.81)
+					(at -5.08 16.51 0)
+					(length 2.54)
 					(name "NC"
 						(effects
 							(font
@@ -5868,8 +5857,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 13.97 0)
-					(length 3.81)
+					(at -5.08 13.97 0)
+					(length 2.54)
 					(name "NC"
 						(effects
 							(font
@@ -5886,8 +5875,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 11.43 0)
-					(length 3.81)
+					(at -5.08 11.43 0)
+					(length 2.54)
 					(name "BS1"
 						(effects
 							(font
@@ -5904,8 +5893,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 8.89 0)
-					(length 3.81)
+					(at -5.08 8.89 0)
+					(length 2.54)
 					(name "BUSY"
 						(effects
 							(font
@@ -5922,8 +5911,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 6.35 0)
-					(length 3.81)
+					(at -5.08 6.35 0)
+					(length 2.54)
 					(name "RES#"
 						(effects
 							(font
@@ -5940,8 +5929,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 3.81 0)
-					(length 3.81)
+					(at -5.08 3.81 0)
+					(length 2.54)
 					(name "DC"
 						(effects
 							(font
@@ -5958,8 +5947,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 1.27 0)
-					(length 3.81)
+					(at -5.08 1.27 0)
+					(length 2.54)
 					(name "CS#"
 						(effects
 							(font
@@ -5976,8 +5965,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 3.81)
+					(at -5.08 -1.27 0)
+					(length 2.54)
 					(name "SCLK"
 						(effects
 							(font
@@ -5994,8 +5983,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -3.81 0)
-					(length 3.81)
+					(at -5.08 -3.81 0)
+					(length 2.54)
 					(name "SDI"
 						(effects
 							(font
@@ -6012,8 +6001,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -6.35 0)
-					(length 3.81)
+					(at -5.08 -6.35 0)
+					(length 2.54)
 					(name "VDDIO"
 						(effects
 							(font
@@ -6030,8 +6019,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -8.89 0)
-					(length 3.81)
+					(at -5.08 -8.89 0)
+					(length 2.54)
 					(name "VCI"
 						(effects
 							(font
@@ -6048,8 +6037,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -11.43 0)
-					(length 3.81)
+					(at -5.08 -11.43 0)
+					(length 2.54)
 					(name "VSS"
 						(effects
 							(font
@@ -6066,8 +6055,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -13.97 0)
-					(length 3.81)
+					(at -5.08 -13.97 0)
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
@@ -6084,8 +6073,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -16.51 0)
-					(length 3.81)
+					(at -5.08 -16.51 0)
+					(length 2.54)
 					(name "VPP"
 						(effects
 							(font
@@ -6102,8 +6091,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -19.05 0)
-					(length 3.81)
+					(at -5.08 -19.05 0)
+					(length 2.54)
 					(name "VSH1"
 						(effects
 							(font
@@ -6120,8 +6109,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -21.59 0)
-					(length 3.81)
+					(at -5.08 -21.59 0)
+					(length 2.54)
 					(name "VGH"
 						(effects
 							(font
@@ -6138,8 +6127,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -24.13 0)
-					(length 3.81)
+					(at -5.08 -24.13 0)
+					(length 2.54)
 					(name "VSL"
 						(effects
 							(font
@@ -6156,8 +6145,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -26.67 0)
-					(length 3.81)
+					(at -5.08 -26.67 0)
+					(length 2.54)
 					(name "VGL"
 						(effects
 							(font
@@ -6174,8 +6163,8 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -29.21 0)
-					(length 3.81)
+					(at -5.08 -29.21 0)
+					(length 2.54)
 					(name "VCOM"
 						(effects
 							(font
@@ -6225,6 +6214,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "FPC-05FB-24PH20_1_1"
+				(rectangle
+					(start -2.54 30.48)
+					(end 11.43 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -9019,7 +9021,7 @@
 		(uuid "cb02f541-ba5b-464b-b15f-7e81bb8beac2")
 	)
 	(junction
-		(at 176.53 271.78)
+		(at 175.26 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf6322db-98fc-4447-a320-bd1f60287078")
@@ -9236,7 +9238,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 271.78) (xy 176.53 274.32)
+			(xy 175.26 271.78) (xy 175.26 274.32)
 		)
 		(stroke
 			(width 0)
@@ -11286,7 +11288,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 271.78) (xy 176.53 271.78)
+			(xy 171.45 271.78) (xy 175.26 271.78)
 		)
 		(stroke
 			(width 0)
@@ -12386,7 +12388,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 269.24) (xy 172.72 271.78)
+			(xy 171.45 269.24) (xy 171.45 271.78)
 		)
 		(stroke
 			(width 0)
@@ -12986,7 +12988,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 269.24) (xy 176.53 271.78)
+			(xy 175.26 269.24) (xy 175.26 271.78)
 		)
 		(stroke
 			(width 0)
@@ -19730,215 +19732,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:FPC-05F-24PH20")
-		(at 166.37 236.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c65250-784e-496e-bd45-10f3892bb452")
-		(property "Reference" "FPC1"
-			(at 179.07 234.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FPC-05F-24PH20"
-			(at 179.07 237.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:FPC-05F-24PH20"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109221030_XUNPU-FPC-05F-24PH20_C2856805.pdf"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 0.3mm 0.5mm 24P 2mm 500mA 50V Bottom Contact Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2856805"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2856805"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "FPC-05F-24PH20"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "FPC-05F-24PH20"
-			(at 166.37 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "b09906c7-6ab5-4005-8ea1-c79dd192d2d7")
-		)
-		(pin "19"
-			(uuid "bd27105f-e1f1-45fc-8dab-87ef5f3c75af")
-		)
-		(pin "15"
-			(uuid "59b4d1f9-3144-4805-b7ce-e4d01a402a2f")
-		)
-		(pin "12"
-			(uuid "0d45615d-ca33-40f3-8cdc-847ee7571105")
-		)
-		(pin "23"
-			(uuid "ff7ca93a-3530-40df-a295-ff92fe0e57aa")
-		)
-		(pin "25"
-			(uuid "c83c6077-eff5-460a-8076-73eaa2efd4e1")
-		)
-		(pin "17"
-			(uuid "af4fc3b5-c848-4561-a16f-5dd66c5b48dc")
-		)
-		(pin "13"
-			(uuid "8fb39678-6c48-4fbe-9373-67f03bef5d51")
-		)
-		(pin "6"
-			(uuid "25976ed4-1518-4a6f-9629-83528c33e1ff")
-		)
-		(pin "11"
-			(uuid "71911ca8-67ce-4f00-8fe4-23ed9d297c8b")
-		)
-		(pin "22"
-			(uuid "ba6eb726-f7ba-43d9-bbba-c02b22ec4a5b")
-		)
-		(pin "2"
-			(uuid "df2f3dc6-a93a-46ac-8bda-b919f35c157e")
-		)
-		(pin "24"
-			(uuid "53540dfc-d0f5-4d0d-9f55-21ec640cdd86")
-		)
-		(pin "3"
-			(uuid "90202352-fcc0-455e-91d0-90db5501f144")
-		)
-		(pin "20"
-			(uuid "846031f6-bcbf-4963-85f0-9c065cb12819")
-		)
-		(pin "16"
-			(uuid "dd69d4b5-e257-41dd-98d8-4b100b20b251")
-		)
-		(pin "4"
-			(uuid "3625251a-c692-43ea-b6db-cd5b59c7610e")
-		)
-		(pin "1"
-			(uuid "f56efab8-cc42-4400-b783-ff2496cb6a12")
-		)
-		(pin "5"
-			(uuid "3650f502-47e8-448e-aa4a-5eae4045281b")
-		)
-		(pin "9"
-			(uuid "7138f49e-9917-4a07-ade5-765813d482b3")
-		)
-		(pin "21"
-			(uuid "c19e665e-2cb2-4ef0-b72e-08878ec07e63")
-		)
-		(pin "10"
-			(uuid "003945bd-d591-4185-8e03-0b15eee96872")
-		)
-		(pin "8"
-			(uuid "a2200110-7b46-4ae3-86ff-2e1f2f3925e9")
-		)
-		(pin "7"
-			(uuid "011cb24d-c312-4778-b04d-3707bd316aa8")
-		)
-		(pin "26"
-			(uuid "8993e61b-038b-4d82-a39d-f7c9f96b6213")
-		)
-		(pin "18"
-			(uuid "9eec7c07-b4b0-48b3-a335-f7c5e3d49aca")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "FPC1")
 					(unit 1)
 				)
 			)
@@ -26959,6 +26752,215 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:FPC-05FB-24PH20")
+		(at 165.1 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99d41e17-7567-4a2d-b4f3-0024fb6cf126")
+		(property "Reference" "FPC1"
+			(at 177.8 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPC-05FB-24PH20"
+			(at 177.8 237.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:FPC-05FB-24PH20"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109221030_XUNPU-FPC-05FB-24PH20_C2856831.pdf"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 0.3mm 0.5mm 24P 2mm 500mA 50V Double-Sided Contacts, Top and Bottom Entry Hinged Lid Phosphor bronze Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2856831"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2856831"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FPC-05FB-24PH20"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FPC-05FB-24PH20"
+			(at 165.1 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "e3ed9d97-2e42-4282-bec4-f85aa478717c")
+		)
+		(pin "18"
+			(uuid "df0f5366-7eab-4dfa-ad37-8bd06b510676")
+		)
+		(pin "16"
+			(uuid "e6d0853f-7ab4-488e-8e96-49572e9ba28c")
+		)
+		(pin "23"
+			(uuid "6940b995-b8c2-4e35-a9d6-73b36996d5de")
+		)
+		(pin "26"
+			(uuid "502d9f55-c345-424b-bacb-1b04f2984378")
+		)
+		(pin "25"
+			(uuid "141acbbc-940f-44d9-81ff-1d81cb1b9bab")
+		)
+		(pin "15"
+			(uuid "1f47a18c-a873-4bb9-8b20-77419ffd7857")
+		)
+		(pin "7"
+			(uuid "20a6ba23-4832-4a1c-a6cc-4ddb5954739a")
+		)
+		(pin "24"
+			(uuid "4cb237a4-4c7c-4e2d-8737-a878581bf10e")
+		)
+		(pin "11"
+			(uuid "56b6b3a4-310d-4de6-8ca6-533087fa4f45")
+		)
+		(pin "21"
+			(uuid "9e5d6dfb-3082-4472-af75-4dc9c59c3f82")
+		)
+		(pin "20"
+			(uuid "1f1717bd-3120-42b5-9f9a-0ae9619a4550")
+		)
+		(pin "14"
+			(uuid "6f5cc6e7-453e-431d-b3c3-1d2700166bcc")
+		)
+		(pin "12"
+			(uuid "fd0e3e38-fd3a-4709-9548-664d40756a92")
+		)
+		(pin "9"
+			(uuid "ab81990f-5922-4977-8dea-75acceb23dd0")
+		)
+		(pin "10"
+			(uuid "75a6dcb3-90e2-4dc8-acee-d5349c9f6b69")
+		)
+		(pin "17"
+			(uuid "546bc487-e4d6-4ff9-94cb-7bcb1644da21")
+		)
+		(pin "22"
+			(uuid "42a18844-3134-46a5-8bc0-8ca4847ad37f")
+		)
+		(pin "5"
+			(uuid "72060d07-7b16-421b-868a-96d9a99dca4e")
+		)
+		(pin "4"
+			(uuid "9aeb49b4-4d92-4dec-99c4-82c52ba02fd7")
+		)
+		(pin "8"
+			(uuid "7aa1a2ce-6320-46de-a693-6157ac2c047e")
+		)
+		(pin "3"
+			(uuid "ea35fada-7e31-4db6-a429-327422eb6a53")
+		)
+		(pin "2"
+			(uuid "25bcfbd2-1cc9-496f-b61d-7216f0511a20")
+		)
+		(pin "1"
+			(uuid "53d11caf-3863-4f7d-9500-a17b1c3ef38b")
+		)
+		(pin "6"
+			(uuid "a70deb72-d57f-40e6-b270-2ad3d0a955f6")
+		)
+		(pin "19"
+			(uuid "945e9c0a-0d46-4089-ba25-3fcd4d18fc96")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "FPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 76.2 0)
 		(unit 1)
@@ -27916,7 +27918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 274.32 0)
+		(at 175.26 274.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27927,7 +27929,7 @@
 		(fields_autoplaced yes)
 		(uuid "be51a4ee-0aa3-4a43-bbaa-d5c5f5f815ad")
 		(property "Reference" "#PWR066"
-			(at 176.53 280.67 0)
+			(at 175.26 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27938,7 +27940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 279.4 0)
+			(at 175.26 279.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27948,7 +27950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 274.32 0)
+			(at 175.26 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27959,7 +27961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 274.32 0)
+			(at 175.26 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27970,7 +27972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 274.32 0)
+			(at 175.26 274.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
