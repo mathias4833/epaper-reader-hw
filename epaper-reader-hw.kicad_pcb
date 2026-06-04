@@ -7173,7 +7173,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "57bd8e30-a12c-44b1-af99-3d2e451c7a8a")
-		(at 95 125.96 -90)
+		(at 98 125.96 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -22922,7 +22922,7 @@
 	(footprint "epaper-reader-hw:DM3AT-SF-PEJM5"
 		(layer "B.Cu")
 		(uuid "fe4f7125-e365-453f-858d-449c94caeb98")
-		(at 86.3695 123.8685 180)
+		(at 88.8695 123.8685 180)
 		(descr "-25℃~+85℃ 1.68mm Connector and Ejector MicroSD Card (TF Card) No Push-Push SMD SD Card / Memory Card Connector ROHS")
 		(tags "C114218 DM3AT-SF-PEJM5 HRS(Hirose) SD-SMD_DM3AT-SF-PEJM5")
 		(property "Reference" "Card1"
@@ -23574,6 +23574,37 @@
 		(uuid "916023dd-7503-436e-bffa-75f0abf70dc3")
 	)
 	(gr_line
+		(start 48.5 130.33)
+		(end 48.5 133)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d36a8ad-6adc-433b-9d0c-b95d7ce82799")
+	)
+	(gr_arc
+		(start 48.5 130.33)
+		(mid 48.792893 129.622893)
+		(end 49.5 129.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e2e5084f-87f2-43dc-bbdd-ad7cb7052adf")
+	)
+	(gr_line
+		(start 48.5 133)
+		(end 30 133)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e95fc28-c96a-430c-98e1-81f937999f3a")
+	)
+	(gr_line
 		(start 55.5 20)
 		(end 55.5 25.45)
 		(stroke
@@ -23634,6 +23665,37 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "b03a534d-b529-4a8f-b2b8-5e7fd397bfde")
+	)
+	(gr_line
+		(start 79.5 129.33)
+		(end 49.5 129.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8f7e67b7-26b0-4884-a555-f091031d2f82")
+	)
+	(gr_arc
+		(start 79.5 129.33)
+		(mid 80.207107 129.622893)
+		(end 80.5 130.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d9ae48de-75c4-4749-b145-d1ae6d116818")
+	)
+	(gr_line
+		(start 80.5 133)
+		(end 80.5 130.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd24a5d7-62a0-40b7-a6fc-6382640be7b6")
 	)
 	(gr_line
 		(start 84.25 20)
@@ -23771,7 +23833,7 @@
 	)
 	(gr_line
 		(start 99.37 133)
-		(end 30 133)
+		(end 80.5 133)
 		(stroke
 			(width 0.05)
 			(type default)
