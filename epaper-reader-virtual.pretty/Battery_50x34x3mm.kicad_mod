@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Virtual mechanical LiPo battery volume, 50 x 34 x 3 mm")
-	(tags "virtual mechanical battery lipo ghost 50x34x3")
+	(descr "Virtual mechanical LiPo battery area, 50 x 34 x <=3 mm; annotation only, no 3D model")
+	(tags "virtual mechanical battery lipo protected pouch area 50x34x3")
 	(property "Reference" "BMECH"
 		(at 0 -18.5 0)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(hide yes)
 		(effects
 			(font
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "Virtual mechanical LiPo battery volume, 50 x 34 x 3 mm; excluded from BOM and position files"
+	(property "Description" "Virtual mechanical LiPo battery placement annotation, 50 x 34 x <=3 mm; protected cell required; excluded from BOM and position files"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,27 +56,82 @@
 		(start -25 -17)
 		(end 25 17)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type dash)
 		)
 		(fill no)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "01bbd3e4-4e04-4689-b0a3-2266758c425a")
+	)
+	(fp_text user "BATTERY ZONE"
+		(at 0 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "25f972c0-179c-4239-af42-8860bf83c6c8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "LiPo pouch - protected cell required"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "7a58b7d6-4e86-4956-8b9e-98b2a6c63ad7")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "50 x 34 x <=3 mm"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "11fba246-fd26-4c70-8c20-6ba9b3d18916")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Insulate from PCB"
+		(at 0 5.5 0)
+		(layer "F.SilkS")
+		(uuid "fa407d96-bcdf-4ac4-a98a-5c2add1727e0")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "No components / pads / vias"
+		(at 0 9 0)
+		(layer "F.SilkS")
+		(uuid "57ab9233-bcfc-4d64-b04c-050261b40b30")
+		(effects
+			(font
+				(size 1.15 1.15)
+				(thickness 0.15)
+			)
+		)
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")
 		(uuid "5714d99d-2add-46de-8964-caf89492f751")
-		(name "battery_keepout_56x40mm")
+		(name "battery_area_no_components_pads_vias_56x40mm")
 		(hatch edge 0.508)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.254)
 		(keepout
-			(tracks not_allowed)
+			(tracks allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints not_allowed)
 		)
 		(placement
@@ -92,17 +147,6 @@
 			(pts
 				(xy -28 -20) (xy 28 -20) (xy 28 20) (xy -28 20)
 			)
-		)
-	)
-	(model "${KIPRJMOD}/epaper-reader-virtual.3dshapes/Battery_50x34x3mm.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 	(embedded_fonts no)

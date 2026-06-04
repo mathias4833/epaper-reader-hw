@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Virtual mechanical e-ink display volume, 105.33 x 62.37 x 0.926 mm")
-	(tags "virtual mechanical eink display screen ghost 105.33x62.37x0.926")
+	(descr "Virtual mechanical e-ink display area, 105.33 x 62.37 mm; silkscreen annotation only, no 3D model")
+	(tags "virtual mechanical eink display screen area silkscreen 105.33x62.37")
 	(property "Reference" "DMECH"
 		(at 0 1.5 0)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(hide yes)
 		(effects
 			(font
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Description" "Virtual mechanical e-ink display volume, 105.33 x 62.37 x 0.926 mm; excluded from BOM and position files"
+	(property "Description" "Virtual mechanical e-ink display placement annotation, 105.33 x 62.37 mm; excluded from BOM and position files"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -52,58 +52,75 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_rect
-		(start 0 0)
-		(end 105.33 -62.37)
+	(fp_line
+		(start 2 -2)
+		(end 14 -2)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type dash)
 		)
-		(fill no)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "f4ee5ba5-1840-4bf6-b40c-abd2176406a1")
 	)
-	(zone
-		(layer "F.Cu")
-		(uuid "72cbf001-30a9-4475-9117-2174bf0c46f3")
-		(name "eink_display_no_holes_105p33x62p37mm")
-		(hatch edge 0.508)
-		(connect_pads
-			(clearance 0)
+	(fp_line
+		(start 2 -2)
+		(end 2 -14)
+		(stroke
+			(width 0.15)
+			(type dash)
 		)
-		(min_thickness 0.254)
-		(keepout
-			(tracks allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 0 0) (xy 105.33 0) (xy 105.33 -0.9) (xy 102.5 -0.9) (xy 102.5 -11.6)
-				(xy 105.33 -11.6) (xy 105.33 -62.37) (xy 0 -62.37)
-			)
-		)
+		(layer "F.SilkS")
+		(uuid "cb278317-6172-4cd3-8c45-a9a0ce92619b")
 	)
-	(model "${KIPRJMOD}/epaper-reader-virtual.3dshapes/EInk_Display_105p33x62p37x0p926mm_FrontTopLeft.step"
-		(offset
-			(xyz 0 0 0)
+	(fp_line
+		(start 103.33 -60.37)
+		(end 91.33 -60.37)
+		(stroke
+			(width 0.15)
+			(type dash)
 		)
-		(scale
-			(xyz 1 1 1)
+		(layer "F.SilkS")
+		(uuid "3bf66ff1-b3db-4c7f-a449-c65e4f84e22e")
+	)
+	(fp_line
+		(start 103.33 -60.37)
+		(end 103.33 -48.37)
+		(stroke
+			(width 0.15)
+			(type dash)
 		)
-		(rotate
-			(xyz 0 0 0)
+		(layer "F.SilkS")
+		(uuid "e5c667ce-0981-4615-ae7c-8c1af3491b88")
+	)
+	(fp_line
+		(start 2 -60.37)
+		(end 14 -60.37)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "4187a0b2-3d0b-421d-b5b4-1449c1070c3d")
+	)
+	(fp_line
+		(start 2 -60.37)
+		(end 2 -48.37)
+		(stroke
+			(width 0.15)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "c714d370-0e62-4df8-a7d1-31adbf6cce0d")
+	)
+	(fp_text user "E-PAPER DISPLAY GOES HERE"
+		(at 52.665 -31.185 0)
+		(layer "F.SilkS")
+		(uuid "831d7642-413a-4e4d-b9e9-d333a868778d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
 		)
 	)
 	(embedded_fonts no)

@@ -49,7 +49,7 @@
 				)
 			)
 		)
-		(property "Description" "Virtual mechanical LiPo battery volume, 50 x 34 x 3 mm; excluded from BOM and position files"
+		(property "Description" "Virtual mechanical LiPo battery placement annotation, 50 x 34 x <=3 mm; protected cell required; excluded from BOM and position files"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -60,7 +60,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "virtual mechanical battery lipo volume ghost"
+		(property "ki_keywords" "virtual mechanical battery lipo protected pouch area annotation ghost"
 			(at 0 -15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148,7 +148,7 @@
 				)
 			)
 		)
-		(property "Description" "Virtual mechanical e-ink display volume, 105.33 x 62.37 x 0.926 mm; excluded from BOM and position files"
+		(property "Description" "Virtual mechanical e-ink display placement annotation, 105.33 x 62.37 mm; excluded from BOM and position files"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
