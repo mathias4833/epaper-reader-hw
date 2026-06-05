@@ -735,7 +735,64 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VBAT_SYS",
+        "pattern": "USB_VBUS"
+      },
+      {
+        "netclass": "VBAT_SYS",
+        "pattern": "SYS_PWR"
+      },
+      {
+        "netclass": "VBAT_SYS",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3_AON"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3_PERIPH"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "/GDR"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "/RESE"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "/PREVGH"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "/PREVGL"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "/VCOM"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "Net-(FPC1-VSH1)"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "Net-(FPC1-VSH2)"
+      },
+      {
+        "netclass": "EINK_HV",
+        "pattern": "Net-(FPC1-VSL)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
