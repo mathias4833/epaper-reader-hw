@@ -691,7 +691,7 @@
         "via_drill": 0.35
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -805,7 +805,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "../routing/epaper-reader-hw.dsn",
+      "specctra_dsn": "../routing/test2.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
