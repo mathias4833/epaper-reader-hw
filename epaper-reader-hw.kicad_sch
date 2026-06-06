@@ -10088,7 +10088,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 377.19) (xy 194.31 377.19)
+			(xy 200.66 377.19) (xy 196.85 377.19)
 		)
 		(stroke
 			(width 0)
@@ -10608,7 +10608,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 372.11) (xy 191.77 372.11)
+			(xy 218.44 377.19) (xy 237.49 377.19)
 		)
 		(stroke
 			(width 0)
@@ -10618,7 +10618,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 377.19) (xy 194.31 383.54)
+			(xy 196.85 377.19) (xy 196.85 383.54)
 		)
 		(stroke
 			(width 0)
@@ -10768,7 +10768,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 369.57) (xy 219.71 369.57)
+			(xy 218.44 369.57) (xy 222.25 369.57)
 		)
 		(stroke
 			(width 0)
@@ -11248,7 +11248,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 369.57) (xy 191.77 369.57)
+			(xy 200.66 374.65) (xy 186.69 374.65)
 		)
 		(stroke
 			(width 0)
@@ -12168,7 +12168,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 359.41) (xy 219.71 369.57)
+			(xy 222.25 359.41) (xy 222.25 369.57)
 		)
 		(stroke
 			(width 0)
@@ -12488,7 +12488,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 359.41) (xy 219.71 359.41)
+			(xy 224.79 359.41) (xy 222.25 359.41)
 		)
 		(stroke
 			(width 0)
@@ -13117,7 +13117,7 @@
 		(uuid "4f142490-a453-4849-880d-c5575b81ee06")
 	)
 	(label "DAT2"
-		(at 191.77 369.57 0)
+		(at 186.69 374.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13267,12 +13267,12 @@
 		(uuid "d0179721-0cb8-44e9-90f9-0eed75afa280")
 	)
 	(label "DAT1"
-		(at 191.77 372.11 0)
+		(at 237.49 377.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d2c6ee27-d047-4738-ab9d-8254127e6004")
 	)
@@ -14210,7 +14210,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at 198.12 374.65 180)
+		(at 200.66 369.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14220,7 +14220,7 @@
 		)
 		(uuid "59e5a4f3-9360-42b9-bfb6-74fd352ce23f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.4867 374.65 0)
+			(at 189.0267 369.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14402,7 +14402,7 @@
 	)
 	(global_label "+3V3_PERIPH"
 		(shape passive)
-		(at 222.25 359.41 0)
+		(at 224.79 359.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14412,7 +14412,7 @@
 		)
 		(uuid "62d6b2f0-0fda-4a28-9831-aa0f57f36c4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.0658 359.41 0)
+			(at 239.6058 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +15002,7 @@
 	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 215.9 372.11 0)
+		(at 218.44 372.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15012,7 +15012,7 @@
 		)
 		(uuid "90c22f5c-6e0f-4675-ac81-b35e448aa8d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7147 372.11 0)
+			(at 230.2547 372.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15050,7 +15050,7 @@
 	)
 	(global_label "SD_MISO"
 		(shape input)
-		(at 215.9 374.65 0)
+		(at 218.44 374.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15060,7 +15060,7 @@
 		)
 		(uuid "950c3b39-7583-4003-8449-c9fcdc58fb75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9285 374.65 0)
+			(at 229.4685 374.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16034,17 +16034,17 @@
 	)
 	(global_label "SD_CS"
 		(shape input)
-		(at 215.9 377.19 0)
+		(at 200.66 372.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f9d34be7-4fbb-4e39-bff3-c9caf43dbcea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8118 377.19 0)
+			(at 191.7482 372.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16052,7 +16052,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -24205,7 +24205,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 383.54 0)
+		(at 196.85 383.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24216,7 +24216,7 @@
 		(fields_autoplaced yes)
 		(uuid "7638bafe-0f5f-4009-874e-80e2cd8ae7c7")
 		(property "Reference" "#PWR050"
-			(at 194.31 389.89 0)
+			(at 196.85 389.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24227,7 +24227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 388.62 0)
+			(at 196.85 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24237,7 +24237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 383.54 0)
+			(at 196.85 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24248,7 +24248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 383.54 0)
+			(at 196.85 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24259,7 +24259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 383.54 0)
+			(at 196.85 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26043,7 +26043,7 @@
 	(symbol
 		(lib_name "TPD6E004RSER_1")
 		(lib_id "epaper-reader-hw:TPD6E004RSER")
-		(at 207.01 373.38 0)
+		(at 209.55 373.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26054,7 +26054,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ea4e2f-0a16-4499-8514-3d3af75d29ef")
 		(property "Reference" "D8"
-			(at 207.01 361.95 0)
+			(at 209.55 361.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26064,7 +26064,7 @@
 			)
 		)
 		(property "Value" "TPD6E004RSER"
-			(at 207.01 364.49 0)
+			(at 209.55 364.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26074,7 +26074,7 @@
 			)
 		)
 		(property "Footprint" "epaper-reader-hw:TPD6E004RSER"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26085,7 +26085,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302221330_Texas-Instruments-TPD6E004RSER_C1973052.pdf"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26096,7 +26096,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.6pF 1nA 5.5V 6 8V ESD IEC 61000-4-2 UQFN-8(1.5x1.5) ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26107,7 +26107,7 @@
 			)
 		)
 		(property "LCSC" "C1973052"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26118,7 +26118,7 @@
 			)
 		)
 		(property "LCSC Part #" "C1973052"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26129,7 +26129,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26140,7 +26140,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TPD6E004RSER"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26151,7 +26151,7 @@
 			)
 		)
 		(property "MPN" "TPD6E004RSER"
-			(at 207.01 373.38 0)
+			(at 209.55 373.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
