@@ -16149,7 +16149,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C236079"
+		(property "LCSC" "C236079"
 			(at 95.25 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -16160,7 +16160,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C236079"
 			(at 95.25 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -16298,17 +16298,6 @@
 		)
 		(property "MPN" "LIS3DHTR"
 			(at 307.34 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 307.34 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16492,17 +16481,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 62.23 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "a5eb4e11-40a2-4a39-bf8b-bcc80d38787c")
 		)
@@ -16582,7 +16560,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23345"
+		(property "LCSC" "C23345"
 			(at 72.39 327.66 90)
 			(hide yes)
 			(show_name no)
@@ -16593,7 +16571,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C23345"
 			(at 72.39 327.66 90)
 			(hide yes)
 			(show_name no)
@@ -16761,7 +16739,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907088"
+		(property "LCSC" "C2907088"
 			(at 166.37 400.05 90)
 			(hide yes)
 			(show_name no)
@@ -16772,7 +16750,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907088"
 			(at 166.37 400.05 90)
 			(hide yes)
 			(show_name no)
@@ -16862,7 +16840,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 132.08 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -16873,7 +16851,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 132.08 260.35 90)
 			(hide yes)
 			(show_name no)
@@ -17178,17 +17156,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 232.41 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "024f2734-6111-4635-b82c-0e47c17e0c0b")
 		)
@@ -17276,7 +17243,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1588"
+		(property "LCSC" "C1588"
 			(at 441.96 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -17287,7 +17254,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C1588"
 			(at 441.96 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -17321,7 +17288,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f320c72-c5c9-40b0-84e7-705622bc65cf")
@@ -17371,17 +17338,6 @@
 		)
 		(property "Description" "test point"
 			(at 318.77 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 318.77 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17468,7 +17424,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C15516"
+		(property "LCSC" "C15516"
 			(at 408.94 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -17479,7 +17435,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C15516"
 			(at 408.94 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -17596,7 +17552,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907088"
+		(property "LCSC" "C2907088"
 			(at 427.99 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -17607,7 +17563,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907088"
 			(at 427.99 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -17697,7 +17653,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 52.07 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -17708,7 +17664,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 52.07 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -17853,17 +17809,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 238.76 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "[1,2]"
 			(uuid "0ddcbf29-4ac4-4b65-b929-fe639a1ac60d")
 		)
@@ -17949,7 +17894,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C8545"
+		(property "LCSC" "C8545"
 			(at 468.63 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -17960,7 +17905,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C8545"
 			(at 468.63 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -18102,17 +18047,6 @@
 		)
 		(property "MPN" "TSB001A3526B"
 			(at 412.75 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 406.4 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18343,17 +18277,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 293.37 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "064bf5ba-3ef3-45fd-a660-0ae6fc3d2123")
 		)
@@ -18439,7 +18362,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 204.47 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -18450,7 +18373,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 204.47 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -18698,7 +18621,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 275.59 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -18709,7 +18632,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 275.59 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -18802,7 +18725,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 279.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18813,7 +18736,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 279.4 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18903,7 +18826,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 124.46 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -18914,7 +18837,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 124.46 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -19088,7 +19011,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C469327"
+		(property "LCSC" "C469327"
 			(at 76.2 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -19099,7 +19022,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C469327"
 			(at 76.2 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -19136,7 +19059,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280e04ff-58a6-4528-adb9-467b485c8072")
@@ -19186,17 +19109,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 264.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19282,7 +19194,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 166.37 368.3 90)
 			(hide yes)
 			(show_name no)
@@ -19293,7 +19205,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 166.37 368.3 90)
 			(hide yes)
 			(show_name no)
@@ -19385,7 +19297,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19396,7 +19308,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19642,7 +19554,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 129.54 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -19653,7 +19565,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 129.54 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -19791,17 +19703,6 @@
 		)
 		(property "MPN" "TYPE-C-31-M-12"
 			(at 30.48 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 45.72 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19996,7 +19897,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5137477"
+		(property "LCSC" "C5137477"
 			(at 299.72 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -20007,7 +19908,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C5137477"
 			(at 299.72 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -20119,7 +20020,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3273afd2-18cd-410d-b0c8-4d9f711f9b04")
@@ -20169,17 +20070,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 238.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20267,7 +20157,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C4211"
+		(property "LCSC" "C4211"
 			(at 377.19 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -20278,7 +20168,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C4211"
 			(at 377.19 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -20371,7 +20261,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22978"
+		(property "LCSC" "C22978"
 			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20382,7 +20272,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22978"
 			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -20472,7 +20362,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 204.47 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -20483,7 +20373,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 204.47 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -20751,7 +20641,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3810be93-e16f-4c75-87d4-ee8462087196")
@@ -20801,17 +20691,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20897,7 +20776,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907088"
+		(property "LCSC" "C2907088"
 			(at 427.99 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -20908,7 +20787,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907088"
 			(at 427.99 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -21001,7 +20880,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 207.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21012,7 +20891,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 207.01 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -21182,7 +21061,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22980"
+		(property "LCSC" "C22980"
 			(at 386.08 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -21193,7 +21072,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22980"
 			(at 386.08 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -21284,7 +21163,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C236079"
+		(property "LCSC" "C236079"
 			(at 95.25 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21295,7 +21174,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C236079"
 			(at 95.25 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21443,17 +21322,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 207.01 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a00e2359-9a20-474e-ab32-00257bb179a5")
 		)
@@ -21542,7 +21410,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 279.4 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -21553,7 +21421,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 279.4 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -21776,17 +21644,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 218.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "[1,2]"
 			(uuid "fcfc7737-cf29-4710-8a22-e24599fde3ff")
 		)
@@ -21866,7 +21723,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 166.37 387.35 90)
 			(hide yes)
 			(show_name no)
@@ -21877,7 +21734,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 166.37 387.35 90)
 			(hide yes)
 			(show_name no)
@@ -22024,17 +21881,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 408.94 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "7"
 			(uuid "c6582838-2e2b-4e3c-838d-5d74d9a264fe")
 		)
@@ -22134,7 +21980,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907088"
+		(property "LCSC" "C2907088"
 			(at 509.27 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -22145,7 +21991,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907088"
 			(at 509.27 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -22238,7 +22084,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C1588"
+		(property "LCSC" "C1588"
 			(at 554.99 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -22249,7 +22095,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C1588"
 			(at 554.99 342.9 0)
 			(hide yes)
 			(show_name no)
@@ -22283,7 +22129,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca3a7b8-0a70-4fa2-acbd-248f7b9f5458")
@@ -22331,17 +22177,6 @@
 		)
 		(property "Description" "test point"
 			(at 394.97 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 394.97 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22484,17 +22319,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 535.94 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0c878bfc-e718-4df3-b11c-4111983a960d")
 		)
@@ -22589,7 +22413,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22600,7 +22424,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22634,7 +22458,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e7ce91e-5398-4cb5-a583-1c1ceffc9c66")
@@ -22684,17 +22508,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22780,7 +22593,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 152.4 312.42 90)
 			(hide yes)
 			(show_name no)
@@ -22791,7 +22604,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 152.4 312.42 90)
 			(hide yes)
 			(show_name no)
@@ -22881,7 +22694,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 445.77 349.25 90)
 			(hide yes)
 			(show_name no)
@@ -22892,7 +22705,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 445.77 349.25 90)
 			(hide yes)
 			(show_name no)
@@ -22984,7 +22797,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22935"
+		(property "LCSC" "C22935"
 			(at 461.01 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -22995,7 +22808,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22935"
 			(at 461.01 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -23244,7 +23057,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 266.7 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -23255,7 +23068,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 266.7 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -23401,17 +23214,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 473.71 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "8"
 			(uuid "f9dc8f8b-cf5a-4a55-8bef-7e20cbf4cc2e")
 		)
@@ -23453,7 +23255,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59b0a3ca-2c4d-47fd-b436-9bc9d5c1c31a")
@@ -23503,17 +23305,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 200.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23677,7 +23468,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C559769"
+		(property "LCSC" "C559769"
 			(at 132.08 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -23688,7 +23479,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C559769"
 			(at 132.08 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -23780,7 +23571,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 266.7 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -23791,7 +23582,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 266.7 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -23904,7 +23695,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C81598"
+		(property "LCSC" "C81598"
 			(at 426.72 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -23915,7 +23706,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C81598"
 			(at 426.72 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -24008,7 +23799,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 207.01 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -24019,7 +23810,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 207.01 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -24268,7 +24059,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 100.33 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -24279,7 +24070,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 100.33 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -24739,17 +24530,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 389.89 364.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e5c7ef8b-78d2-4e65-b276-ab1dc35ecaa5")
 		)
@@ -24829,7 +24609,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 132.08 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -24840,7 +24620,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 132.08 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -24952,7 +24732,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76eb4e83-e4e8-4296-822e-a807154ae7ed")
@@ -25002,17 +24782,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 276.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25098,7 +24867,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 166.37 381 90)
 			(hide yes)
 			(show_name no)
@@ -25109,7 +24878,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 166.37 381 90)
 			(hide yes)
 			(show_name no)
@@ -25278,7 +25047,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23345"
+		(property "LCSC" "C23345"
 			(at 72.39 335.28 90)
 			(hide yes)
 			(show_name no)
@@ -25289,7 +25058,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C23345"
 			(at 72.39 335.28 90)
 			(hide yes)
 			(show_name no)
@@ -25538,7 +25307,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C559769"
+		(property "LCSC" "C559769"
 			(at 388.62 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -25549,7 +25318,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C559769"
 			(at 388.62 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -25697,17 +25466,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 400.05 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "d70e5dc3-5611-4c33-97c7-298c90e326a3")
 		)
@@ -25826,7 +25584,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22935"
+		(property "LCSC" "C22935"
 			(at 67.31 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -25837,7 +25595,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22935"
 			(at 67.31 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -25929,7 +25687,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 449.58 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -25940,7 +25698,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 449.58 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -26031,7 +25789,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 379.73 351.79 90)
 			(hide yes)
 			(show_name no)
@@ -26042,7 +25800,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 379.73 351.79 90)
 			(hide yes)
 			(show_name no)
@@ -26289,7 +26047,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C236079"
+		(property "LCSC" "C236079"
 			(at 95.25 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -26300,7 +26058,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C236079"
 			(at 95.25 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -26393,7 +26151,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C112307"
+		(property "LCSC" "C112307"
 			(at 78.74 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -26404,7 +26162,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C112307"
 			(at 78.74 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -26495,7 +26253,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 142.24 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26506,7 +26264,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 142.24 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -26852,7 +26610,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d1f88f-a7a7-43ca-98ba-e4a96a86b3cf")
@@ -26902,17 +26660,6 @@
 		)
 		(property "Description" "test point"
 			(at 318.77 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 318.77 199.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27055,17 +26802,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 209.55 373.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1b3aed4c-4ba7-47f4-9ceb-fa426497f970")
 		)
@@ -27163,7 +26899,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 152.4 320.04 90)
 			(hide yes)
 			(show_name no)
@@ -27174,7 +26910,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 152.4 320.04 90)
 			(hide yes)
 			(show_name no)
@@ -27267,7 +27003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5366877"
+		(property "LCSC" "C5366877"
 			(at 87.63 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -27278,7 +27014,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C5366877"
 			(at 87.63 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -27449,7 +27185,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 132.08 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -27460,7 +27196,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 132.08 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -27572,7 +27308,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9897f74d-aaf3-48fd-ae76-03710ba5c9f3")
@@ -27622,17 +27358,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 270.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27718,7 +27443,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22935"
+		(property "LCSC" "C22935"
 			(at 43.18 360.68 90)
 			(hide yes)
 			(show_name no)
@@ -27729,7 +27454,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22935"
 			(at 43.18 360.68 90)
 			(hide yes)
 			(show_name no)
@@ -27867,17 +27592,6 @@
 			)
 		)
 		(property "MPN" "FPC-05FB-24PH20"
-			(at 165.1 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
 			(at 165.1 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -28061,7 +27775,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d26e547-d356-4533-8e65-66f3e2bb3fec")
@@ -28111,17 +27825,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 219.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28208,7 +27911,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907122"
+		(property "LCSC" "C2907122"
 			(at 396.24 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -28219,7 +27922,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907122"
 			(at 396.24 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -28467,7 +28170,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 426.72 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -28478,7 +28181,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 426.72 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -28571,7 +28274,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22978"
+		(property "LCSC" "C22978"
 			(at 219.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -28582,7 +28285,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C22978"
 			(at 219.71 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -28673,7 +28376,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5137477"
+		(property "LCSC" "C5137477"
 			(at 240.03 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -28684,7 +28387,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C5137477"
 			(at 240.03 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -28776,7 +28479,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 48.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28787,7 +28490,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 48.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -28821,7 +28524,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68f3797-d66b-457e-912e-862f510d2819")
@@ -28871,17 +28574,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 213.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29048,7 +28740,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907088"
+		(property "LCSC" "C2907088"
 			(at 441.96 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -29059,7 +28751,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907088"
 			(at 441.96 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -29283,17 +28975,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 193.04 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "7"
 			(uuid "8044e7e6-3c96-49b3-864c-a9a17f639a2b")
 		)
@@ -29403,7 +29084,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 46.99 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -29414,7 +29095,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 46.99 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -29562,17 +29243,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 279.4 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ae2d7e86-4462-4946-97b1-ef0e5746cc17")
 		)
@@ -29660,7 +29330,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23186"
+		(property "LCSC" "C23186"
 			(at 68.58 368.3 90)
 			(hide yes)
 			(show_name no)
@@ -29671,7 +29341,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C23186"
 			(at 68.58 368.3 90)
 			(hide yes)
 			(show_name no)
@@ -29795,17 +29465,6 @@
 			)
 		)
 		(property "LCSC Part #" "C5199798"
-			(at 377.19 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
 			(at 377.19 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -30051,7 +29710,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 444.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -30062,7 +29721,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 444.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -30201,17 +29860,6 @@
 		)
 		(property "MPN" "TSB001A3526B"
 			(at 226.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 219.71 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30518,17 +30166,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 104.14 364.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "bffa9636-712e-4464-8f55-13cc7af36556")
 		)
@@ -30629,7 +30266,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -30640,7 +30277,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -30886,7 +30523,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 166.37 374.65 90)
 			(hide yes)
 			(show_name no)
@@ -30897,7 +30534,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 166.37 374.65 90)
 			(hide yes)
 			(show_name no)
@@ -31066,17 +30703,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 217.17 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
@@ -31152,7 +30778,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23186"
+		(property "LCSC" "C23186"
 			(at 68.58 358.14 90)
 			(hide yes)
 			(show_name no)
@@ -31163,7 +30789,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C23186"
 			(at 68.58 358.14 90)
 			(hide yes)
 			(show_name no)
@@ -31255,7 +30881,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 438.15 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -31266,7 +30892,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 438.15 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -31359,7 +30985,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 462.28 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -31370,7 +30996,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 462.28 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -31583,17 +31209,6 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
-			(at 377.19 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7e79d218-e5c9-4c8f-8ba7-b9a7f2ff8240")
 		)
@@ -31748,7 +31363,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 124.46 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -31759,7 +31374,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 124.46 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -31843,17 +31458,6 @@
 		)
 		(property "Description" "Virtual mechanical LiPo battery placement annotation, 50 x 34 x <=3 mm; protected cell required; excluded from BOM and position files"
 			(at 388.62 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 388.62 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32170,7 +31774,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5137561"
+		(property "LCSC" "C5137561"
 			(at 43.18 372.11 90)
 			(hide yes)
 			(show_name no)
@@ -32181,7 +31785,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C5137561"
 			(at 43.18 372.11 90)
 			(hide yes)
 			(show_name no)
@@ -32215,7 +31819,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfd8bfdc-f00d-4aa4-9462-d1e2b31fe1bf")
@@ -32265,17 +31869,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 251.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 251.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32361,7 +31954,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 129.54 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -32372,7 +31965,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 129.54 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -32618,7 +32211,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C559769"
+		(property "LCSC" "C559769"
 			(at 132.08 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -32629,7 +32222,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C559769"
 			(at 132.08 245.11 90)
 			(hide yes)
 			(show_name no)
@@ -32663,7 +32256,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed7e5b2-6f6a-4941-9030-647c12dd1c08")
@@ -32713,17 +32306,6 @@
 		)
 		(property "Description" "test point"
 			(at 288.29 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 288.29 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32812,7 +32394,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 434.34 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -32823,7 +32405,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 434.34 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -32916,7 +32498,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2907173"
+		(property "LCSC" "C2907173"
 			(at 434.34 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -32927,7 +32509,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2907173"
 			(at 434.34 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -32961,7 +32543,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f1b59333-9e87-44a2-9b62-2c52f621ec61")
 		(property "Reference" "TP11"
@@ -33008,17 +32590,6 @@
 		)
 		(property "Description" "test point"
 			(at 394.97 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCCS Part #" ""
-			(at 394.97 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33339,7 +32910,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C559769"
+		(property "LCSC" "C559769"
 			(at 132.08 270.51 90)
 			(hide yes)
 			(show_name no)
@@ -33350,7 +32921,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C559769"
 			(at 132.08 270.51 90)
 			(hide yes)
 			(show_name no)
@@ -33443,7 +33014,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C559769"
+		(property "LCSC" "C559769"
 			(at 194.31 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -33454,7 +33025,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C559769"
 			(at 194.31 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -33622,7 +33193,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C137090"
+		(property "LCSC" "C137090"
 			(at 133.35 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -33633,7 +33204,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C137090"
 			(at 133.35 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -33802,7 +33373,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C96446"
+		(property "LCSC" "C96446"
 			(at 411.48 332.74 90)
 			(hide yes)
 			(show_name no)
@@ -33813,7 +33384,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C96446"
 			(at 411.48 332.74 90)
 			(hide yes)
 			(show_name no)
@@ -33903,7 +33474,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906982"
+		(property "LCSC" "C2906982"
 			(at 166.37 393.7 90)
 			(hide yes)
 			(show_name no)
@@ -33914,7 +33485,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C2906982"
 			(at 166.37 393.7 90)
 			(hide yes)
 			(show_name no)
@@ -34006,7 +33577,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC" "C14663"
 			(at 387.35 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -34017,7 +33588,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 387.35 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -34110,7 +33681,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C69335"
+		(property "LCSC" "C69335"
 			(at 78.74 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -34121,7 +33692,7 @@
 				)
 			)
 		)
-		(property "LCCS Part #" ""
+		(property "LCSC Part #" "C69335"
 			(at 78.74 226.06 0)
 			(hide yes)
 			(show_name no)
