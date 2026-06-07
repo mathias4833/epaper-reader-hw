@@ -4457,10 +4457,12 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "TPD4E05U06QDQARQ1_1_1"
 			(pin bidirectional line
 				(at -10.16 5.08 0)
 				(length 2.54)
-				(name "D1+"
+				(name "IO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4478,7 +4480,7 @@
 			(pin bidirectional line
 				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "D1-"
+				(name "IO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4496,7 +4498,7 @@
 			(pin bidirectional line
 				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "D2+"
+				(name "IO4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4514,7 +4516,7 @@
 			(pin bidirectional line
 				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "D2-"
+				(name "IO5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4529,10 +4531,8 @@
 					)
 				)
 			)
-		)
-		(symbol "TPD4E05U06QDQARQ1_1_1"
-			(pin no_connect line
-				(at 10.16 -5.08 180)
+			(pin passive line
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4550,8 +4550,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 -2.54 180)
+			(pin passive line
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4569,8 +4569,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -4588,8 +4588,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 5.08 180)
+			(pin passive line
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"

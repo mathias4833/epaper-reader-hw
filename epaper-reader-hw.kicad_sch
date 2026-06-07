@@ -6822,10 +6822,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "TPD4E05U06QDQARQ1_1_1"
 				(pin bidirectional line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "D1+"
+					(name "IO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6843,7 +6845,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "D1-"
+					(name "IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6861,7 +6863,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "D2+"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6879,7 +6881,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "D2-"
+					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6894,10 +6896,8 @@
 						)
 					)
 				)
-			)
-			(symbol "TPD4E05U06QDQARQ1_1_1"
-				(pin no_connect line
-					(at 10.16 -5.08 180)
+				(pin passive line
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -6915,8 +6915,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 -2.54 180)
+				(pin passive line
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -6934,8 +6934,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 2.54 180)
+				(pin passive line
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -6953,8 +6953,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 5.08 180)
+				(pin passive line
+					(at -10.16 5.08 0)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -13076,8 +13076,8 @@
 		)
 		(uuid "3bc05e35-c98b-4634-bf6a-2c6008d34343")
 	)
-	(label "CC1"
-		(at 88.9 367.03 0)
+	(label "CC2"
+		(at 88.9 369.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13086,8 +13086,8 @@
 		)
 		(uuid "3d5dde3a-23ae-4181-b475-6c857a66367b")
 	)
-	(label "CC2"
-		(at 88.9 369.57 0)
+	(label "DP"
+		(at 88.9 367.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13176,7 +13176,7 @@
 		)
 		(uuid "7c7db296-3caa-499e-8790-daab90eeccfd")
 	)
-	(label "DP"
+	(label "DN"
 		(at 88.9 361.95 0)
 		(effects
 			(font
@@ -13186,7 +13186,7 @@
 		)
 		(uuid "84d38cdd-66a4-415f-967d-7fdd1d1fcdab")
 	)
-	(label "DN"
+	(label "CC1"
 		(at 88.9 359.41 0)
 		(effects
 			(font
@@ -17997,162 +17997,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:TPD4E05U06QDQARQ1")
-		(at 104.14 364.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c5d0985-0439-4041-ab18-13e7e88509d5")
-		(property "Reference" "D6"
-			(at 104.14 351.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPD4E05U06QDQARQ1"
-			(at 104.14 354.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TPD4E05U06QDQARQ1"
-			(at 104.14 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211227_Texas-Instruments-TPD4E05U06QDQARQ1_C81353.pdf"
-			(at 102.87 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+125℃ 0.5pF 10nA 14V 2.5A@8/20us 40W@8/20us 5.5V 8.7V ESD Four channels IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 104.14 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C81353"
-			(at 104.14 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C81353"
-			(at 104.14 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 104.14 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TPD4E05U06QDQARQ1"
-			(at 104.14 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 104.14 351.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "2c4affe4-1295-4c7e-955c-cbed7627070e")
-		)
-		(pin "2"
-			(uuid "ac644d38-b267-4936-8860-fabe7ee1c525")
-		)
-		(pin "10"
-			(uuid "4dfa8162-c408-426e-ba80-01ca4c210144")
-		)
-		(pin "4"
-			(uuid "e7711db4-6e20-4a4c-987c-598bde9d3b75")
-		)
-		(pin "7"
-			(uuid "f85b8695-8a95-4f28-991b-bf0fe2f490eb")
-		)
-		(pin "5"
-			(uuid "faaf75bc-9c90-4aa0-ad0c-d9b725550c9d")
-		)
-		(pin "[3,8]"
-			(uuid "97eb8647-088f-46e3-89cb-3be36ca42c8b")
-		)
-		(pin "6"
-			(uuid "4fb0a8ab-8f8e-468e-98f0-6a03d8406556")
-		)
-		(pin "1"
-			(uuid "6903cc15-1b26-4030-a1bc-4a9c2b2f1eab")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -29103,6 +28947,162 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:TPD4E05U06QDQARQ1")
+		(at 104.14 364.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c341c679-86ff-41ac-bb17-130eeb1f0a78")
+		(property "Reference" "D6"
+			(at 104.14 351.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4E05U06QDQARQ1"
+			(at 104.14 354.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:TPD4E05U06QDQARQ1"
+			(at 104.14 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809211227_Texas-Instruments-TPD4E05U06QDQARQ1_C81353.pdf"
+			(at 102.87 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 0.5pF 10nA 14V 2.5A@8/20us 40W@8/20us 5.5V 8.7V ESD Four channels IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 104.14 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C81353"
+			(at 104.14 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C81353"
+			(at 104.14 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 104.14 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPD4E05U06QDQARQ1"
+			(at 104.14 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD4E05U06QDQARQ1"
+			(at 104.14 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bffa9636-712e-4464-8f55-13cc7af36556")
+		)
+		(pin "4"
+			(uuid "2e9f06dc-8a04-4649-8a60-c83dee3b56f0")
+		)
+		(pin "9"
+			(uuid "06a68d66-b7bd-45b0-aa5b-0c999d21be09")
+		)
+		(pin "1"
+			(uuid "dbaf2f1d-d06d-4125-9a10-c4dbaa1ceed3")
+		)
+		(pin "7"
+			(uuid "adce1f1b-8a77-4b67-9a26-837f9ad00cb0")
+		)
+		(pin "6"
+			(uuid "d0b1a476-b0f5-426c-9a64-3601d9830f21")
+		)
+		(pin "5"
+			(uuid "25a69661-713b-4dc5-b402-30bbaf0dd1fb")
+		)
+		(pin "[3,8]"
+			(uuid "f5b0bcdc-61a5-4bca-a109-d5574c0cf438")
+		)
+		(pin "10"
+			(uuid "d2997af1-dcf5-443e-aa1d-f3ebb2eeff15")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "D6")
 					(unit 1)
 				)
 			)
