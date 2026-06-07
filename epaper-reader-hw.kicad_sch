@@ -12138,16 +12138,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 214.63) (xy 311.15 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29dcd36-854e-44ba-b9e2-8a2d8e861a33")
-	)
-	(wire
-		(pts
 			(xy 60.96 250.19) (xy 67.31 250.19)
 		)
 		(stroke
@@ -13025,16 +13015,6 @@
 			(type default)
 		)
 		(uuid "ff07565a-e27e-4817-ba9c-8433be2d7fe1")
-	)
-	(wire
-		(pts
-			(xy 311.15 209.55) (xy 314.96 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff676459-123b-48ef-aabd-b4a9743bec1a")
 	)
 	(wire
 		(pts
@@ -16056,30 +16036,6 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 288.29 232.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9e9d4e8-e8ef-4b92-9728-cd19626f388f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.89 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "+3V3_AON"
 		(shape passive)
 		(at 120.65 38.1 180)
@@ -17288,85 +17244,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 288.29 232.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11f56b72-2e90-4915-968c-19cdc7646bb6")
-		(property "Reference" "TP9"
-			(at 293.37 231.1399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 293.37 233.6799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 288.29 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 288.29 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06c428f9-cf81-4242-9f50-3c9e21622941")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -20368,84 +20245,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 311.15 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39930836-0974-435c-82a2-9e960eedfa53")
-		(property "Reference" "#PWR010"
-			(at 311.15 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 311.15 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 311.15 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "579d3aa9-ac05-4e4c-a255-cdde556a847c")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -23668,86 +23467,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 314.96 209.55 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f8ff9de-1996-4b79-b52a-70cff4a3505c")
-		(property "Reference" "TP16"
-			(at 320.04 210.8201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 320.04 208.2801 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 314.96 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 314.96 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba8b3df4-b4a3-49b4-b5ca-9c7d0bfa7a0e")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
