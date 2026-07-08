@@ -8479,19 +8479,6 @@
 		)
 		(uuid "b9f64731-7b35-4721-a7dd-958ddd1666dd")
 	)
-	(text "TODO: Leave\ndeep sleep ?\n"
-		(exclude_from_sim no)
-		(at 238.76 107.95 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 2.032)
-				(bold yes)
-				(color 255 0 14 1)
-			)
-		)
-		(uuid "c6b44ae6-3604-4dee-93c9-e36f7818551d")
-	)
 	(text "RESET/BOOT"
 		(exclude_from_sim no)
 		(at 203.2 25.4 0)
