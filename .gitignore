@@ -41,3 +41,14 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+
+# Generated manufacturing/export outputs
+jlcpcb/gerber/
+jlcpcb/production_files/
+jlcpcb/project.db
+*-odb.zip
+epaper-reader-hw.pdf
+*.rpt
+
+datasheets/
