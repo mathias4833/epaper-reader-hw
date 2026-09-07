@@ -24,6 +24,14 @@ The rest of the board includes:
 - a LIS3DHTR three-axis accelerometer on the I²C bus;
 - a switched supply for peripherals that do not need to remain powered.
 
+## PCB
+
+The schematic and PCB were designed in KiCad.
+
+| Front | Back |
+|---|---|
+| <a href="images/pcb-front.png"><img src="images/pcb-front.png" width="430" alt="PCB render of the display side"></a> | <a href="images/pcb-back.png"><img src="images/pcb-back.png" width="430" alt="PCB render of the component side"></a> |
+
 ## Schematic
 
 <p align="center">
@@ -31,15 +39,3 @@ The rest of the board includes:
     <img src="images/schematic.svg" width="1000" alt="Complete KiCad schematic">
   </a>
 </p>
-
-## PCB
-
-| Front | Back |
-|---|---|
-| <a href="images/pcb-front.png"><img src="images/pcb-front.png" width="430" alt="PCB render of the display side"></a> | <a href="images/pcb-back.png"><img src="images/pcb-back.png" width="430" alt="PCB render of the component side"></a> |
-
-## V1 mistakes
-
-- The power button is connected to a GPIO that cannot wake the ESP32-C6 from deep sleep. The side buttons are used for wake-up instead.
-- The e-paper FPC connector is slightly offset and should be moved in another revision.
-- The dashed display placement marking follows the active screen area instead of the panel's outer outline.
