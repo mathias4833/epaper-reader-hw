@@ -7,6 +7,10 @@ A small battery-powered e-paper reader built around a custom PCB.
   <a href="images/reader-settings.jpeg"><img src="images/reader-settings.jpeg" width="400" alt="The assembled reader showing CrossPoint Reader settings"></a>
 </p>
 
+*Quick demo of the UI and double-tap page turning:*
+
+https://github.com/user-attachments/assets/651f01a9-5495-4bea-b6eb-84c9eb2a8fab
+
 The Xteink X4 was the starting point for this project. I liked the idea of a small reader with physical buttons, but wanted to design the electronics myself.
 
 The board uses an ESP32-C6 and runs [my fork of CrossPoint Reader](https://github.com/mathias4833/crosspoint-reader).
