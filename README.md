@@ -9,28 +9,44 @@ A small battery-powered e-paper reader built around a custom PCB.
 
 The Xteink X4 was the starting point for this project. I liked the idea of a small reader with physical buttons, but wanted to design the electronics myself.
 
-The board uses an ESP32-C6. I couldn't find any ESP32-C3 module with enough RAM for what I wanted, while the ESP32-S2 consumed too much power to my liking. The reader runs [my fork of CrossPoint Reader](https://github.com/mathias4833/crosspoint-reader).
-
-## Hardware
-
-Power comes from a single-cell Li-ion battery. A BQ24074 handles charging and power-path management, followed by a TPS63031 buck-boost converter for the 3.3 V rail. A MAX17048 fuel gauge estimates the battery's state of charge and reports it over I²C.
-
-The rest of the board includes:
-
-- a GoodDisplay GDEQ0426T82 e-paper panel;
-- microSD storage;
-- USB-C for charging and programming;
-- six side buttons connected through two ADC resistor ladders;
-- a LIS3DHTR three-axis accelerometer on the I²C bus;
-- a switched supply for peripherals that do not need to remain powered.
+The board uses an ESP32-C6 and runs [my fork of CrossPoint Reader](https://github.com/mathias4833/crosspoint-reader).
 
 ## PCB
 
 The schematic and PCB were designed in KiCad.
 
+<p align="center">
+  <a href="images/pcb-and-enclosure.jpeg"><img src="images/pcb-and-enclosure.jpeg" width="600" alt="Assembled PCB with battery, next to the enclosure back cover"></a>
+</p>
+
 | Front | Back |
 |---|---|
 | <a href="images/pcb-front.png"><img src="images/pcb-front.png" width="430" alt="PCB render of the display side"></a> | <a href="images/pcb-back.png"><img src="images/pcb-back.png" width="430" alt="PCB render of the component side"></a> |
+
+
+## Specifications
+
+  |                     |                                                |
+  |---------------------|------------------------------------------------|
+  | MCU                 | ESP32-C6-WROOM-1-N8                            |
+  | Memory              | 8 MB flash, 512 KB SRAM                        |
+  | Display             | 4.26" Good Display GDEQ0426T82, 800 x 480      |
+  | Storage             | microSD                                        |
+  | Battery             | 600 mAh Li-Po                                  |
+  | USB-C               | Of course :)                                   |
+  | Charging controller | BQ24074                                        |
+  | Voltage regulator   | TPS63031 3.3 V buck-boost                      |
+  | Battery gauge       | MAX17048                                       |
+  | Controls            | 6 physical side buttons                        |
+  | Accelerometer       | LIS3DHTR, 3-axis                               |
+  | PCB                 | 2 layers, 1.2 mm                               |
+  | Dimensions          | Approx. 116 x 72 x 7.5 mm, including enclosure |
+
+## Hardware
+
+Power comes from a single-cell Li-ion battery. A BQ24074 handles charging and powers the reader from USB when plugged in. A TPS63031 generates the 3.3 V rail, and a MAX17048 keeps track of the battery level.
+
+The display and microSD card share the SPI bus and are both on switchable power rails. The fuel gauge and accelerometer stay powered, since their idle current is low enough that there wasn't much to gain from switching them off (3uA and 0.5uA).
 
 ## Schematic
 
@@ -39,3 +55,42 @@ The schematic and PCB were designed in KiCad.
     <img src="images/schematic.svg" width="1000" alt="Complete KiCad schematic">
   </a>
 </p>
+
+## Cost
+
+In a batch of five, the parts and fabrication comes to roughly 60€ per reader.
+
+| Part                         | Approx. cost per reader |
+|------------------------------|------------------------:|
+| PCB components               |                     20€ |
+| PCB fabrication and assembly |                    ~15€ |
+| 4.26" e-paper display        |                 ~17-19€ |
+| 600 mAh battery              |                     ~8€ |
+| 3D-printed enclosure         |                  ~0.50€ |
+| **Total**                    |                **~60€** |
+
+This is a rough estimate. Shipping and imports duties aren't included as they vary a lot depending on where you live, and you'll also need a microSD card and a soldering iron to attach the battery.
+
+## Design decisions
+
+### Layout
+
+I wanted the reader to stay thin, so using through-hole parts was never really an option. I also wanted to avoid paying for assembly on both sides of the PCB (it's super expensive!), which meant keeping all components on the back. 
+The buttons are thus on the sides. I used TPU for the button pieces in the enclosure, which makes them much nicer to press than rigid printed buttons.
+
+I originally wanted the final assembly to be completely solderless. I looked for a low-profile battery connector on LCSC but couldn't find anything slim enough. Looking back, there were probably a few decent options I missed, but hey, it's the first version. In the end, I added two large solder pads and called it a day. The battery wires pass through two small metal loops first in order to provide strain relief before reaching the pads.
+### ESP32-C6
+
+Obviously my first choice was the ESP32-C3. It is what the Xteink X4 uses, and its power consumption is very good.
+
+The problem was flash. Recent CrossPoint builds are a little over 6 MB, and the Xteink's 16 MB flash is split into two 6.25 MB application partitions so that OTA updates can keep both the old and new firmware around. That wasn't going to work with the C3 modules I could find, which were limited to 4MB flash.
+
+The ESP32-S3 would have solved that, but it also consumes more power than I wanted for an ereader that spends most of its life asleep. 
+
+I eventually found an ESP32-C6 module with 8 MB of flash. That's enough for CrossPoint, but not enough to keep two copies of the firmware around, so OTA updates had to go. USB flashing is good enough for me anyway.
+
+### Power gating
+
+I was using a cheap microSD card and didn't know how much current it would draw while idle. Since standby power matters a lot I didn't want to rely on the SD card behaving well.
+
+So I added a switchable power rail for peripherals that don't need to stay on. When the reader goes to sleep, the firmware can cut their power completely instead of depending on their own low-power modes.
