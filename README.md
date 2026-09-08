@@ -15,6 +15,8 @@ The Xteink X4 was the starting point for this project. I liked the idea of a sma
 
 The board uses an ESP32-C6 and runs [my fork of CrossPoint Reader](https://github.com/mathias4833/crosspoint-reader).
 
+This is very much a V1. It works, but I already have several changes planned for V2.
+
 ## PCB
 
 The schematic and PCB were designed in KiCad.
