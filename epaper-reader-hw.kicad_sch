@@ -14361,17 +14361,17 @@
 	)
 	(global_label "PERIPH_EN"
 		(shape output)
-		(at 59.69 77.47 180)
+		(at 115.57 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5b7fa2e5-4ac6-41fd-adeb-c46e79fe4b87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3634 77.47 0)
+			(at 128.8966 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14379,7 +14379,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -15657,17 +15657,17 @@
 	)
 	(global_label "BTN_POWER_N"
 		(shape input)
-		(at 115.57 115.57 0)
+		(at 59.69 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bc50ebf4-c65f-4f16-84ed-96f9fbc6ec24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8599 115.57 0)
+			(at 43.4001 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15675,7 +15675,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
