@@ -12800,7 +12800,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 144.78) (xy 193.04 144.78)
+			(xy 243.84 101.6) (xy 251.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -13040,7 +13040,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 147.32) (xy 193.04 147.32)
+			(xy 243.84 99.06) (xy 251.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -15329,12 +15329,12 @@
 		(uuid "3e08bddb-e36c-4daf-a987-1c07fce8a016")
 	)
 	(label "XTAL_P"
-		(at 193.04 144.78 0)
+		(at 251.46 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "426e4ac8-1f14-4682-82b2-1b7a3cfaae98")
 	)
@@ -15539,12 +15539,12 @@
 		(uuid "d2c6ee27-d047-4738-ab9d-8254127e6004")
 	)
 	(label "XTAL_N"
-		(at 193.04 147.32 0)
+		(at 251.46 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dc27a939-d7cf-4366-8547-107fe835d9d1")
 	)
