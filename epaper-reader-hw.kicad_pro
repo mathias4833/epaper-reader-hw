@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -631,6 +634,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -738,8 +742,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "VBAT_SYS",
@@ -805,6 +809,7 @@
       "netlist": "",
       "plot": "/home/mathias/Documents/hardware/ereader/gerbers/",
       "specctra_dsn": "../routing/test2.dsn",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -987,7 +992,7 @@
         "uuid": "74cee54b-622a-44c5-bcf0-9bd7d4daa334"
       }
     ],
-    "used_designators": "FID1-4",
+    "used_designators": "#PWR3,#PWR8,#PWR10-13,#PWR32,#PWR41-45,#PWR65,#PWR72-96,AE1,C32-52,D4,D7,FID1-4,FPC2-3,L2,L4-8,R36-37,R44-47,U2,U6,U10-12,X1",
     "variants": []
   },
   "sheets": [
