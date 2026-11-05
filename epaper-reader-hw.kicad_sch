@@ -1334,147 +1334,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:MBR0530"
 			(pin_numbers
 				(hide yes)
@@ -3527,649 +3386,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TYPE-C-31-M-12_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "USBC"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TYPE-C-31-M-12"
-				(at 0 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "epaper-reader-hw:TYPE-C-31-M-12"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-30℃~+80℃ 1 10,000 cycles 16P 20V 5A 7.35mm Female Surface Mount, Right Angle Type-C SMD USB Connectors ROHS"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C165948"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part #" "C165948"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Korean Hroparts Elec"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "TYPE-C-31-M-12"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TYPE-C-31-M-12"
-				(at -15.24 48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C165948 Korean Hroparts Elec TYPE-C-31-M-12 USB-C_SMD-TYPE-C-31-M-12_1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_0_0"
-				(rectangle
-					(start 1.016 -16.51)
-					(end 1.524 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 16.764)
-					(end 10.414 16.256)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 11.684)
-					(end 10.414 11.176)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 9.144)
-					(end 10.414 8.636)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 4.064)
-					(end 10.414 3.556)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 1.524)
-					(end 10.414 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 -1.016)
-					(end 10.414 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 -3.556)
-					(end 10.414 -4.064)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 -11.176)
-					(end 10.414 -11.684)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 11.43 -13.716)
-					(end 10.414 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_0_1"
-				(rectangle
-					(start -8.89 19.05)
-					(end 11.43 -16.51)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -6.35 -2.54)
-					(end -5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -6.35 5.08)
-					(mid -5.715 5.7123)
-					(end -5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 5.08)
-					(mid -5.715 5.7123)
-					(end -5.08 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 5.08)
-					(mid -5.715 6.9767)
-					(end -3.81 5.08)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 -2.54)
-					(mid -5.715 -4.4367)
-					(end -7.62 -2.54)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -2.54)
-					(mid -5.715 -3.1723)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -2.54)
-					(mid -5.715 -3.1723)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 2.413)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.588) (xy 1.27 8.128) (xy 2.54 5.588) (xy 0 5.588)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 3.81 1.778) (xy 3.81 3.048)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.032) (xy -1.27 0.508) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -4.572) (xy 1.27 5.588)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -4.572)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 3.175 3.048)
-					(end 4.445 4.318)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "TYPE-C-31-M-12_1_1_1"
-				(pin bidirectional line
-					(at 16.51 11.43 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -1.27 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 3.81 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -11.43 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 8.89 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -3.81 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 1.27 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 16.51 -13.97 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -21.59 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "[1,2,3,4]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -21.59 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "[A1B12,B1A12]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 16.51 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "[A4B9,B4A9]"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -6182,641 +5398,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "epaper-reader-hw:ESP32-C6-WROOM-1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -25.4 35.56 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ESP32-C6-WROOM-1"
-				(at -25.4 33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "epaper-reader-hw:ESP32-C6-WROOM-1"
-				(at 0 -45.085 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
-				(at 0 -48.26 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "ESP32-C6-WROOM-1/U is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "esp32-c6 esp32-c6-wroom-1 esp32-c6-wroom-1u"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "ESP32-C6-WROOM-1*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESP32-C6-WROOM-1_0_0"
-				(text "ESP32-C6-WROOM-1"
-					(at 0 -20.955 0)
-					(effects
-						(font
-							(size 2 2)
-						)
-					)
-				)
-			)
-			(symbol "ESP32-C6-WROOM-1_0_1"
-				(rectangle
-					(start -25.4 30.48)
-					(end 25.4 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ESP32-C6-WROOM-1_1_1"
-				(pin power_in line
-					(at 0 -33.02 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 33.02 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -27.94 27.94 0)
-					(length 2.54)
-					(name "EN/CHIP_PU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 7.62 0)
-					(length 2.54)
-					(name "MTMS/GPIO4/ADC1_CH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 5.08 0)
-					(length 2.54)
-					(name "MTDI/GPIO5/ADC1_CH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 2.54 0)
-					(length 2.54)
-					(name "MTCK/GPIO6/ADC1_CH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 0 0)
-					(length 2.54)
-					(name "MTDO/GPIO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 22.86 0)
-					(length 2.54)
-					(name "GPIO0/ADC1_CH0/XTAL_32K_P"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 20.32 0)
-					(length 2.54)
-					(name "GPIO1/ADC1_CH1/XTAL_32K_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 7.62 180)
-					(length 2.54)
-					(name "GPIO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 2.54 180)
-					(length 2.54)
-					(name "GPIO10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 0 180)
-					(length 2.54)
-					(name "GPIO11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 17.78 180)
-					(length 2.54)
-					(name "GPIO12/USB_D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 20.32 180)
-					(length 2.54)
-					(name "GPIO13/USB_D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 5.08 180)
-					(length 2.54)
-					(name "GPIO9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -5.08 180)
-					(length 2.54)
-					(name "GPIO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -7.62 180)
-					(length 2.54)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -10.16 180)
-					(length 2.54)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -12.7 180)
-					(length 2.54)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -15.24 180)
-					(length 2.54)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -17.78 180)
-					(length 2.54)
-					(name "GPIO23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -25.4 -12.7 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -2.54 180)
-					(length 2.54)
-					(name "GPIO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 25.4 180)
-					(length 2.54)
-					(name "U0RXD/GPIO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 27.94 180)
-					(length 2.54)
-					(name "U0TXD/GPIO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 15.24 0)
-					(length 2.54)
-					(name "GPIO3/ADC1_CH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 17.78 0)
-					(length 2.54)
-					(name "GPIO2/ADC1_CH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -33.02 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -33.02 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9335,6 +7916,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "epaper-reader-hw:SKSCLDE010"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SKSCLDE010"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C115362"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ALPSALPINE"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SKSCLDE010"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ALPSALPINE C115362 KEY-SMD_4P-SKSCLXX010 SKSCLDE010"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SKSCLDE010_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.524 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 0)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SKSCLDE010_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[1,2]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[3,4]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "epaper-reader-hw:TPD4E05U06QDQARQ1"
 			(pin_names
 				(offset 1.016)
@@ -10094,7 +8881,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "epaper-reader-hw:TSB001A3526B"
+		(symbol "epaper-reader-hw:TYPE-610-1_0-T3-5A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -10103,8 +8890,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 2 0)
+			(property "Reference" "USB"
+				(at 0 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -10113,8 +8900,8 @@
 					)
 				)
 			)
-			(property "Value" "TSB001A3526B"
-				(at 0 -4.54 0)
+			(property "Value" "TYPE-610-1_0-T3-5A"
+				(at 0 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -10123,19 +8910,8 @@
 					)
 				)
 			)
-			(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-				(at 0 6.35 0)
+			(property "Footprint" "epaper-reader-hw:TYPE-610-1_0-T3-5A"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10145,8 +8921,8 @@
 					)
 				)
 			)
-			(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-				(at 0 6.35 0)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307181143_Yuandi-TYPE-610-1-0-T3-5A_C7464659.pdf"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10156,8 +8932,8 @@
 					)
 				)
 			)
-			(property "LCSC" "C2846768"
-				(at 0 6.35 0)
+			(property "Description" "-30℃~+80℃ 1 10,000 cycles 16P 20V 5A 6.5mm Black Female Recessed Type-C USB 3.1 SMD USB Connectors ROHS"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10167,8 +8943,8 @@
 					)
 				)
 			)
-			(property "LCSC Part #" "C2846768"
-				(at 0 6.35 0)
+			(property "LCSC" "C7464659"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10178,8 +8954,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "BZCN"
-				(at 0 6.35 0)
+			(property "Manufacturer" "Yuandi"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10189,8 +8965,8 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "TSB001A3526B"
-				(at 0 6.35 0)
+			(property "Manufacturer Part" "TYPE-610-1.0-T3-5A"
+				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -10200,18 +8976,7 @@
 					)
 				)
 			)
-			(property "MPN" "TSB001A3526B"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BZCN C2846768 SW-SMD_TSB001XXXX TSB001A3526B"
+			(property "ki_keywords" "C7464659 TYPE-610-1.0-T3-5A USB-TYPE-C-SMD_TYPE-610-1.0-T3-5A Yuandi"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10222,43 +8987,457 @@
 					)
 				)
 			)
-			(symbol "TSB001A3526B_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.778 1.27)
-					)
+			(symbol "TYPE-610-1_0-T3-5A_0_0"
+				(rectangle
+					(start -0.254 -19.05)
+					(end 0.254 -18.034)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.286 0)
-					(radius 0.254)
+				(rectangle
+					(start 10.16 14.224)
+					(end 9.144 13.716)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 9.144)
+					(end 9.144 8.636)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 6.604)
+					(end 9.144 6.096)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 1.524)
+					(end 9.144 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -1.016)
+					(end 9.144 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -3.556)
+					(end 9.144 -4.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -6.096)
+					(end 9.144 -6.604)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -13.716)
+					(end 9.144 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -16.256)
+					(end 9.144 -16.764)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "TSB001A3526B_1_1"
-				(pin passive line
-					(at -7.62 0 0)
+			(symbol "TYPE-610-1_0-T3-5A_0_1"
+				(rectangle
+					(start -10.16 16.51)
+					(end 10.16 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -5.08) (xy -8.89 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -5.08)
+					(end -6.35 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 2.54)
+					(mid -6.985 3.1723)
+					(end -6.35 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 2.54)
+					(mid -6.985 3.1723)
+					(end -6.35 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 2.54)
+					(mid -6.985 4.4367)
+					(end -5.08 2.54)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -5.08)
+					(mid -6.985 -6.9767)
+					(end -8.89 -5.08)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -5.08)
+					(mid -6.985 -5.7123)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -5.08)
+					(mid -6.985 -5.7123)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -0.127)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.048) (xy 0 5.588) (xy 1.27 3.048) (xy -1.27 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy 2.54 -0.762) (xy 2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy -2.54 -2.032) (xy -2.54 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.112) (xy 0 3.048)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.112)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 0.508)
+					(end 3.175 1.778)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TYPE-610-1_0-T3-5A_1_1"
+				(pin bidirectional line
+					(at 15.24 8.89 180)
 					(length 5.08)
-					(name ""
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -13.97 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -16.51 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10267,16 +9446,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -7.62 -24.13 90)
 					(length 5.08)
-					(name ""
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "[1,2,3,4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10284,18 +9463,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
+				(pin passive line
+					(at 0 -24.13 90)
 					(length 5.08)
-					(hide yes)
-					(name "3"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "[A1B12,B1A12]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10303,18 +9481,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -7.62 -2.54 0)
+				(pin passive line
+					(at 15.24 13.97 180)
 					(length 5.08)
-					(hide yes)
-					(name "4"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "[A4B9,B4A9]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11062,7 +10239,7 @@
 	)
 	(rectangle
 		(start 17.78 369.57)
-		(end 115.57 539.75)
+		(end 113.03 552.45)
 		(stroke
 			(width 1)
 			(type solid)
@@ -11559,6 +10736,26 @@
 		)
 		(uuid "28566272-9c64-4e5a-9d15-07ea61e9962c")
 	)
+	(text_box "- R46/R47 = 16R set ~ 204mV / 16Ohm = 12,75mA per string at full brightness\n- R48/R49 = 100 kΩ pull CTRL low during MCU reset and deep sleep\n"
+		(exclude_from_sim no)
+		(at 21.59 535.94 0)
+		(size 87.63 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e0b8254-2909-48e7-8e57-8e71fba0c771")
+	)
 	(text_box "GPIO45 and GPIO46 are intentionally left unconnected because both have internal weak pull-downs at reset.\nWith default eFuse settings, GPIO45=0 selects 3.3V VDD_SPI for the S3R8 PSRAM and external flash. GPIO46=0 allows download mode when GPIO0 is held low.\n\nhttps://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#digital-power-supply\nhttps://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html#strapping-pins"
 		(exclude_from_sim no)
 		(at 224.79 209.55 0)
@@ -11780,16 +10977,16 @@
 		(uuid "ca2ae4e9-92be-4243-92d4-0a217cd1dac0")
 	)
 	(junction
+		(at 629.92 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00e7f678-dff9-4aa5-a023-d6058fef39a3")
+	)
+	(junction
 		(at 311.15 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03c58c3f-28e5-4c8c-8838-90075010a60d")
-	)
-	(junction
-		(at 45.72 440.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03e9180b-02c0-4bc6-864f-e3b5b0c2409f")
 	)
 	(junction
 		(at 455.93 250.19)
@@ -11984,12 +11181,6 @@
 		(uuid "3b7c2650-e8b2-4f70-b302-7ee936b2de62")
 	)
 	(junction
-		(at 285.75 454.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d64a0a5-bd68-4244-b4f9-1245176456d6")
-	)
-	(junction
 		(at 624.84 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12020,22 +11211,10 @@
 		(uuid "56cbbcb1-7d8b-4ff4-9055-66ba6d76388c")
 	)
 	(junction
-		(at 87.63 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5794b69a-2dac-4024-9c70-19cd4f40d947")
-	)
-	(junction
 		(at 516.89 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59668136-5b53-4a08-8fdc-4b91e8da56b3")
-	)
-	(junction
-		(at 285.75 452.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c7988a6-e9cb-4030-ae28-db5042cfcf41")
 	)
 	(junction
 		(at 655.32 488.95)
@@ -12056,10 +11235,10 @@
 		(uuid "66e547fb-1cb0-48d1-a04e-a4f95aa1429b")
 	)
 	(junction
-		(at 629.92 342.9)
+		(at 35.56 440.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a627c0e-00b2-4e48-b132-a7f51629358b")
+		(uuid "6d3330b4-058d-463b-b745-06c10e0adfe6")
 	)
 	(junction
 		(at 81.28 440.69)
@@ -12068,10 +11247,22 @@
 		(uuid "781a60c2-1fb1-4032-8be3-dc347c646b85")
 	)
 	(junction
+		(at 54.61 453.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f5c5f92-965a-4724-a057-697ff45a8f79")
+	)
+	(junction
 		(at 650.24 471.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "817ec305-9ba6-42c8-9c13-89dd33856414")
+	)
+	(junction
+		(at 285.75 454.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82879afd-efc3-45d0-869d-bdb9890a3453")
 	)
 	(junction
 		(at 331.47 148.59)
@@ -12108,12 +11299,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87f31537-28a6-4fb3-b940-835bd0f15918")
-	)
-	(junction
-		(at 45.72 491.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf8c1f8-57d4-4b54-837e-c3bef85b4319")
 	)
 	(junction
 		(at 612.14 217.17)
@@ -12192,6 +11377,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab43f9de-1a2d-42f9-b1f3-8a3a09ec7393")
+	)
+	(junction
+		(at 54.61 504.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a280b7-f39b-4681-b47f-1332832bc13a")
 	)
 	(junction
 		(at 345.44 123.19)
@@ -12314,12 +11505,6 @@
 		(uuid "d9a11c06-cd5d-4c59-b8e8-97df1e1d3a3a")
 	)
 	(junction
-		(at 68.58 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9b30584-bc52-4edf-9fae-27c5eebb5be6")
-	)
-	(junction
 		(at 731.52 496.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12330,6 +11515,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbd36745-cd6b-48ea-bb29-67fcee8b3f9e")
+	)
+	(junction
+		(at 285.75 452.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "defd14f5-09e2-4d6c-97d1-494177e08ad4")
 	)
 	(junction
 		(at 367.03 450.85)
@@ -12362,12 +11553,6 @@
 		(uuid "e41d1153-d66c-4c60-ab44-a0cd99615a69")
 	)
 	(junction
-		(at 118.11 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5fa4f81-eba9-40c1-a9dc-0fdde03afbf2")
-	)
-	(junction
 		(at 381 509.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12384,12 +11569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec2f3bd3-0554-4349-b61a-763b82ac884d")
-	)
-	(junction
-		(at 118.11 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eff0ef3a-310a-4c11-a775-b9d6ebaf594f")
 	)
 	(junction
 		(at 499.11 449.58)
@@ -12420,6 +11599,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f4d3fd-c462-4316-94cd-6a829d6a18d1")
+	)
+	(junction
+		(at 35.56 491.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff95c38d-205d-4ac9-bae6-e042e588e07b")
 	)
 	(junction
 		(at 349.25 369.57)
@@ -12549,16 +11734,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051bf216-4678-473b-9626-f0767e011c50")
-	)
-	(wire
-		(pts
 			(xy 490.22 457.2) (xy 490.22 449.58)
 		)
 		(stroke
@@ -12669,16 +11844,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 82.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d517047-770e-476f-b6f5-870998dc2137")
-	)
-	(wire
-		(pts
 			(xy 618.49 400.05) (xy 618.49 402.59)
 		)
 		(stroke
@@ -12729,17 +11894,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 116.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ecb4b77-787c-44da-b467-a6d4a9eb044f")
-	)
-	(wire
-		(pts
-			(xy 45.72 502.92) (xy 45.72 505.46)
+			(xy 35.56 502.92) (xy 35.56 505.46)
 		)
 		(stroke
 			(width 0)
@@ -12859,16 +12014,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 54.61 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a6818f-e854-4fc8-ac8b-43caf9daf8d8")
-	)
-	(wire
-		(pts
 			(xy 86.36 440.69) (xy 81.28 440.69)
 		)
 		(stroke
@@ -12919,7 +12064,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 495.3) (xy 45.72 491.49)
+			(xy 35.56 495.3) (xy 35.56 491.49)
 		)
 		(stroke
 			(width 0)
@@ -13109,16 +12254,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 118.11 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "220bdcbb-56ac-4f47-9a42-bf8f7c6b68e0")
-	)
-	(wire
-		(pts
 			(xy 462.28 179.07) (xy 467.36 179.07)
 		)
 		(stroke
@@ -13189,7 +12324,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 491.49) (xy 41.91 491.49)
+			(xy 35.56 491.49) (xy 31.75 491.49)
 		)
 		(stroke
 			(width 0)
@@ -13286,16 +12421,6 @@
 			(type default)
 		)
 		(uuid "2a25b9b1-ed40-45f0-891f-28ae608f3605")
-	)
-	(wire
-		(pts
-			(xy 60.96 491.49) (xy 45.72 491.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a474613-beb6-4845-8132-674920927cc3")
 	)
 	(wire
 		(pts
@@ -13499,7 +12624,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 440.69) (xy 41.91 440.69)
+			(xy 35.56 440.69) (xy 31.75 440.69)
 		)
 		(stroke
 			(width 0)
@@ -13519,7 +12644,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 452.12) (xy 45.72 454.66)
+			(xy 54.61 516.89) (xy 54.61 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ea3f27-33b1-40da-b3f9-326c4c54d1b0")
+	)
+	(wire
+		(pts
+			(xy 35.56 452.12) (xy 35.56 454.66)
 		)
 		(stroke
 			(width 0)
@@ -13689,16 +12824,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 127 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d75da16-a021-43d9-9e80-ff877b58955d")
-	)
-	(wire
-		(pts
 			(xy 223.52 261.62) (xy 223.52 264.16)
 		)
 		(stroke
@@ -13709,13 +12834,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 135.89 100.33)
+			(xy 35.56 440.69) (xy 60.96 440.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e69315f-5052-40e7-b0df-0f7d486a67a6")
+		(uuid "3e0c4534-08a3-4f51-94fa-b8614d14964a")
 	)
 	(wire
 		(pts
@@ -13759,6 +12884,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 466.09) (xy 54.61 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e04b01-1bf9-4bb7-8f8b-e69455ded2fd")
+	)
+	(wire
+		(pts
 			(xy 358.14 392.43) (xy 372.11 392.43)
 		)
 		(stroke
@@ -13766,6 +12901,16 @@
 			(type default)
 		)
 		(uuid "41af40ab-7348-40bb-87c9-ee87d00f0617")
+	)
+	(wire
+		(pts
+			(xy 54.61 509.27) (xy 54.61 504.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427a705f-6703-4696-8013-cee8d3dc6f24")
 	)
 	(wire
 		(pts
@@ -13819,16 +12964,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 130.81) (xy 87.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453134a4-d1c5-4b78-b610-561e37b9ef60")
-	)
-	(wire
-		(pts
 			(xy 306.07 38.1) (xy 300.99 38.1)
 		)
 		(stroke
@@ -13836,16 +12971,6 @@
 			(type default)
 		)
 		(uuid "464710f4-1281-4394-bc78-f5afce589ac1")
-	)
-	(wire
-		(pts
-			(xy 118.11 69.85) (xy 121.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "464ef2ee-6aa5-4aff-aae4-433c07ad54eb")
 	)
 	(wire
 		(pts
@@ -14049,6 +13174,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 491.49) (xy 60.96 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f65cedd-a35b-4fa8-928d-f236ab4c2d9a")
+	)
+	(wire
+		(pts
 			(xy 349.25 392.43) (xy 349.25 387.35)
 		)
 		(stroke
@@ -14249,16 +13384,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 74.93) (xy 130.81 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a891cc2-db1f-4ae4-b5b7-cbf74cfc0659")
-	)
-	(wire
-		(pts
 			(xy 63.5 449.58) (xy 60.96 449.58)
 		)
 		(stroke
@@ -14346,16 +13471,6 @@
 			(type default)
 		)
 		(uuid "5f09e7e1-1b3f-4935-bd33-ec8cb03b0ec7")
-	)
-	(wire
-		(pts
-			(xy 118.11 74.93) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6ac828-e337-4d66-94df-c0a5705e2541")
 	)
 	(wire
 		(pts
@@ -14599,7 +13714,7 @@
 	)
 	(wire
 		(pts
-			(xy 516.89 279.4) (xy 516.89 269.24)
+			(xy 516.89 264.16) (xy 516.89 279.4)
 		)
 		(stroke
 			(width 0)
@@ -14616,16 +13731,6 @@
 			(type default)
 		)
 		(uuid "685cabb5-30fe-4645-97ee-a4b4562b0601")
-	)
-	(wire
-		(pts
-			(xy 60.96 440.69) (xy 45.72 440.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68efda58-639f-41ef-ac9b-d20657e7b641")
 	)
 	(wire
 		(pts
@@ -14666,16 +13771,6 @@
 			(type default)
 		)
 		(uuid "6c43e313-008f-48c1-b1fe-87ad462a8109")
-	)
-	(wire
-		(pts
-			(xy 118.11 72.39) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8d4a56-5b4e-4b7e-bc7c-84aa3844d94a")
 	)
 	(wire
 		(pts
@@ -14756,6 +13851,16 @@
 			(type default)
 		)
 		(uuid "73295c97-4a0f-483a-8929-9aa63ef4f499")
+	)
+	(wire
+		(pts
+			(xy 54.61 458.47) (xy 54.61 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c6a0a8-7821-41f1-8ca7-03e05def55a1")
 	)
 	(wire
 		(pts
@@ -14876,26 +13981,6 @@
 			(type default)
 		)
 		(uuid "78b2c07f-edd2-4747-ae19-2b8342be9452")
-	)
-	(wire
-		(pts
-			(xy 48.26 43.18) (xy 68.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7900dad7-6b13-43e1-9d11-08e10f37421d")
-	)
-	(wire
-		(pts
-			(xy 130.81 72.39) (xy 127 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79018090-424d-4241-9197-ed7350057d3d")
 	)
 	(wire
 		(pts
@@ -15309,16 +14394,6 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 279.4) (xy 455.93 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bd82699-659d-4746-808c-c8881df7ae37")
-	)
-	(wire
-		(pts
 			(xy 254 125.73) (xy 254 129.54)
 		)
 		(stroke
@@ -15479,13 +14554,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 130.81 100.33)
+			(xy 629.92 346.71) (xy 629.92 342.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90feb215-0dec-4b67-b5c2-ba2c66a1bca9")
+		(uuid "913cfefe-b8a4-42e1-89f2-63ff13fefd5c")
 	)
 	(wire
 		(pts
@@ -15546,6 +14621,16 @@
 			(type default)
 		)
 		(uuid "94435eec-c628-4c38-bca0-4c62e0967df7")
+	)
+	(wire
+		(pts
+			(xy 443.23 264.16) (xy 443.23 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a96b2e-dcfb-4f90-924e-1936ff52ccc4")
 	)
 	(wire
 		(pts
@@ -15709,6 +14794,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 504.19) (xy 63.5 504.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dcbf36c-695a-40b8-aafd-ad707968d48a")
+	)
+	(wire
+		(pts
 			(xy 337.82 486.41) (xy 341.63 486.41)
 		)
 		(stroke
@@ -15859,7 +14954,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 444.5) (xy 45.72 440.69)
+			(xy 35.56 444.5) (xy 35.56 440.69)
 		)
 		(stroke
 			(width 0)
@@ -15939,26 +15034,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 54.61) (xy 48.26 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62a648d-4a3d-4873-b17c-e1eb742851ad")
-	)
-	(wire
-		(pts
-			(xy 48.26 43.18) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66c46eb-8864-48e5-8b2d-ef27171c9ed4")
-	)
-	(wire
-		(pts
 			(xy 176.53 209.55) (xy 179.07 209.55)
 		)
 		(stroke
@@ -15996,16 +15071,6 @@
 			(type default)
 		)
 		(uuid "a79210ac-acbf-457e-8d2d-cd3c9b546f13")
-	)
-	(wire
-		(pts
-			(xy 68.58 43.18) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8081dcd-35b8-4aee-92f3-f3ea6713840f")
 	)
 	(wire
 		(pts
@@ -16086,6 +15151,16 @@
 			(type default)
 		)
 		(uuid "aadcb169-6927-45c6-9fe5-6aa906feca60")
+	)
+	(wire
+		(pts
+			(xy 455.93 264.16) (xy 455.93 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab69f1c9-7f98-4974-9317-7267939d4e11")
 	)
 	(wire
 		(pts
@@ -16349,6 +15424,16 @@
 	)
 	(wire
 		(pts
+			(xy 629.92 356.87) (xy 629.92 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71dee15-919f-4502-abb2-d46ba2ed11de")
+	)
+	(wire
+		(pts
 			(xy 314.96 358.14) (xy 302.26 358.14)
 		)
 		(stroke
@@ -16366,6 +15451,16 @@
 			(type default)
 		)
 		(uuid "b798f4fb-69bd-4217-b872-7c6d9141d1d3")
+	)
+	(wire
+		(pts
+			(xy 52.07 453.39) (xy 63.5 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b0e08d-4dbb-4118-b638-6140a4325ba2")
 	)
 	(wire
 		(pts
@@ -16446,26 +15541,6 @@
 			(type default)
 		)
 		(uuid "bb1d3ea9-36ec-4807-9559-d6247b94f623")
-	)
-	(wire
-		(pts
-			(xy 118.11 67.31) (xy 118.11 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb71586d-2711-4627-aef6-897a2eaaa1db")
-	)
-	(wire
-		(pts
-			(xy 118.11 72.39) (xy 115.57 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7ea48a-58b2-4f10-ac93-0ab37f669cfa")
 	)
 	(wire
 		(pts
@@ -16719,16 +15794,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 90.17) (xy 59.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c74fb068-cf42-4a27-9c3b-bc3a5723c01d")
-	)
-	(wire
-		(pts
 			(xy 60.96 500.38) (xy 60.96 491.49)
 		)
 		(stroke
@@ -16786,6 +15851,16 @@
 			(type default)
 		)
 		(uuid "ca142494-3aa5-42e8-a75c-70f24c8cb2a8")
+	)
+	(wire
+		(pts
+			(xy 430.53 264.16) (xy 430.53 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc12544a-d207-48c4-a340-437f6a2ec223")
 	)
 	(wire
 		(pts
@@ -16869,26 +15944,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 68.58 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d182595c-19d8-4c1f-8b38-4425ca23494e")
-	)
-	(wire
-		(pts
-			(xy 118.11 69.85) (xy 115.57 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c7d8c8-d879-4c85-9e1b-c59c2efefd36")
-	)
-	(wire
-		(pts
 			(xy 36.83 325.12) (xy 41.91 325.12)
 		)
 		(stroke
@@ -16926,16 +15981,6 @@
 			(type default)
 		)
 		(uuid "d332ab7a-5614-4680-bb86-eb24ecc6ea34")
-	)
-	(wire
-		(pts
-			(xy 629.92 361.95) (xy 629.92 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38f84d8-d313-47a5-a898-7f6731ed0d54")
 	)
 	(wire
 		(pts
@@ -17119,16 +16164,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df87521a-6a94-42fa-91f8-198fa6f6b9f3")
-	)
-	(wire
-		(pts
 			(xy 386.08 515.62) (xy 381 515.62)
 		)
 		(stroke
@@ -17196,16 +16231,6 @@
 			(type default)
 		)
 		(uuid "e36c09c9-e9f4-48cb-94c7-78feaad20759")
-	)
-	(wire
-		(pts
-			(xy 49.53 92.71) (xy 44.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f14837-48cd-4dd7-b6af-9f5f93b8467c")
 	)
 	(wire
 		(pts
@@ -17479,6 +16504,16 @@
 	)
 	(wire
 		(pts
+			(xy 502.92 264.16) (xy 502.92 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef40ed0-0372-434c-a175-838d7d52e456")
+	)
+	(wire
+		(pts
 			(xy 629.92 496.57) (xy 629.92 499.11)
 		)
 		(stroke
@@ -17606,16 +16641,6 @@
 			(type default)
 		)
 		(uuid "f6cd151a-3852-4373-a62a-4bbbd94c5d2b")
-	)
-	(wire
-		(pts
-			(xy 68.58 43.18) (xy 87.63 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f784284d-7b60-4599-8ff5-a8c6a661ceac")
 	)
 	(wire
 		(pts
@@ -17766,16 +16791,6 @@
 			(type default)
 		)
 		(uuid "fe1c46f3-f67c-4449-a124-a149096642b3")
-	)
-	(wire
-		(pts
-			(xy 44.45 90.17) (xy 49.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe835f5a-419e-4136-bf42-fe52bff2eecc")
 	)
 	(wire
 		(pts
@@ -18211,33 +17226,9 @@
 			)
 		)
 	)
-	(global_label "USB_DN"
-		(shape bidirectional)
-		(at 115.57 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0111ca03-7a2f-4900-b31e-d74096fd8248")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0446 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SYS_PWR"
 		(shape input)
-		(at 41.91 491.49 180)
+		(at 31.75 491.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18247,7 +17238,7 @@
 		)
 		(uuid "025d7729-6ba0-4bc7-97e4-f7f32780fa2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 491.49 0)
+			(at 20.2982 491.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18261,7 +17252,7 @@
 	)
 	(global_label "LED_CTRL_W"
 		(shape input)
-		(at 63.5 504.19 180)
+		(at 52.07 504.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18271,7 +17262,7 @@
 		)
 		(uuid "027ce66b-d70f-4ebb-8010-db467bc3a199")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.1454 504.19 0)
+			(at 37.7154 504.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18451,30 +17442,6 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
-		(shape bidirectional)
-		(at 115.57 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d121c7f-cb80-426a-bd3e-f305a5063d8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9841 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BAT_CHG_N"
 		(shape input)
 		(at 643.89 293.37 180)
@@ -18571,30 +17538,6 @@
 			)
 		)
 	)
-	(global_label "SD_DET_N"
-		(shape input)
-		(at 115.57 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15d46108-48ea-4e80-a3d2-b37356def2f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.687 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "F_D0"
 		(shape bidirectional)
 		(at 361.95 267.97 0)
@@ -18608,54 +17551,6 @@
 		(uuid "1654e31d-306d-480a-84de-c27a68f8e758")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 370.5822 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UART_TX_DBG"
-		(shape output)
-		(at 130.81 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17925407-2e7e-497f-8849-78a66b3e68ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.3742 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SCL"
-		(shape bidirectional)
-		(at 130.81 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "181fdef7-d310-4195-aa85-bce7f09d72c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.466 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18907,6 +17802,30 @@
 			)
 		)
 	)
+	(global_label "LED_CTRL_C"
+		(shape output)
+		(at 316.23 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2581cc73-2294-4c30-9ca6-5a5bee8f1b0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.4032 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SD_MISO"
 		(shape input)
 		(at 273.05 166.37 180)
@@ -18952,30 +17871,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ACCEL_INT1"
-		(shape input)
-		(at 115.57 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "27663578-58ed-4563-9a6c-6655f5c8348f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.4409 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -19096,30 +17991,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SPI_SCLK"
-		(shape output)
-		(at 59.69 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cdc2093-24f4-42c9-96e0-c7a3ff7647b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.8753 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -19365,7 +18236,7 @@
 	)
 	(global_label "LED_CTRL_C"
 		(shape input)
-		(at 63.5 453.39 180)
+		(at 52.07 453.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19375,7 +18246,7 @@
 		)
 		(uuid "426a2208-45fc-4391-a397-cb11d886f97f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.3268 453.39 0)
+			(at 37.8968 453.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19480,30 +18351,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ESP32_BOOT"
-		(shape input)
-		(at 115.57 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c3670bc-d22c-4743-8dc4-d94b119eabe2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4689 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -19627,9 +18474,9 @@
 			)
 		)
 	)
-	(global_label "EINK_CS"
+	(global_label "LED_CTRL_W"
 		(shape output)
-		(at 140.97 100.33 0)
+		(at 316.23 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19637,9 +18484,9 @@
 			)
 			(justify left)
 		)
-		(uuid "54a04b3f-4a31-454d-b0cb-87cb2a780c25")
+		(uuid "553fa0a3-2384-4254-a8f2-4241d0083a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.7566 100.33 0)
+			(at 330.5846 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19653,7 +18500,7 @@
 	)
 	(global_label "SYS_PWR"
 		(shape input)
-		(at 41.91 440.69 180)
+		(at 31.75 440.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19663,31 +18510,7 @@
 		)
 		(uuid "557eda24-1cf2-40d8-b594-94bf73d1be91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4582 440.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BTN_LEFT_ADC"
-		(shape input)
-		(at 59.69 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "55b7c5f0-6d1e-459d-a249-2c467f6aa4d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.3396 80.01 0)
+			(at 20.2982 440.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19819,54 +18642,6 @@
 			)
 		)
 	)
-	(global_label "PERIPH_EN"
-		(shape output)
-		(at 115.57 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b7fa2e5-4ac6-41fd-adeb-c46e79fe4b87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.8966 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
-		(shape bidirectional)
-		(at 130.81 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bc0661f-a624-4f03-ade3-4643e1ba4766")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.5265 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "UART_TX_DBG"
 		(shape output)
 		(at 511.81 316.23 180)
@@ -19952,30 +18727,6 @@
 		(uuid "5e676e40-691f-412b-a15d-5a174b5be8b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.1342 360.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BTN_RIGHT_ADC"
-		(shape input)
-		(at 59.69 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e731b95-9e60-448f-90ff-9595fdda087a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.13 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20323,30 +19074,6 @@
 			)
 		)
 	)
-	(global_label "ESP32_EN"
-		(shape input)
-		(at 59.69 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76922d02-7d07-4028-a6b4-2826b4af0075")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.2102 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "+3V3_AON"
 		(shape passive)
 		(at 426.72 232.41 180)
@@ -20467,30 +19194,6 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI"
-		(shape output)
-		(at 59.69 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e90bf65-0604-4bd9-abe2-25443076b11b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0567 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BUCK_EN"
 		(shape input)
 		(at 511.81 373.38 180)
@@ -20560,30 +19263,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SD_MISO"
-		(shape input)
-		(at 115.57 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81b0213c-06d4-44d5-8202-7d3696c095fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5985 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -20803,30 +19482,6 @@
 			)
 		)
 	)
-	(global_label "EINK_RST"
-		(shape output)
-		(at 44.45 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8a4f60aa-0487-45c9-a3b8-6edda5b46984")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6958 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "+3V3_PERIPH"
 		(shape passive)
 		(at 782.32 434.34 0)
@@ -20848,30 +19503,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "+3V3_AON"
-		(shape passive)
-		(at 82.55 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e45fbca-31d5-40b0-a78a-ddee281bdc7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.8789 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -21115,30 +19746,6 @@
 			)
 		)
 	)
-	(global_label "BAT_CHG_N"
-		(shape input)
-		(at 115.57 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f40a64e-6a77-4254-a968-1d0598178ad0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0176 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "BTN_LEFT_ADC"
 		(shape output)
 		(at 424.18 250.19 180)
@@ -21331,30 +19938,6 @@
 			)
 		)
 	)
-	(global_label "EINK_BUSY"
-		(shape input)
-		(at 115.57 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7d901ce-4253-4616-8deb-6f8b93e13475")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7757 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C_SCL"
 		(shape bidirectional)
 		(at 513.08 457.2 180)
@@ -21499,30 +20082,6 @@
 			)
 		)
 	)
-	(global_label "EINK_DC"
-		(shape output)
-		(at 44.45 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b17be479-cc81-4a80-bf61-e94363555816")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.6029 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SYS_PWR"
 		(shape input)
 		(at 626.11 454.66 180)
@@ -21619,30 +20178,6 @@
 			)
 		)
 	)
-	(global_label "SD_CS"
-		(shape output)
-		(at 116.84 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb51d0ed-f37e-44f6-a218-ce5c03f7e483")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.7518 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 273.05 184.15 180)
@@ -21656,30 +20191,6 @@
 		(uuid "bb701acc-be80-4977-8ecd-aa09a066ab33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.5754 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "BTN_POWER_N"
-		(shape input)
-		(at 59.69 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc50ebf4-c65f-4f16-84ed-96f9fbc6ec24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.4001 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21835,30 +20346,6 @@
 			)
 		)
 	)
-	(global_label "ACCEL_INT2"
-		(shape input)
-		(at 115.57 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce5b488c-6379-4aec-9c7a-eb1b6cdae833")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.4409 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_PRESENT_N"
 		(shape output)
 		(at 636.27 257.81 0)
@@ -21952,30 +20439,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ESP32_GPIO8"
-		(shape input)
-		(at 115.57 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd0affd3-d535-4837-b23e-ed20c42a3f00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.2551 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -22192,30 +20655,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "UART_RX_DBG"
-		(shape input)
-		(at 130.81 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed19f5df-721a-4d90-8c3c-5ff2ef251ecd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.6766 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -22544,30 +20983,6 @@
 		(uuid "ff502bef-c20e-46e5-964e-28cf0af879c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 258.1511 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PWR_OFF"
-		(shape output)
-		(at 59.69 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffb2b9a4-fed5-4a67-8f71-4d6ec332873a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2381 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24020,149 +22435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 455.93 261.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b78ccce-9f9e-42e0-8a0d-98a9fcd72460")
-		(property "Reference" "SW6"
-			(at 458.47 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_LEFT3"
-			(at 458.47 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2846768"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2846768"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 462.28 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "024f2734-6111-4635-b82c-0e47c17e0c0b")
-		)
-		(pin "2"
-			(uuid "2208f587-0a08-4efa-ba1a-115a129f3051")
-		)
-		(pin "4"
-			(uuid "0492c4a3-c8f0-4aca-bc37-12e1e4300322")
-		)
-		(pin "3"
-			(uuid "31389b3f-c440-4a52-8c26-0b363affd4c2")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 302.26 49.53 0)
 		(unit 1)
@@ -24440,6 +22712,121 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 443.23 259.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "124034b4-5715-4b9e-8ab0-dd3bb189cfc6")
+		(property "Reference" "SW5"
+			(at 445.77 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT2"
+			(at 445.77 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C115362"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 458.47 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "9cb36e87-ab40-4477-9410-0109a2ceaecd")
+		)
+		(pin "[1,2]"
+			(uuid "66515eb8-8996-4166-8434-60ccca66ce31")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -24825,107 +23212,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 52.07 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15a03f75-0e1d-457b-9072-e0e8b1279b44")
-		(property "Reference" "R39"
-			(at 48.26 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "R0"
-			(at 55.88 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 52.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 52.07 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C137090"
-			(at 52.07 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C137090"
-			(at 52.07 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19d19037-2b33-4c39-842b-3e1570efb8d4")
-		)
-		(pin "2"
-			(uuid "d2fd087e-15ea-47ad-8743-faa02a0a77c8")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -25412,8 +23698,8 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 629.92 350.52 270)
+		(lib_id "Device:R")
+		(at 54.61 513.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25421,10 +23707,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "187a34d4-b53e-4db9-aec4-a3795d7d4e86")
-		(property "Reference" "SW3"
-			(at 632.46 349.2499 90)
+		(uuid "1ac215ff-a2c4-465a-b956-91b62ec38cf4")
+		(property "Reference" "R48"
+			(at 48.26 511.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25434,8 +23719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_POWER"
-			(at 632.46 351.7899 90)
+		(property "Value" "100k"
+			(at 48.26 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25445,8 +23730,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 636.27 350.52 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 52.832 513.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25456,8 +23741,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 636.27 350.52 0)
+		(property "Datasheet" ""
+			(at 54.61 513.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25467,8 +23752,8 @@
 				)
 			)
 		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 636.27 350.52 0)
+		(property "Description" "Resistor"
+			(at 54.61 513.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25478,8 +23763,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2846768"
-			(at 636.27 350.52 0)
+		(property "LCSC" ""
+			(at 54.61 513.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25489,8 +23774,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2846768"
-			(at 636.27 350.52 0)
+		(property "LCSC Part #" ""
+			(at 54.61 513.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25499,56 +23784,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 636.27 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 636.27 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 636.27 350.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f6826df-0790-4ef3-a5e9-b35a0dfe1188")
 		)
 		(pin "2"
-			(uuid "0bac1e6c-ba8b-4d9a-92ba-8307375d3726")
+			(uuid "1f9706a4-e564-4ec5-808f-24d359ebeeb0")
 		)
-		(pin "4"
-			(uuid "b47c1f39-57d0-4dac-875d-dabd79a8f4b5")
-		)
-		(pin "3"
-			(uuid "c300163a-9998-4b76-8bff-b80627eefdba")
+		(pin "1"
+			(uuid "b3eaf9f7-bccd-4bda-a88b-41a3d60bc4fe")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW3")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -25705,149 +23951,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 516.89 261.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f19ddfc-65d5-46b6-b69a-100d0b170466")
-		(property "Reference" "SW9"
-			(at 519.43 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_RIGHT2"
-			(at 519.43 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2846768"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2846768"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 523.24 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "064bf5ba-3ef3-45fd-a660-0ae6fc3d2123")
-		)
-		(pin "2"
-			(uuid "3f82ab65-b254-4022-bbaa-6aaa30223ac7")
-		)
-		(pin "4"
-			(uuid "4a6aef81-8717-4832-ab2b-727ae7e9e33d")
-		)
-		(pin "3"
-			(uuid "c81030c1-02e2-4804-be10-40f6f662e7fe")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -26439,107 +24542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "24c1879b-a47a-4a1b-92db-0fb3e1f484d8")
-		(property "Reference" "R31"
-			(at 120.65 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 128.27 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 124.46 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C137090"
-			(at 124.46 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C137090"
-			(at 124.46 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "52b0a4fa-95da-4eb2-91f8-01ead8c0afe5")
-		)
-		(pin "1"
-			(uuid "1fbb8d50-3905-4f40-8547-3b5a897c8f55")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 629.92 501.65 0)
 		(unit 1)
@@ -26940,8 +24942,123 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 502.92 259.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b47b11e-0a60-4420-9866-d1e00c0bd52c")
+		(property "Reference" "SW8"
+			(at 505.46 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_RIGHT1"
+			(at 505.46 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C115362"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 518.16 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "8b23c75d-a626-40b9-abb4-6d23b6467eec")
+		)
+		(pin "[1,2]"
+			(uuid "cf1d7e9e-8884-4d80-915f-38f50ecfc2cf")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 45.72 499.11 0)
+		(at 35.56 499.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26951,7 +25068,7 @@
 		(dnp no)
 		(uuid "2b5a145e-3bc4-434e-b1f0-667dd36ee33e")
 		(property "Reference" "C51"
-			(at 41.91 496.57 0)
+			(at 31.75 496.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26962,7 +25079,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 39.37 501.65 0)
+			(at 29.21 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26973,7 +25090,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 46.6852 502.92 0)
+			(at 36.5252 502.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26984,7 +25101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 499.11 0)
+			(at 35.56 499.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26995,7 +25112,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 499.11 0)
+			(at 35.56 499.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27006,7 +25123,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 45.72 499.11 0)
+			(at 35.56 499.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27017,7 +25134,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 45.72 499.11 0)
+			(at 35.56 499.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27218,109 +25335,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c1da40f-d646-4474-9d77-bc653df08624")
-		(property "Reference" "C13"
-			(at 69.85 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/50V(10%)"
-			(at 69.85 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.5452 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98646bcf-e9b8-4260-92e3-aeb5fae108c9")
-		)
-		(pin "2"
-			(uuid "d803853e-f638-41eb-b19f-83d829c2f80f")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -27679,169 +25693,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TYPE-C-31-M-12_1")
-		(lib_id "epaper-reader-hw:TYPE-C-31-M-12")
-		(at 269.24 453.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ebe8663-9fad-455b-901c-ccef1d105740")
-		(property "Reference" "USBC1"
-			(at 270.51 429.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TYPE-C-31-M-12"
-			(at 270.51 431.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TYPE-C-31-M-12"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-			(at 269.24 482.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-30℃~+80℃ 1 10,000 cycles 16P 20V 5A 7.35mm Female Surface Mount, Right Angle Type-C SMD USB Connectors ROHS"
-			(at 269.24 482.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C165948"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C165948"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Korean Hroparts Elec"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TYPE-C-31-M-12"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TYPE-C-31-M-12"
-			(at 254 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "[A1B12,B1A12]"
-			(uuid "4ad10b0c-f326-4085-bd01-742c4c7a398b")
-		)
-		(pin "B6"
-			(uuid "aa9f9943-445f-498b-a326-8816c27d4e55")
-		)
-		(pin "B5"
-			(uuid "d5b9a054-0c7f-47ab-96cc-2f39d4dae601")
-		)
-		(pin "A8"
-			(uuid "6b00a3e9-aef1-49bd-95c2-c07374144eff")
-		)
-		(pin "A7"
-			(uuid "4df0164b-2d9a-4751-b7d5-369565ba58ea")
-		)
-		(pin "[A4B9,B4A9]"
-			(uuid "7b2799a8-4d44-421d-a902-bd5279fab3d6")
-		)
-		(pin "[1,2,3,4]"
-			(uuid "d3a32b70-f79f-4cdf-9485-cb2c7b14154b")
-		)
-		(pin "B8"
-			(uuid "2462e495-29c3-489a-b6c7-01a17032ccb9")
-		)
-		(pin "A5"
-			(uuid "e8accd8c-05bb-4db5-9464-70baddf15fc7")
-		)
-		(pin "A6"
-			(uuid "a84d40a0-9678-441f-8f44-6320e4e4175e")
-		)
-		(pin "B7"
-			(uuid "d9f10a18-e3c7-41c5-9b5b-ed0942fdf086")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "USBC1")
 					(unit 1)
 				)
 			)
@@ -28225,84 +26076,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31ced3b1-3b04-497f-ae53-4ea293839e62")
-		(property "Reference" "#PWR05"
-			(at 48.26 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59227374-2c0b-455e-afe8-5d79dd933163")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -29398,6 +27171,109 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 54.61 462.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aed5627-6127-43e7-9542-e9ef23d3d7ef")
+		(property "Reference" "R49"
+			(at 48.26 461.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 48.26 463.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 52.832 462.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 54.61 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 54.61 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af57f97c-4500-403f-a67c-8029c951b0bb")
+		)
+		(pin "1"
+			(uuid "7f7f34d2-df4b-416c-a119-e7fdaf294962")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 430.53 241.3 0)
 		(unit 1)
 		(body_style 1)
@@ -30033,149 +27909,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 430.53 261.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4119f3b4-24cb-4733-b4cc-31c72d4c65f0")
-		(property "Reference" "SW4"
-			(at 433.07 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_LEFT1"
-			(at 433.07 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2846768"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2846768"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 436.88 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a00e2359-9a20-474e-ab32-00257bb179a5")
-		)
-		(pin "2"
-			(uuid "94c4a12e-08f8-4600-8b66-2a71f479961e")
-		)
-		(pin "4"
-			(uuid "56098e9e-db89-48cb-a4bf-c4a011f514ad")
-		)
-		(pin "3"
-			(uuid "dc5b4d09-e33d-4363-b28a-c80657974133")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -34216,7 +31949,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 448.31 0)
+		(at 35.56 448.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34226,7 +31959,7 @@
 		(dnp no)
 		(uuid "62278ab2-5c4d-4331-813e-a0724b165f3a")
 		(property "Reference" "C49"
-			(at 41.91 445.77 0)
+			(at 31.75 445.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34237,7 +31970,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 39.37 450.85 0)
+			(at 29.21 450.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34248,7 +31981,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 46.6852 452.12 0)
+			(at 36.5252 452.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34259,7 +31992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 448.31 0)
+			(at 35.56 448.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34270,7 +32003,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 448.31 0)
+			(at 35.56 448.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34281,7 +32014,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 45.72 448.31 0)
+			(at 35.56 448.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34292,7 +32025,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 45.72 448.31 0)
+			(at 35.56 448.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35126,6 +32859,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 54.61 520.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "750e1336-7508-47f8-abe5-354f0be1e44a")
+		(property "Reference" "#PWR097"
+			(at 54.61 527.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 524.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 520.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 520.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 520.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38167eae-54c2-4893-acbb-57fa7416ec3f")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 420.37 505.46 0)
 		(unit 1)
 		(body_style 1)
@@ -35760,7 +33570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 505.46 0)
+		(at 35.56 505.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35770,7 +33580,7 @@
 		(dnp no)
 		(uuid "7c993d7e-46e8-4e68-8f7a-cabd7123fa03")
 		(property "Reference" "#PWR093"
-			(at 45.72 511.81 0)
+			(at 35.56 511.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35781,7 +33591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 509.27 0)
+			(at 35.56 509.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35791,7 +33601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 505.46 0)
+			(at 35.56 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35802,7 +33612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 505.46 0)
+			(at 35.56 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35813,7 +33623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 505.46 0)
+			(at 35.56 505.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38566,8 +36376,8 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:ESP32-C6-WROOM-1")
-		(at 87.63 97.79 0)
+		(lib_id "epaper-reader-hw:TYPE-610-1_0-T3-5A")
+		(at 270.51 450.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38576,31 +36386,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "970a1f45-19ce-4d20-b94e-0cb5f3cae1c7")
-		(property "Reference" "U1"
-			(at 89.7733 62.23 0)
+		(uuid "96f7f0e7-0660-4b56-9b5f-789c480251da")
+		(property "Reference" "USB1"
+			(at 270.51 429.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C6-WROOM-1"
-			(at 89.7733 64.77 0)
+		(property "Value" "TYPE-610-1_0-T3-5A"
+			(at 270.51 431.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "epaper-reader-hw:ESP32-C6-WROOM-1"
-			(at 87.63 142.875 0)
+		(property "Footprint" "epaper-reader-hw:TYPE-610-1_0-T3-5A"
+			(at 270.51 422.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38610,8 +36418,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 87.63 146.05 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2307181143_Yuandi-TYPE-610-1-0-T3-5A_C7464659.pdf"
+			(at 270.51 422.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38621,8 +36429,8 @@
 				)
 			)
 		)
-		(property "Description" "ESP32-C6-WROOM-1/U is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
-			(at 87.63 97.79 0)
+		(property "Description" "-30℃~+80℃ 1 10,000 cycles 16P 20V 5A 6.5mm Black Female Recessed Type-C USB 3.1 SMD USB Connectors ROHS"
+			(at 270.51 422.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38632,8 +36440,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5366877"
-			(at 87.63 97.79 0)
+		(property "LCSC" "C7464659"
+			(at 270.51 422.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38643,8 +36451,8 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C5366877"
-			(at 87.63 97.79 0)
+		(property "Manufacturer" "Yuandi"
+			(at 270.51 422.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38654,97 +36462,54 @@
 				)
 			)
 		)
-		(pin "28"
-			(uuid "466552a3-cf7d-4f85-9872-bf56c46714d0")
+		(property "Manufacturer Part" "TYPE-610-1.0-T3-5A"
+			(at 270.51 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "22"
-			(uuid "0fb045ae-b2b8-49d0-aa92-eba4a872529a")
+		(pin "[A1B12,B1A12]"
+			(uuid "e7ae23f1-9772-4c48-bb06-e12f94091b7a")
 		)
-		(pin "18"
-			(uuid "69a058c7-524d-41de-a7f0-0e85c12c6ff5")
+		(pin "B5"
+			(uuid "50e1def1-31a7-49dd-84b4-f94118ea3386")
 		)
-		(pin "24"
-			(uuid "1316719b-2528-45c2-a9d2-dead25f137b8")
+		(pin "B8"
+			(uuid "ab7b1025-876c-4af0-819d-647193b0e6bf")
 		)
-		(pin "29"
-			(uuid "d6bbfce4-befd-454d-8095-2c4211848262")
+		(pin "[1,2,3,4]"
+			(uuid "fd6e3f0e-df94-412c-b83e-92b7bfd489b4")
 		)
-		(pin "27"
-			(uuid "f3896afe-2d68-41fa-bcc9-7998eb57f47a")
+		(pin "A8"
+			(uuid "d673187d-c049-448d-ae08-bfb20b53cb0f")
 		)
-		(pin "20"
-			(uuid "415244be-649f-4261-982f-7f3b25d5440c")
+		(pin "A7"
+			(uuid "b9c6e4d6-c6fa-4971-bc9f-5337ab808b2e")
 		)
-		(pin "26"
-			(uuid "f1cc17d8-1d71-435d-a2f0-6638ede7c579")
+		(pin "B7"
+			(uuid "8fa312c6-ffa7-4e41-ae28-fd7b60189e3f")
 		)
-		(pin "17"
-			(uuid "c27419ea-6735-4e10-8754-64842e3e1420")
+		(pin "A5"
+			(uuid "722b32d6-8c07-4a20-96eb-1ac28d27f8f5")
 		)
-		(pin "16"
-			(uuid "8168b37c-1799-4fcc-a912-9569fe5ef252")
+		(pin "[A4B9,B4A9]"
+			(uuid "bf2629f3-a194-498b-a9f6-95d056b6fa87")
 		)
-		(pin "13"
-			(uuid "68939560-228d-4054-9e04-0c5913aadfa6")
+		(pin "B6"
+			(uuid "5b68882b-e8a3-470f-82cd-5face2600196")
 		)
-		(pin "15"
-			(uuid "c950a69a-98a2-42a7-85d5-985ffcc558ee")
-		)
-		(pin "14"
-			(uuid "4c85a3d2-1043-47cd-9d4d-1e5a6600da7e")
-		)
-		(pin "12"
-			(uuid "71bc8f2c-1676-46c8-b3bf-0f2ece897f1f")
-		)
-		(pin "11"
-			(uuid "869685e6-fd6c-4fbb-b789-10b816c3ee57")
-		)
-		(pin "10"
-			(uuid "0491e8d0-b427-4cc9-8bd4-c9c86e23a13c")
-		)
-		(pin "9"
-			(uuid "dea09167-1c6e-48e1-8664-4dfa12fc3d8d")
-		)
-		(pin "8"
-			(uuid "9ae357b7-5070-4b81-b2e2-be2d6cdcf039")
-		)
-		(pin "7"
-			(uuid "71df0b3d-03e5-41bd-8dfe-588d1947e4c5")
-		)
-		(pin "6"
-			(uuid "16c9e71e-bad2-492b-a9dd-cb322a3110a3")
-		)
-		(pin "5"
-			(uuid "c9153d7a-3169-492d-b070-42165ac63504")
-		)
-		(pin "4"
-			(uuid "e52373b0-532d-4ab1-89e1-7f50b8d580e9")
-		)
-		(pin "3"
-			(uuid "9951fac7-6a9c-4358-88c4-9e6dcb711da7")
-		)
-		(pin "2"
-			(uuid "a6e4b41e-5617-46f5-8ed3-b821e136afcc")
-		)
-		(pin "1"
-			(uuid "1aaf1630-1f22-421a-917f-27bbb3152c2e")
-		)
-		(pin "23"
-			(uuid "68f504c8-f06f-4f82-8ad9-55c032019fa6")
-		)
-		(pin "25"
-			(uuid "d160ce47-3be8-4e03-b2f3-e87d523d496c")
-		)
-		(pin "19"
-			(uuid "0fd9214c-e7c6-4aad-bdb5-be89b6d94b08")
-		)
-		(pin "21"
-			(uuid "66bebb52-5f4c-4420-a747-70a64ae193f8")
+		(pin "A6"
+			(uuid "5b458ccc-29f4-4b88-97e4-03d00560f4b7")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "U1")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -40013,6 +37778,121 @@
 		)
 	)
 	(symbol
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 430.53 259.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c74412-7052-4d1d-bb18-79ca980c179d")
+		(property "Reference" "SW4"
+			(at 433.07 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT1"
+			(at 433.07 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C115362"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 445.77 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "2fa05d35-49fc-4a0d-8290-1a13d9444f9c")
+		)
+		(pin "[1,2]"
+			(uuid "e5e107de-8d8c-4c66-8808-22c770a5289b")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 271.78 0)
 		(unit 1)
@@ -40248,7 +38128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 454.66 0)
+		(at 35.56 454.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40258,7 +38138,7 @@
 		(dnp no)
 		(uuid "ab1f22c6-fa5d-41d9-8f8d-a4e17ebc5363")
 		(property "Reference" "#PWR089"
-			(at 45.72 461.01 0)
+			(at 35.56 461.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40269,7 +38149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 458.47 0)
+			(at 35.56 458.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40279,7 +38159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 454.66 0)
+			(at 35.56 454.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40290,7 +38170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 454.66 0)
+			(at 35.56 454.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40301,7 +38181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 454.66 0)
+			(at 35.56 454.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41246,109 +39126,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b640662c-c7ff-4113-8b28-3464965da579")
-		(property "Reference" "C8"
-			(at 49.53 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF/25V(20%)"
-			(at 49.53 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 49.2252 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C96446"
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee065cf8-0f03-476c-aedf-f772746e1450")
-		)
-		(pin "2"
-			(uuid "0c1e07d7-221a-488c-89fe-dbd0ae6c8b8f")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 375.92 269.24 180)
 		(unit 1)
@@ -42156,149 +39933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 502.92 261.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bff3dc81-0c7f-4398-a211-cdf4604c1784")
-		(property "Reference" "SW8"
-			(at 505.46 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_RIGHT1"
-			(at 505.46 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2846768"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2846768"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 509.27 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae2d7e86-4462-4946-97b1-ef0e5746cc17")
-		)
-		(pin "2"
-			(uuid "252569c5-026d-44ee-96c8-a7efa4317f1f")
-		)
-		(pin "4"
-			(uuid "b82d478e-6bf4-4ca0-9836-470939569d16")
-		)
-		(pin "3"
-			(uuid "b9d398fa-f0ef-4c2b-9366-a35e0e7712ad")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 292.1 490.22 90)
 		(unit 1)
@@ -42782,149 +40416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "epaper-reader-hw:TSB001A3526B")
-		(at 443.23 261.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c21da741-ad66-4572-89f9-0716769b06f3")
-		(property "Reference" "SW5"
-			(at 445.77 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_LEFT2"
-			(at 445.77 262.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "epaper-reader-hw:TSB001A3526B"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2108072230_BZCN-TSB001A3526B_C2846768.pdf"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "12V 2.6N 3.55mm 3.5mm 50mA 7.7mm Black No Rectangular Button SPST Surface Mount, Right Angle With Bracket SMD,7.7x3.6mm Tactile Switches ROHS"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2846768"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C2846768"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BZCN"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TSB001A3526B"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSB001A3526B"
-			(at 449.58 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5396562-61b1-4311-a8d5-51561ae26f05")
-		)
-		(pin "2"
-			(uuid "4dae8ac4-3e4c-417c-aef9-1c199eee9ff8")
-		)
-		(pin "4"
-			(uuid "1c3d55f7-4e0f-4b76-b89f-dc61d1a45783")
-		)
-		(pin "3"
-			(uuid "9842e006-3e1c-4b09-ae28-5b5900d5f68a")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 618.49 406.4 0)
 		(unit 1)
@@ -43231,107 +40722,6 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 52.07 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c39c34b2-fe4b-4bbf-98ba-a5405e726583")
-		(property "Reference" "R40"
-			(at 48.26 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "R0"
-			(at 55.88 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 52.07 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C137090"
-			(at 52.07 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C137090"
-			(at 52.07 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a045cec-6de9-4dc2-afc8-ad9c2cb8a041")
-		)
-		(pin "2"
-			(uuid "36b9fa9b-d460-4f83-ae68-d232b10e545d")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -44996,107 +42386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d819d524-cd36-4c0b-8162-41f2c5285223")
-		(property "Reference" "R25"
-			(at 120.65 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 128.27 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 124.46 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C137090"
-			(at 124.46 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C137090"
-			(at 124.46 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "006560bf-32a5-4842-bda1-8dabc95d2aaf")
-		)
-		(pin "1"
-			(uuid "325fe98d-c201-47fb-a9ba-f46b1a24c6fe")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "epaper-reader-virtual:Battery_50x34x3mm")
 		(at 612.14 163.83 180)
 		(unit 1)
@@ -45513,84 +42802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deb4084d-308e-4279-9358-7ed01fc79744")
-		(property "Reference" "#PWR02"
-			(at 87.63 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "68b8f616-345f-4751-89d5-ce937dffc51c")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 266.7 494.03 270)
 		(unit 1)
@@ -45866,6 +43077,121 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 629.92 351.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1af3a3c-225f-4ce1-8f14-a38fd19eaa9f")
+		(property "Reference" "SW3"
+			(at 632.46 350.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_POWER"
+			(at 632.46 353.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C115362"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 645.16 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "364c595f-0c84-4538-9ac3-99725cffd477")
+		)
+		(pin "[1,2]"
+			(uuid "84682b56-4ba2-43d5-a759-82717cf71076")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -47007,8 +44333,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 58.42 0)
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 455.93 259.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47017,9 +44343,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5cbabd4-8942-497c-8efd-552e3ec88ac9")
-		(property "Reference" "#PWR07"
-			(at 68.58 64.77 0)
+		(uuid "f416a14e-95b5-44a5-a3c9-c6f6645e0808")
+		(property "Reference" "SW6"
+			(at 458.47 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_LEFT3"
+			(at 458.47 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 471.17 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47029,18 +44377,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 68.58 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 58.42 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 471.17 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47050,8 +44388,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 68.58 58.42 0)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 471.17 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47061,8 +44399,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 58.42 0)
+		(property "LCSC" "C115362"
+			(at 471.17 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47072,13 +44410,153 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "d7523957-acd2-4741-936d-468299f68258")
+		(property "Manufacturer" "ALPSALPINE"
+			(at 471.17 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 471.17 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "640fb432-02f8-4259-bf07-4a0289644334")
+		)
+		(pin "[1,2]"
+			(uuid "a30e3f29-c2e1-4668-b356-539d5ff9fbb2")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "#PWR07")
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "epaper-reader-hw:SKSCLDE010")
+		(at 516.89 259.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f62f5c7d-5c5e-4be2-bed0-ec21158f2dc4")
+		(property "Reference" "SW9"
+			(at 519.43 257.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_RIGHT2"
+			(at 519.43 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "epaper-reader-hw:SKSCLDE010"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192037_ALPSALPINE-SKSCLDE010_C115362.pdf"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.25mm 1.63N 100,000 cycles 12V 3.55mm 3.5mm 50mA Rectangular Button SMD(SMT) Tab SPST-NO Surface Mount, Right Angle SMD,3.6x3.5mm Tactile Switches ROHS"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C115362"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SKSCLDE010"
+			(at 532.13 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[3,4]"
+			(uuid "1e37eb8b-02d8-48b1-8c0f-f62edd127f9d")
+		)
+		(pin "[1,2]"
+			(uuid "5810485e-507f-4750-96b2-326050297514")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -47603,8 +45081,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 100.33 90)
+		(lib_id "power:GND")
+		(at 54.61 469.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47612,19 +45090,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fd0b8c16-75a2-435a-aa0b-d63f27a04788")
-		(property "Reference" "R41"
-			(at 129.54 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "R0"
-			(at 137.16 99.06 90)
+		(uuid "fd57c575-889b-45cb-8763-6bb96ae0dc3c")
+		(property "Reference" "#PWR098"
+			(at 54.61 476.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47633,8 +45102,18 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 133.35 100.33 0)
+		(property "Value" "GND"
+			(at 54.61 473.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 469.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47645,7 +45124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 100.33 0)
+			(at 54.61 469.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47655,30 +45134,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 133.35 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C137090"
-			(at 133.35 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C137090"
-			(at 133.35 100.33 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 469.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47689,15 +45146,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e8ab36d-d5c0-49b0-93c3-a0e4dc9b3275")
-		)
-		(pin "2"
-			(uuid "a6316fb4-d3ac-4bad-ac29-b49c0b0edc20")
+			(uuid "82c54189-3bef-4eba-894f-0c23023b5f92")
 		)
 		(instances
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "R41")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
