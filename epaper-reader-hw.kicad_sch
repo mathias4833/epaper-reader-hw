@@ -41252,7 +41252,7 @@
 				)
 			)
 		)
-		(property "Value" "EInk_Display_105p33x62p37x0p926mm"
+		(property "Value" "FT01C_Folded"
 			(at 440.69 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41262,7 +41262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "epaper-reader-virtual:EInk_Display_105p33x62p37x0p926mm"
+		(property "Footprint" "epaper-reader-virtual:FT01C_Folded"
 			(at 440.69 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -41284,7 +41284,7 @@
 				)
 			)
 		)
-		(property "Description" "Virtual mechanical e-ink display placement annotation, 105.33 x 62.37 mm; excluded from BOM and position files"
+		(property "Description" "FT01C folded mechanical visualization only; straight tails; no copper pads"
 			(at 440.69 328.93 0)
 			(hide yes)
 			(show_name no)

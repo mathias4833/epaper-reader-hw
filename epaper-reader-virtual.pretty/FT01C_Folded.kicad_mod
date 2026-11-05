@@ -1,0 +1,18 @@
+(footprint "FT01C_Folded"
+  (version 20240108)
+  (generator "pcbnew")
+  (layer "F.Cu")
+  (descr "FT01C folded mechanical visualization only; user-supplied model with Y axis corrected for KiCad; no copper pads")
+  (attr exclude_from_bom exclude_from_pos_files)
+  (fp_text reference "REF**" (at 0 -3) (layer "F.SilkS") hide (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value "FT01C_Folded" (at 0 -5) (layer "F.Fab") hide (effects (font (size 1 1) (thickness 0.15))))
+  (fp_rect (start 0 0) (end 62.37 105.33) (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User"))
+  (fp_line (start 11.574 102.50) (end 11.574 105.33) (stroke (width 0.1) (type default)) (layer "Dwgs.User"))
+  (fp_text user "FRONTLIGHT REF" (at 11.574 101) (layer "Dwgs.User") (effects (font (size 1 1) (thickness 0.13))))
+  (fp_line (start 31.064 102.50) (end 31.064 105.33) (stroke (width 0.1) (type default)) (layer "Dwgs.User"))
+  (fp_text user "EPD REF" (at 31.064 101) (layer "Dwgs.User") (effects (font (size 1 1) (thickness 0.13))))
+  (fp_line (start 49.510 102.50) (end 49.510 105.33) (stroke (width 0.1) (type default)) (layer "Dwgs.User"))
+  (fp_text user "TOUCH REF" (at 49.510 101) (layer "Dwgs.User") (effects (font (size 1 1) (thickness 0.13))))
+  (model "${KIPRJMOD}/epaper-reader-virtual.3dshapes/FT01C_Folded.step"
+    (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

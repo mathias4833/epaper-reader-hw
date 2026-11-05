@@ -133,18 +133,17 @@
 			(outputdirectory "/home/mathias/Documents/hardware/ereader/gerbers/")
 		)
 	)
-	(footprint "epaper-reader-virtual:EInk_Display_105p33x62p37x0p926mm"
+	(footprint "epaper-reader-virtual:FT01C_Folded"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "b9ce33ce-d3d9-47a3-8444-56619da75e67")
-		(at 33.5 23 -90)
-		(descr "Virtual mechanical e-ink display area, 105.33 x 62.37 mm; silkscreen annotation only, no 3D model")
-		(tags "virtual mechanical eink display screen area silkscreen 105.33x62.37")
+		(at 33.5 23)
+		(descr "FT01C folded mechanical visualization only; user-supplied model with Y axis corrected for KiCad; no copper pads")
 		(property "Reference" "DMECH1"
-			(at 0 1.5 90)
-			(layer "F.Fab")
+			(at 0 -3 0)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "877328c3-359b-4d08-b30c-f91bc3132678")
+			(uuid "e1e72f48-0e03-4e03-9f8f-c0b65230b3a7")
 			(effects
 				(font
 					(size 1 1)
@@ -152,11 +151,11 @@
 				)
 			)
 		)
-		(property "Value" "EInk_Display_105p33x62p37x0p926mm"
-			(at 0 -63.87 90)
+		(property "Value" "FT01C_Folded"
+			(at 0 -5 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c9ec2e3-9667-4089-90af-7fe6fa31e911")
+			(uuid "84694ba7-64ee-458f-ae4e-e241df20866f")
 			(effects
 				(font
 					(size 1 1)
@@ -165,28 +164,24 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b684319a-eecf-482f-a98e-5dff7b928512")
+			(uuid "fa2ca71c-30a1-4ac7-8f2a-8df0f1da303e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Virtual mechanical e-ink display placement annotation, 105.33 x 62.37 mm; excluded from BOM and position files"
-			(at 0 0 90)
-			(unlocked yes)
+		(property "Description" ""
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f51bbb7-0304-472d-b8d7-c2eb7097e3ec")
+			(uuid "fa638923-79fb-42b0-844c-dce6eb6f9d5a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -202,77 +197,91 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 11.574 102.5)
+			(end 11.574 105.33)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "de6c848a-715a-4ac0-8571-6e50148a1c6b")
+		)
+		(fp_line
+			(start 31.064 102.5)
+			(end 31.064 105.33)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "9dca1978-87da-46ce-b58c-b5e0938e4595")
+		)
+		(fp_line
+			(start 49.51 102.5)
+			(end 49.51 105.33)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "63ee250b-af86-4b00-a8b2-696486beebd1")
+		)
+		(fp_rect
 			(start 0 0)
-			(end 5 0)
+			(end 62.37 105.33)
 			(stroke
-				(width 0.15)
-				(type solid)
+				(width 0.12)
+				(type default)
 			)
-			(layer "F.SilkS")
-			(uuid "53e4ce67-1180-4ccd-afe2-18937c390a0c")
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "0e55bc53-fa9e-4f08-bfcd-01f5185cf33e")
 		)
-		(fp_line
-			(start 0 0)
-			(end 0 -5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9d6c108-9779-4445-8cab-87a9005da637")
-		)
-		(fp_line
-			(start 0 -62.37)
-			(end 0 -57.37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6d75a420-046f-4f41-ab30-d1da1d03fcf9")
-		)
-		(fp_line
-			(start 0 -62.37)
-			(end 5 -62.37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "38013f13-c64b-40a4-a07a-81bc135572fc")
-		)
-		(fp_line
-			(start 105.33 -62.37)
-			(end 105.33 -57.37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "36e241d6-5b39-4eb4-83ec-5dcd8ed6c5da")
-		)
-		(fp_line
-			(start 105.33 -62.37)
-			(end 100.33 -62.37)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "72c78298-b69b-4f10-8114-7fb7138ed70c")
-		)
-		(fp_text user "E-PAPER DISPLAY GOES HERE"
-			(at 52.665 -31.185 90)
-			(layer "F.SilkS")
-			(uuid "e7cf31f2-0dc6-42ce-945e-81111bb7c30b")
+		(fp_text user "FRONTLIGHT REF"
+			(at 11.574 101 0)
+			(layer "Dwgs.User")
+			(uuid "0b29679a-abfd-4f25-b533-f891e99ede17")
 			(effects
 				(font
-					(size 2 2)
-					(thickness 0.25)
+					(size 1 1)
+					(thickness 0.13)
+				)
+			)
+		)
+		(fp_text user "EPD REF"
+			(at 31.064 101 0)
+			(layer "Dwgs.User")
+			(uuid "4ab4c09e-f6f2-40c1-bf51-4e5c1b533102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.13)
+				)
+			)
+		)
+		(fp_text user "TOUCH REF"
+			(at 49.51 101 0)
+			(layer "Dwgs.User")
+			(uuid "cf776671-858a-4321-a4a9-c3dd7f56f0b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.13)
 				)
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/epaper-reader-virtual.3dshapes/FT01C_Folded.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
