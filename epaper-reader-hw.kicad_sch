@@ -11451,10 +11451,6 @@
 		(uuid "4240abb0-0836-4c2e-a3cf-dd41b26a542d")
 	)
 	(no_connect
-		(at 134.62 68.58)
-		(uuid "4ffaec1d-9243-47e3-b09e-2790b63e0513")
-	)
-	(no_connect
 		(at 134.62 88.9)
 		(uuid "587b3380-e3e4-4517-b7c6-b084680d0601")
 	)
@@ -17152,6 +17148,30 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape bidirectional)
+		(at 509.27 321.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1057c26f-2b4c-49e9-8589-8157c54ddeec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.8559 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BUCK_EN"
 		(shape output)
 		(at 642.62 402.59 0)
@@ -18018,7 +18038,7 @@
 	)
 	(global_label "PWR_BTN_N"
 		(shape input)
-		(at 511.81 398.78 180)
+		(at 511.81 394.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18028,7 +18048,7 @@
 		)
 		(uuid "48a6ca88-9482-49ab-ae59-f338b4a9fdb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 497.9996 398.78 0)
+			(at 497.9996 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18053,30 +18073,6 @@
 		(uuid "509bf76f-725c-4b67-83fb-c1e757df2b4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.221 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "UART_RX_DBG"
-		(shape input)
-		(at 511.81 322.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "522fa008-bd47-416b-9838-9a8a458e7317")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 495.9434 322.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18328,30 +18324,6 @@
 			)
 		)
 	)
-	(global_label "UART_TX_DBG"
-		(shape output)
-		(at 511.81 316.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c852d3d-3553-4060-b63e-2d72105f510f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 496.2458 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I2C_SCL"
 		(shape bidirectional)
 		(at 709.93 186.69 0)
@@ -18421,6 +18393,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO43_SPARE"
+		(shape bidirectional)
+		(at 134.62 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e90327a-9c6c-4eea-a226-2627ce1a2ac1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5655 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -18568,9 +18564,33 @@
 			)
 		)
 	)
+	(global_label "USB_DN"
+		(shape bidirectional)
+		(at 509.27 314.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c9e1639-ae99-4c0f-b186-e8b0a0ce1f2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.7954 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BAT_CHG_N"
 		(shape input)
-		(at 511.81 386.08 180)
+		(at 511.81 382.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18580,7 +18600,7 @@
 		)
 		(uuid "6eb91d7e-65e5-43f6-a3f5-afda86cae92f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 498.3624 386.08 0)
+			(at 498.3624 382.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19888,6 +19908,30 @@
 			)
 		)
 	)
+	(global_label "GPIO43_SPARE"
+		(shape bidirectional)
+		(at 511.81 403.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2fe5fbe-06b0-4c59-a438-45a5e3591337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 493.8645 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "F_CS"
 		(shape input)
 		(at 134.62 111.76 0)
@@ -20154,7 +20198,7 @@
 	)
 	(global_label "USB_PRESENT_N"
 		(shape input)
-		(at 511.81 392.43 180)
+		(at 511.81 388.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20164,7 +20208,7 @@
 		)
 		(uuid "e6c61150-e83c-4927-b205-80d4da7d347f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 493.4035 392.43 0)
+			(at 493.4035 388.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23338,6 +23382,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 509.27 314.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "181cfbaa-5aa1-4b3c-9012-2b7fe2f773da")
+		(property "Reference" "TP19"
+			(at 514.35 313.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 514.35 316.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 509.27 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 509.27 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85dd926b-7f3f-4830-bf88-0aec2ede51ea")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 513.08 0)
 		(unit 1)
@@ -24426,7 +24549,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 511.81 386.08 270)
+		(at 511.81 382.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24437,7 +24560,7 @@
 		(fields_autoplaced yes)
 		(uuid "280e04ff-58a6-4528-adb9-467b485c8072")
 		(property "Reference" "TP14"
-			(at 516.89 384.8099 90)
+			(at 516.89 380.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24448,7 +24571,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 516.89 387.3499 90)
+			(at 516.89 383.5399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24459,7 +24582,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 511.81 391.16 0)
+			(at 511.81 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24470,7 +24593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 511.81 391.16 0)
+			(at 511.81 387.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24481,7 +24604,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 511.81 386.08 0)
+			(at 511.81 382.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26552,85 +26675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 511.81 316.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3810be93-e16f-4c75-87d4-ee8462087196")
-		(property "Reference" "TP1"
-			(at 516.89 314.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 516.89 317.4999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 511.81 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 511.81 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 511.81 316.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2125e152-848e-4b0b-8228-23ae3caea744")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 645.16 492.76 0)
 		(unit 1)
@@ -27983,6 +28027,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 509.27 321.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464d5d24-00ad-4256-8e5d-bbcf69345041")
+		(property "Reference" "TP21"
+			(at 514.35 320.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 514.35 322.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 509.27 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 509.27 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16b5ad08-3c2e-4492-840b-45365b220a8e")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -30197,85 +30320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 511.81 322.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59b0a3ca-2c4d-47fd-b436-9bc9d5c1c31a")
-		(property "Reference" "TP2"
-			(at 516.89 321.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 516.89 323.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 511.81 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 511.81 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 511.81 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22441c5b-bed6-4ada-882b-112757a2be08")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 281.94 177.8 0)
 		(unit 1)
@@ -32390,7 +32434,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 511.81 398.78 270)
+		(at 511.81 394.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32401,7 +32445,7 @@
 		(fields_autoplaced yes)
 		(uuid "76eb4e83-e4e8-4296-822e-a807154ae7ed")
 		(property "Reference" "TP17"
-			(at 516.89 397.5099 90)
+			(at 516.89 393.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32412,7 +32456,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 516.89 400.0499 90)
+			(at 516.89 396.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32423,7 +32467,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 511.81 403.86 0)
+			(at 511.81 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32434,7 +32478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 511.81 403.86 0)
+			(at 511.81 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32445,7 +32489,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 511.81 398.78 0)
+			(at 511.81 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32838,6 +32882,85 @@
 			(project "epaper-reader-hw"
 				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 511.81 403.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b29165f-38ee-4dfb-b2ac-3af6a1b7e90b")
+		(property "Reference" "TP22"
+			(at 516.89 402.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 516.89 405.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 511.81 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 511.81 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59e41686-ff2d-4cdf-a764-15fb32fb0356")
+		)
+		(instances
+			(project "epaper-reader-hw"
+				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -36388,7 +36511,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 511.81 392.43 270)
+		(at 511.81 388.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36399,7 +36522,7 @@
 		(fields_autoplaced yes)
 		(uuid "9897f74d-aaf3-48fd-ae76-03710ba5c9f3")
 		(property "Reference" "TP15"
-			(at 516.89 391.1599 90)
+			(at 516.89 387.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36410,7 +36533,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 516.89 393.6999 90)
+			(at 516.89 389.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36421,7 +36544,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 511.81 397.51 0)
+			(at 511.81 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36432,7 +36555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 511.81 397.51 0)
+			(at 511.81 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36443,7 +36566,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 511.81 392.43 0)
+			(at 511.81 388.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
