@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1501,
+          "via_gap": 0.1501,
+          "width": 0.1356
         }
       ],
       "drc_exclusions": [],
@@ -159,7 +164,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.13,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
@@ -214,11 +219,16 @@
       ],
       "track_widths": [
         0.0,
+        0.1356,
+        0.15,
+        0.1509,
         0.2,
         0.25,
         0.3,
         0.4,
-        0.6
+        0.5,
+        0.6,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -688,7 +698,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.35
@@ -733,10 +743,100 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.1501,
+        "diff_pair_width": 0.1356,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1356,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "USB_90_PRELIM",
+        "priority": 4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1509,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "RF_50_PRELIM",
+        "priority": 5
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "FLASH",
+        "priority": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "SD_SPI",
+        "priority": 7
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "LED_PWR",
+        "priority": 8
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "name": "3V3_LOCAL",
+        "priority": 9
       }
     ],
     "meta": {
@@ -800,6 +900,102 @@
       {
         "netclass": "EINK_HV",
         "pattern": "Net-(FPC1-VSL)"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3_TOUCH"
+      },
+      {
+        "netclass": "3V3_LOCAL",
+        "pattern": "VDD_SPI"
+      },
+      {
+        "netclass": "3V3_LOCAL",
+        "pattern": "Net-(FPC1-VDD)"
+      },
+      {
+        "netclass": "USB_90_PRELIM",
+        "pattern": "USB_DP"
+      },
+      {
+        "netclass": "USB_90_PRELIM",
+        "pattern": "USB_DN"
+      },
+      {
+        "netclass": "USB_90_PRELIM",
+        "pattern": "/DP"
+      },
+      {
+        "netclass": "USB_90_PRELIM",
+        "pattern": "/DN"
+      },
+      {
+        "netclass": "RF_50_PRELIM",
+        "pattern": "LNA_IN"
+      },
+      {
+        "netclass": "RF_50_PRELIM",
+        "pattern": "Net-(C44-Pad1)"
+      },
+      {
+        "netclass": "RF_50_PRELIM",
+        "pattern": "Net-(AE1-A)"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_CLK"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_CS"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_D0"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_D1"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_D2"
+      },
+      {
+        "netclass": "FLASH",
+        "pattern": "F_D3"
+      },
+      {
+        "netclass": "SD_SPI",
+        "pattern": "SPI_SCLK"
+      },
+      {
+        "netclass": "SD_SPI",
+        "pattern": "SPI_MOSI"
+      },
+      {
+        "netclass": "SD_SPI",
+        "pattern": "SD_MISO"
+      },
+      {
+        "netclass": "SD_SPI",
+        "pattern": "SD_CS"
+      },
+      {
+        "netclass": "LED_PWR",
+        "pattern": "/LED_CP"
+      },
+      {
+        "netclass": "LED_PWR",
+        "pattern": "/LED_CN"
+      },
+      {
+        "netclass": "LED_PWR",
+        "pattern": "/LED_WP"
+      },
+      {
+        "netclass": "LED_PWR",
+        "pattern": "/LED_WN"
       }
     ]
   },
