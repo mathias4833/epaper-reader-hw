@@ -42951,7 +42951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+		(property "Footprint" "epaper-reader-hw:Texas_SWRA117D_2.4GHz_Right"
 			(at 240.03 167.64 0)
 			(hide yes)
 			(show_name no)
