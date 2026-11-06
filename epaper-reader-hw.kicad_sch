@@ -14364,7 +14364,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 167.64) (xy 255.27 167.64)
+			(xy 255.27 167.64) (xy 267.97 167.64)
 		)
 		(stroke
 			(width 0)
@@ -16331,16 +16331,6 @@
 			(type default)
 		)
 		(uuid "e6fd4bca-8ac7-4dcd-b659-5903826e9806")
-	)
-	(wire
-		(pts
-			(xy 264.16 167.64) (xy 267.97 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71e53e8-4908-4f92-a4d3-d1a34d0f4b03")
 	)
 	(wire
 		(pts
@@ -24615,7 +24605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 373.0752 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -27062,86 +27052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 261.62 167.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "373338fb-00a1-4ef7-aa97-6d9261bd2509")
-		(property "Reference" "L6"
-			(at 261.62 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 261.62 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 261.62 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 261.62 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "452c01a1-c1f5-4b44-b340-1c6225fbf512")
-		)
-		(pin "2"
-			(uuid "d4418e31-f940-4f7b-9efb-9f1a4957e37c")
-		)
-		(instances
-			(project "epaper-reader-hw"
-				(path "/74cee54b-622a-44c5-bcf0-9bd7d4daa334"
-					(reference "L6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 571.5 111.76 0)
 		(unit 1)
@@ -28393,7 +28303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at 92.71 361.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28404,7 +28314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 364.49 0)
 			(hide yes)
 			(show_name no)
@@ -29605,20 +29515,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC" (at 0 0 0)
+		(property "Manufacturer" "CCTC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X5R105K160AT" (at 0 0 0)
+		(property "MPN" "TCC0402X5R105K160AT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -34561,7 +34477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1M (1%)"
 			(at 166.37 302.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35106,7 +35022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/50V"
 			(at 92.71 412.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35117,7 +35033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 415.29 0)
 			(hide yes)
 			(show_name no)
@@ -35468,7 +35384,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2R2"
+		(property "Value" "2R2 (1%)"
 			(at 177.8 302.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36020,7 +35936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 593.09 338.1248 0)
 			(hide yes)
 			(show_name no)
@@ -36534,7 +36450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 616.9152 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -37127,20 +37043,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 0 0 0)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "0402WGF1004TCE" (at 0 0 0)
+		(property "MPN" "0402WGF1004TCE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -39271,20 +39193,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC" (at 0 0 0)
+		(property "Manufacturer" "CCTC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X5R105K160AT" (at 0 0 0)
+		(property "MPN" "TCC0402X5R105K160AT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -42953,20 +42881,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC" (at 0 0 0)
+		(property "Manufacturer" "CCTC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X5R105K160AT" (at 0 0 0)
+		(property "MPN" "TCC0402X5R105K160AT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -44936,20 +44870,26 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC" (at 0 0 0)
+		(property "Manufacturer" "CCTC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TCC0402X5R105K160AT" (at 0 0 0)
+		(property "MPN" "TCC0402X5R105K160AT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
